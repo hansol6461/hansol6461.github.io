@@ -39,7 +39,7 @@ profiles:
 # 검색엔진 소유 확인용 토큰. 각 도구에서 받은 값을 따옴표 안에 넣으면
 # <head> 에 자동으로 들어갑니다. 비워두면 아무것도 출력되지 않습니다.
 verify:
-  google: ""    # 구글 서치 콘솔 → HTML 태그 방식의 content 값
+  google: "2ckf_zFxLJzcNVAVsbxW-yu7k7uP_CnYoGiYC_4PPbQ"    # 구글 서치 콘솔 → HTML 태그 방식의 content 값
   naver: ""     # 네이버 서치어드바이저 → HTML 태그 방식의 content 값
 
 # 본문 서체. plex 또는 pretendard.
