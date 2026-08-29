@@ -41,9 +41,9 @@
 
       <p class="hero-links">
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        <a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include orcid-icon.html %}ORCID</a>
+        <a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include icon-orcid.html %}ORCID</a>
         {%- if site.profiles.scholar and site.profiles.scholar != "" %}
-        <a href="{{ site.profiles.scholar }}">Google Scholar</a>{% endif %}
+        <a class="oid" href="{{ site.profiles.scholar }}">{% include icon-scholar.html %}Google Scholar</a>{% endif %}
       </p>
 
       {%- assign ko = site.data.i18n.ko_intro %}

@@ -193,11 +193,11 @@
     <div>
       <h3 class="sub">{{ t.headings.profiles }}</h3>
       <ul class="plist">
-        <li><a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include orcid-icon.html %}ORCID {{ site.orcid }}</a></li>
+        <li><a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include icon-orcid.html %}ORCID {{ site.orcid }}</a></li>
         {%- if site.profiles.scholar and site.profiles.scholar != "" %}
-        <li><a href="{{ site.profiles.scholar }}">Google Scholar</a></li>{% endif %}
+        <li><a class="oid" href="{{ site.profiles.scholar }}">{% include icon-scholar.html %}Google Scholar</a></li>{% endif %}
         {%- if site.profiles.naver and site.profiles.naver != "" %}
-        <li><a href="{{ site.profiles.naver }}">네이버 인물정보 (Naver profile)</a></li>{% endif %}
+        <li><a class="oid" href="{{ site.profiles.naver }}">{% include icon-naver.html %}네이버 인물정보 (Naver profile)</a></li>{% endif %}
         {%- if site.profiles.researchgate and site.profiles.researchgate != "" %}
         <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>{% endif %}
       </ul>
