@@ -1,29 +1,16 @@
-{%- assign L = page.lang | default: "en" -%}
-{%- if L == "ko" -%}
-  {%- assign page_title = site.title_ko -%}
-  {%- assign page_desc = site.description_ko -%}
-  {%- assign person_name = site.name_ko -%}
-{%- else -%}
-  {%- assign page_title = site.title -%}
-  {%- assign page_desc = site.description -%}
-  {%- assign person_name = site.name -%}
-{%- endif -%}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page_title }}</title>
-<meta name="description" content="{{ page_desc | strip_newlines | strip }}">
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description | strip_newlines | strip }}">
 <meta name="author" content="Hansol Lee">
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
-<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
-<link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
 
 <meta property="og:type" content="profile">
-<meta property="og:title" content="{{ page_title }}">
-<meta property="og:description" content="{{ page_desc | strip_newlines | strip }}">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description | strip_newlines | strip }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:locale" content="{% if L == 'ko' %}ko_KR{% else %}en_US{% endif %}">
+<meta property="og:locale" content="en_US">
 <meta property="og:image" content="{{ site.portrait | absolute_url }}">
 <meta name="twitter:card" content="summary">
 
@@ -36,8 +23,29 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+{%- if site.font == "pretendard" %}
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" rel="stylesheet">
+{%- else %}
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap" rel="stylesheet">
+{%- endif %}
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+{%- if site.font == "pretendard" %}
+<style>
+  :root {
+    --f-disp: "Pretendard Variable", Pretendard, -apple-system, sans-serif;
+    --f-body: "Pretendard Variable", Pretendard, -apple-system, sans-serif;
+  }
+  /* 산세리프는 같은 크기에서 더 커 보입니다. 제목을 조금 줄이고 자간을 좁힙니다. */
+  .name   { font-weight: 700; letter-spacing: -.035em; }
+  .brand  { font-weight: 700; letter-spacing: -.02em; }
+  .sec-h  { font-weight: 600; font-size: 1.6rem; letter-spacing: -.022em; }
+  .pub-t  { font-weight: 500; font-size: .99rem; letter-spacing: -.012em; }
+  .thesis { font-size: clamp(1.06rem, 1.4vw, 1.2rem); letter-spacing: -.012em; }
+  .line h3, .card h3, .p-t, .deg { letter-spacing: -.015em; }
+</style>
+{%- endif %}
 
 {%- comment -%}
   구조화 데이터. 구글이 여러 프로필을 한 사람으로 묶는 데 쓰는 부분입니다.

@@ -32,7 +32,7 @@
   var obs = new IntersectionObserver(function (entries) {
     entries.forEach(function (en) {
       var a = map[en.target.id];
-      if (a) a.style.color = en.isIntersecting ? 'var(--brass)' : '';
+      if (a) a.setAttribute('aria-current', en.isIntersecting ? 'true' : 'false');
     });
   }, { rootMargin: '-20% 0px -70% 0px' });
 

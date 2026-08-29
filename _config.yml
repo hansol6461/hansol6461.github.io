@@ -41,6 +41,11 @@ verify:
   google: ""    # 구글 서치 콘솔 → HTML 태그 방식의 content 값
   naver: ""     # 네이버 서치어드바이저 → HTML 태그 방식의 content 값
 
+# 본문 서체. plex 또는 pretendard.
+#   plex        IBM Plex Sans — 약간 각진 기관 느낌. 제목은 Newsreader 세리프
+#   pretendard  Pretendard — 국내 웹에서 널리 쓰는 산세리프. 제목도 같이 바뀝니다
+font: plex
+
 # 섹션 표시 여부. true 로 바꾸면 CV 안에 다시 나타납니다.
 show:
   service: false      # 학회 활동

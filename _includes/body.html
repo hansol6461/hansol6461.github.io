@@ -1,12 +1,6 @@
-{%- assign L = page.lang | default: "en" -%}
-{%- assign t = site.data.i18n[L] -%}
+{%- assign t = site.data.i18n.en -%}
 {%- assign pubs = site.data.publications -%}
 {%- assign cv = site.data.cv -%}
-
-<section class="thesis">
-  <p>{{ t.thesis }}</p>
-  <p class="stamp">{{ t.labels.updated }}</p>
-</section>
 
 <!-- ── Research ─────────────────────────────────────────── -->
 <section id="research" class="sec">
@@ -16,8 +10,8 @@
   <ol class="lines">
     {%- for l in cv.lines %}
     <li class="line">
-      <h3>{% if L == "ko" %}{{ l.ko }}{% else %}{{ l.en }}{% endif %}</h3>
-      <p>{% if L == "ko" %}{{ l.body_ko }}{% else %}{{ l.body_en }}{% endif %}</p>
+      <h3>{{ l.en }}</h3>
+      <p>{{ l.body_en }}</p>
       <p class="venues">{{ l.venues }}</p>
     </li>
     {%- endfor %}
@@ -76,12 +70,12 @@
     {%- for p in cv.projects %}
     <li class="card">
       <p class="card-per">{{ p.period }}</p>
-      <h3>{% if L == "ko" %}{{ p.ko }}{% else %}{{ p.en }}{% endif %}</h3>
+      <h3>{{ p.en }}</h3>
       <dl class="kv">
         <dt>{{ t.labels.role }}</dt>
-        <dd>{% if L == "ko" %}{{ p.role_ko }}{% else %}{{ p.role_en }}{% endif %}</dd>
+        <dd>{{ p.role_en }}</dd>
         <dt>{{ t.labels.funder }}</dt>
-        <dd>{% if L == "ko" %}{{ p.funder_ko }}{% else %}{{ p.funder_en }}{% endif %}{% if p.amount and p.amount != "" %} · {{ p.amount }}{% endif %}</dd>
+        <dd>{{ p.funder_en }}{% if p.amount and p.amount != "" %} · {{ p.amount }}{% endif %}</dd>
       </dl>
     </li>
     {%- endfor %}
@@ -95,11 +89,11 @@
   <ol class="cards">
     {%- for x in cv.translations %}
     <li class="card">
-      <p class="card-per">{{ x.period }} · {% if L == "ko" %}{{ x.direction_ko }}{% else %}{{ x.direction_en }}{% endif %}</p>
-      <h3>{% if L == "ko" %}{{ x.ko }}{% else %}{{ x.en }}{% endif %}</h3>
+      <p class="card-per">{{ x.period }} · {{ x.direction_en }}</p>
+      <h3>{{ x.en }}</h3>
       <dl class="kv">
         <dt>{{ t.labels.funder }}</dt>
-        <dd>{% if L == "ko" %}{{ x.funder_ko }}{% else %}{{ x.funder_en }}{% endif %}{% if x.amount and x.amount != "" %} · {{ x.amount }}{% endif %}</dd>
+        <dd>{{ x.funder_en }}{% if x.amount and x.amount != "" %} · {{ x.amount }}{% endif %}</dd>
         <dt>{{ t.labels.translated }}</dt>
         <dd>
           <ul class="works">
@@ -120,7 +114,7 @@
   <dl class="dated">
     {%- for e in cv.employment %}
     <dt>{{ e.period }}</dt>
-    <dd>{% if L == "ko" %}{{ e.ko }}{% else %}{{ e.en }}{% endif %}</dd>
+    <dd>{{ e.en }}</dd>
     {%- endfor %}
   </dl>
 
@@ -128,7 +122,7 @@
   <dl class="dated">
     {%- for e in cv.commission %}
     <dt>{{ e.period }}</dt>
-    <dd>{% if L == "ko" %}{{ e.ko }}{% else %}{{ e.en }}{% endif %}</dd>
+    <dd>{{ e.en }}</dd>
     {%- endfor %}
   </dl>
 
@@ -136,9 +130,9 @@
   <ol class="degrees">
     {%- for d in cv.education %}
     <li>
-      <p class="deg">{% if L == "ko" %}{{ d.degree_ko }}{% else %}{{ d.degree_en }}{% endif %} <span class="deg-yr">{{ d.period }}</span></p>
-      <p class="deg-s">{% if L == "ko" %}{{ d.school_ko }}{% else %}{{ d.school_en }}{% endif %} — {% if L == "ko" %}{{ d.field_ko }}{% else %}{{ d.field_en }}{% endif %}</p>
-      {%- assign note = d.note_en %}{% if L == "ko" %}{% assign note = d.note_ko %}{% endif %}
+      <p class="deg">{{ d.degree_en }} <span class="deg-yr">{{ d.period }}</span></p>
+      <p class="deg-s">{{ d.school_en }} — {{ d.field_en }}</p>
+      {%- assign note = d.note_en %}
       {%- if note and note != "" %}<p class="deg-n">{{ note }}</p>{% endif %}
     </li>
     {%- endfor %}
@@ -151,10 +145,10 @@
   <ul class="service">
     {%- for s in cv.service %}
     <li>
-      <p class="org">{% if L == "ko" %}{{ s.org_ko }}{% else %}{{ s.org_en }}{% endif %}</p>
+      <p class="org">{{ s.org_en }}</p>
       <ul class="roles">
         {%- for r in s.roles %}
-        <li><span class="r-yr">{{ r.period }}</span>{% if L == "ko" %}{{ r.ko }}{% else %}{{ r.en }}{% endif %}</li>
+        <li><span class="r-yr">{{ r.period }}</span>{{ r.en }}</li>
         {%- endfor %}
       </ul>
     </li>
@@ -167,7 +161,7 @@
   <dl class="dated">
     {%- for a in cv.awards %}
     <dt>{{ a.years }}</dt>
-    <dd>{% if L == "ko" %}{{ a.ko }}{% else %}{{ a.en }}{% endif %}</dd>
+    <dd>{{ a.en }}</dd>
     {%- endfor %}
   </dl>
   {%- endif %}
@@ -180,9 +174,9 @@
   <ol class="press">
     {%- for a in site.data.press %}
     <li>
-      <p class="p-meta">{{ a.date }} · {% if L == "ko" %}{{ a.outlet_ko }}{% else %}{{ a.outlet_en }}{% endif %}</p>
-      <p class="p-t"><a href="{{ a.url }}">{% if L == "ko" %}{{ a.title_ko }}{% else %}{{ a.title_en }}{% endif %}</a></p>
-      {%- assign nt = a.note_en %}{% if L == "ko" %}{% assign nt = a.note_ko %}{% endif %}
+      <p class="p-meta">{{ a.date }} · {{ a.outlet_en }}</p>
+      <p class="p-t"><a href="{{ a.url }}">{{ a.title_en }}</a></p>
+      {%- assign nt = a.note_en %}
       {%- if nt and nt != "" %}<p class="p-n">{{ nt }}</p>{% endif %}
     </li>
     {%- endfor %}
@@ -206,7 +200,7 @@
         {%- if site.profiles.scholar and site.profiles.scholar != "" %}
         <li><a href="{{ site.profiles.scholar }}">Google Scholar</a></li>{% endif %}
         {%- if site.profiles.naver and site.profiles.naver != "" %}
-        <li><a href="{{ site.profiles.naver }}">{% if L == "ko" %}네이버 인물정보{% else %}Naver people profile{% endif %}</a></li>{% endif %}
+        <li><a href="{{ site.profiles.naver }}">네이버 인물정보 (Naver profile)</a></li>{% endif %}
         {%- if site.profiles.researchgate and site.profiles.researchgate != "" %}
         <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>{% endif %}
       </ul>

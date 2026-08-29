@@ -1,7 +1,7 @@
 # 이한솔 개인 홈페이지
 
-영문판과 국문판을 함께 제공하는 정적 사이트입니다. GitHub Pages에서 Jekyll이
-자동으로 빌드하므로 컴퓨터에 아무것도 설치하지 않아도 됩니다.
+영문 정적 사이트입니다. GitHub Pages에서 Jekyll이 자동으로 빌드하므로
+컴퓨터에 아무것도 설치하지 않아도 됩니다.
 
 ---
 
@@ -56,7 +56,16 @@ Branch를 `main` / `/ (root)`로 두고 `Save`.
 | `_data/publications_manual.yml` | 학술논문 (원본) | 수기 |
 | `_data/cv.yml` | 경력, 학력, 연구과제, 번역, 연구 분야 | 수기 |
 | `_data/press.yml` | 언론 보도 | 수기 |
-| `_data/i18n.yml` | 화면 문구와 소개글 | 수기 |
+| `_data/i18n.yml` | 화면 문구와 소개글(`thesis`) | 수기 |
+
+사이트는 **영문 단일 페이지**입니다. 상단 바의 「한국어」 버튼은 국문 페이지가
+아니라 네이버 인물정보로 새 창을 엽니다. 주소는 `_config.yml` 의
+`profiles.naver` 에 있습니다.
+
+`_data/cv.yml` 과 `_data/press.yml` 의 `_ko` 항목(`ko:`, `funder_ko:`,
+`title_ko:` 등)은 화면에 쓰이지 않지만 지우지 않고 남겨뒀습니다. 나중에 국문
+페이지를 다시 만들 때 쓸 수 있습니다. 새 항목을 넣을 때는 영문 칸만 채우면
+됩니다.
 
 ### 논문 목록은 자동으로 갱신됩니다
 
@@ -112,7 +121,25 @@ DOI가 일치하면 수기 쪽 표기로 덮어씁니다.
 
 ---
 
-## 3-1. 숨겨둔 섹션 다시 켜기
+## 3-1. 서체 바꾸기
+
+`_config.yml` 의 한 줄로 전환합니다.
+
+```yaml
+font: plex          # 또는 pretendard
+```
+
+- `plex` — 제목은 Newsreader 세리프, 본문은 IBM Plex Sans. 기본값입니다.
+- `pretendard` — 전체를 Pretendard 산세리프로. jsDelivr CDN에서 불러오며,
+  unicode-range 방식이라 실제로 쓰는 글자 조각만 내려받습니다.
+
+Pretendard 쪽은 산세리프가 같은 크기에서 더 커 보이는 점을 감안해 제목
+크기와 자간을 따로 조정해두었습니다. 조정값은 `_includes/head.html`
+아래쪽에 있습니다.
+
+---
+
+## 3-2. 숨겨둔 섹션 다시 켜기
 
 학회 활동과 수상 이력은 데이터는 남아 있고 화면에만 안 나옵니다.
 다시 보이게 하려면 `_config.yml`의 다음 부분에서 `false`를 `true`로 바꾸십시오.
@@ -231,6 +258,5 @@ bundle exec jekyll serve
 │   ├── css/style.css    디자인
 │   ├── js/site.js       연도 필터, 현재 위치 표시
 │   └── img/             프로필 사진 위치
-├── index.html           영문판
-└── ko/index.html        국문판
+└── index.html           본문 (영문 단일 페이지)
 ```
