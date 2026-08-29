@@ -46,7 +46,7 @@
       <div class="pub-body">
         <h3 class="pub-t">
           {%- if p.doi and p.doi != "" -%}
-          <a href="{{ p.doi }}">{{ p.title }}</a>
+          <a href="{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>
           {%- else -%}
           {{ p.title }}
           {%- endif -%}
@@ -172,7 +172,7 @@
     {%- for a in site.data.press %}
     <li>
       <p class="p-meta">{{ a.date }} · {{ a.outlet_en }}</p>
-      <p class="p-t"><a href="{{ a.url }}">{{ a.title_en }}</a></p>
+      <p class="p-t"><a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.title_en }}</a></p>
       {%- assign nt = a.note_en %}
       {%- if nt and nt != "" %}<p class="p-n">{{ nt }}</p>{% endif %}
     </li>
@@ -193,11 +193,11 @@
     <div>
       <h3 class="sub">{{ t.headings.profiles }}</h3>
       <ul class="plist">
-        <li><a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include icon-orcid.html %}ORCID {{ site.orcid }}</a></li>
+        <li><a class="oid" href="https://orcid.org/{{ site.orcid }}" target="_blank" rel="noopener">{% include icon-orcid.html %}ORCID {{ site.orcid }}<span class="ext" aria-hidden="true">↗</span></a></li>
         {%- if site.profiles.scholar and site.profiles.scholar != "" %}
-        <li><a class="oid" href="{{ site.profiles.scholar }}">{% include icon-scholar.html %}Google Scholar</a></li>{% endif %}
+        <li><a class="oid" href="{{ site.profiles.scholar }}" target="_blank" rel="noopener">{% include icon-scholar.html %}Google Scholar<span class="ext" aria-hidden="true">↗</span></a></li>{% endif %}
         {%- if site.profiles.naver and site.profiles.naver != "" %}
-        <li><a class="oid" href="{{ site.profiles.naver }}">{% include icon-naver.html %}네이버 인물정보 (Naver profile)</a></li>{% endif %}
+        <li><a class="oid" href="{{ site.profiles.naver }}" target="_blank" rel="noopener">{% include icon-naver.html %}네이버 인물정보 (Naver profile)<span class="ext" aria-hidden="true">↗</span></a></li>{% endif %}
         {%- if site.profiles.researchgate and site.profiles.researchgate != "" %}
         <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>{% endif %}
       </ul>
