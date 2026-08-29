@@ -1,0 +1,63 @@
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[L] -%}
+{%- if L == "ko" -%}{%- assign nm = site.name_ko -%}{%- else -%}{%- assign nm = site.name -%}{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ L }}">
+<head>{% include head.html %}</head>
+<body>
+
+<a class="skip" href="#main">{% if L == "ko" %}본문으로 건너뛰기{% else %}Skip to content{% endif %}</a>
+
+<div class="shell">
+
+  <header class="rail">
+    <div class="rail-in">
+
+      <p class="eyebrow">{{ t.role }}</p>
+
+      <h1 class="name">{{ nm }}</h1>
+      {%- if L == "ko" %}<p class="name-alt">Hansol Lee</p>{%- endif %}
+
+      <p class="rank"><span class="fp" aria-hidden="true"></span>{{ t.rank }}</p>
+
+      <img class="portrait" src="{{ site.portrait | relative_url }}" alt="{{ nm }}"
+           width="600" height="750" onerror="this.style.display='none'">
+
+      <nav class="nav" aria-label="{% if L == 'ko' %}본문 메뉴{% else %}Section menu{% endif %}">
+        <a href="#research">{{ t.nav.research }}</a>
+        <a href="#publications">{{ t.nav.publications }}</a>
+        <a href="#projects">{{ t.nav.projects }}</a>
+        <a href="#translation">{{ t.nav.translation }}</a>
+        <a href="#cv">{{ t.nav.cv }}</a>
+        <a href="#press">{{ t.nav.press }}</a>
+        <a href="#contact">{{ t.nav.contact }}</a>
+      </nav>
+
+      <div class="rail-foot">
+        <a class="lang" href="{{ t.lang_href | relative_url }}" lang="{% if L == 'ko' %}en{% else %}ko{% endif %}">{{ t.lang_label }}</a>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include orcid-icon.html %}{{ site.orcid }}</a>
+        {%- if site.profiles.scholar and site.profiles.scholar != "" %}
+        <a href="{{ site.profiles.scholar }}">Google Scholar</a>{% endif %}
+        {%- if site.profiles.naver and site.profiles.naver != "" %}
+        <a href="{{ site.profiles.naver }}">{% if L == "ko" %}네이버 인물정보{% else %}Naver profile{% endif %}</a>{% endif %}
+        {%- if site.profiles.researchgate and site.profiles.researchgate != "" %}
+        <a href="{{ site.profiles.researchgate }}">ResearchGate</a>{% endif %}
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main" id="main">
+    {{ content }}
+    <footer class="foot">
+      <p>© {{ 'now' | date: "%Y" }} Hansol Lee · 이한솔</p>
+      <p>{{ t.footer }}</p>
+    </footer>
+  </main>
+
+</div>
+
+<script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>

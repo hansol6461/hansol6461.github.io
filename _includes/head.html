@@ -1,0 +1,100 @@
+{%- assign L = page.lang | default: "en" -%}
+{%- if L == "ko" -%}
+  {%- assign page_title = site.title_ko -%}
+  {%- assign page_desc = site.description_ko -%}
+  {%- assign person_name = site.name_ko -%}
+{%- else -%}
+  {%- assign page_title = site.title -%}
+  {%- assign page_desc = site.description -%}
+  {%- assign person_name = site.name -%}
+{%- endif -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_desc | strip_newlines | strip }}">
+<meta name="author" content="Hansol Lee">
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_desc | strip_newlines | strip }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:locale" content="{% if L == 'ko' %}ko_KR{% else %}en_US{% endif %}">
+<meta property="og:image" content="{{ site.portrait | absolute_url }}">
+<meta name="twitter:card" content="summary">
+
+{%- if site.verify.google and site.verify.google != "" %}
+<meta name="google-site-verification" content="{{ site.verify.google }}">
+{%- endif %}
+{%- if site.verify.naver and site.verify.naver != "" %}
+<meta name="naver-site-verification" content="{{ site.verify.naver }}">
+{%- endif %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Sans+KR:wght@400;500;600&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+{%- comment -%}
+  구조화 데이터. 구글이 여러 프로필을 한 사람으로 묶는 데 쓰는 부분입니다.
+  _config.yml 의 profiles 에 주소를 채우면 여기에 자동으로 들어갑니다.
+{%- endcomment -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hansol Lee",
+  "alternateName": ["이한솔", "Lee, Hansol", "Hansol Lee, Ph.D."],
+  "givenName": "Hansol",
+  "familyName": "Lee",
+  "jobTitle": "Professor of English",
+  "email": "mailto:{{ site.email }}",
+  "url": "{{ '/' | absolute_url }}",
+  "image": "{{ site.portrait | absolute_url }}",
+  "identifier": "https://orcid.org/{{ site.orcid }}",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Korea Military Academy",
+    "alternateName": "육군사관학교",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Seoul",
+      "postalCode": "01805",
+      "addressCountry": "KR"
+    }
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of California, Irvine" },
+    { "@type": "CollegeOrUniversity", "name": "Seoul National University" },
+    { "@type": "CollegeOrUniversity", "name": "Korea Military Academy" }
+  ],
+  "knowsAbout": [
+    "Applied linguistics",
+    "Meta-analysis",
+    "Research synthesis",
+    "Second language reading",
+    "English-medium instruction",
+    "Data-driven learning",
+    "Military English"
+  ],
+  "sameAs": [
+    "https://orcid.org/{{ site.orcid }}"
+    {%- if site.profiles.scholar and site.profiles.scholar != "" -%},
+    "{{ site.profiles.scholar }}"
+    {%- endif -%}
+    {%- if site.profiles.naver and site.profiles.naver != "" -%},
+    "{{ site.profiles.naver }}"
+    {%- endif -%}
+    {%- if site.profiles.researchgate and site.profiles.researchgate != "" -%},
+    "{{ site.profiles.researchgate }}"
+    {%- endif -%}
+    {%- if site.profiles.linkedin and site.profiles.linkedin != "" -%},
+    "{{ site.profiles.linkedin }}"
+    {%- endif -%}
+  ]
+}
+</script>

@@ -1,0 +1,489 @@
+# 이 파일은 scripts/sync_publications.py 가 만듭니다. 직접 고치지 마십시오.
+# 내용을 바꾸려면 _data/publications_manual.yml 을 고치십시오.
+# 총 54편
+- id: J54
+  year: 2026
+  date: '2026-07-01'
+  authors: <strong>Lee, H.</strong>
+  title: 'Reconceptualizing the simple view of reading for Korean secondary-level EFL learners: A research synthesis'
+  venue: Korean Journal of English Language and Linguistics
+  detail: '26'
+  doi: ''
+  index: Scopus
+- id: J53
+  year: 2026
+  date: '2026-07-01'
+  authors: Lee, J. H., <strong>Lee, H.</strong>, & Kim, K.
+  title: 'Investigating the impact of chatbot design features on affective variables: A mixed-methods study'
+  venue: Language Learning & Technology
+  detail: 30(1), 1–19
+  doi: https://doi.org/10.64152/10125/73697
+  index: SSCI
+- id: J52
+  year: 2026
+  date: '2026-06-01'
+  authors: Abdi Tabari, M., <strong>Lee, H.</strong>, & Farahanynia, M.
+  title: 'Impact of methodological differences in task sequencing on second language learning: A multi-level meta-analysis'
+  venue: International Review of Applied Linguistics in Language Teaching
+  detail: 64(2), 819–867
+  doi: https://doi.org/10.1515/iral-2024-0219
+  index: SSCI
+- id: J51
+  year: 2026
+  date: '2026-06-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: How do willingness to communicate and its high evidence factors shape learners' task emotions in chatbot-assisted language learning?
+  venue: Language Awareness
+  detail: 35(2), 692–711
+  doi: https://doi.org/10.1080/09658416.2025.2574010
+  index: SSCI
+- id: J50
+  year: 2026
+  date: '2026-05-01'
+  authors: <strong>Lee, H.</strong>, & Son, H.
+  title: Enhancing communicative skills for combined operations through a multimodal XR-AI training system
+  venue: The Defence Horizon Journal
+  detail: ''
+  doi: https://tdhj.org/blog/post/communication-operations-xr-ai/
+  index: ''
+- id: J49
+  year: 2026
+  date: '2026-05-01'
+  authors: Abdi Tabari, M., & <strong>Lee, H.</strong>
+  title: 'Examining the effects of task type, task order, and their interaction on L2 writing performance: Insights from independent and integrated tasks'
+  venue: International Journal of Applied Linguistics
+  detail: 36(2), 1092–1108
+  doi: https://doi.org/10.1111/ijal.12837
+  index: SSCI
+- id: J48
+  year: 2026
+  date: '2026-04-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Exploring relationships between individual differences and learning outcomes in data-driven learning: A meta-analytic path analysis approach'
+  venue: Learning and Individual Differences
+  detail: 127, 102888
+  doi: https://doi.org/10.1016/j.lindif.2026.102888
+  index: SSCI
+- id: J47
+  year: 2026
+  date: '2026-03-01'
+  authors: <strong>Lee, H.</strong>
+  title: 'Operationalizing AI in primary English classrooms: A thematic qualitative synthesis of AI PengTalk application'
+  venue: Primary English Education
+  detail: 32(1), 285–305
+  doi: https://doi.org/10.25231/pee.2026.32.1.285
+  index: KCI
+- id: J46
+  year: 2026
+  date: '2026-01-01'
+  authors: Abdi Tabari, M., <strong>Lee, H.</strong>, & Hanzawa, K.
+  title: Effects of massed and spaced task repetitions on L2 writing task performance and task emotions
+  venue: Reading and Writing
+  detail: 39(1), 29–67
+  doi: https://doi.org/10.1007/s11145-024-10628-2
+  index: SSCI
+- id: J45
+  year: 2026
+  date: '2026-01-01'
+  authors: Kim, K., Lee, J. H., & <strong>Lee, H.</strong>
+  title: Systematic review synthesising the effects of study abroad experience on the development of language fluency
+  venue: Oxford Review of Education
+  detail: 52(1), 1–19
+  doi: https://doi.org/10.1080/03054985.2024.2413109
+  index: SSCI
+- id: J44
+  year: 2026
+  date: '2026-01-01'
+  authors: <strong>Lee, H.</strong>, Lee, J. H., & Scarcella, R. C.
+  title: 'Influencing language mindsets and English writing competence through an EAP program: A longitudinal study with latent transition analysis'
+  venue: Language Teaching Research
+  detail: 30(1), 92–114
+  doi: https://doi.org/10.1177/13621688221143258
+  index: SSCI
+- id: J43
+  year: 2025
+  date: '2025-10-01'
+  authors: Abdi Tabari, M., & <strong>Lee, H.</strong>
+  title: Impact of task repetition schedules and emotions on L2 writing performance profiles using latent transition analysis
+  venue: Assessing Writing
+  detail: 66, 100974
+  doi: https://doi.org/10.1016/j.asw.2025.100974
+  index: SSCI
+- id: J42
+  year: 2025
+  date: '2025-10-01'
+  authors: <strong>Lee, H.</strong>, Rose, H., Macaro, E., & Lee, J. H.
+  title: 'Effectiveness of EMI in higher education: A multi-level meta-analysis'
+  venue: System
+  detail: 133, 103755
+  doi: https://doi.org/10.1016/j.system.2025.103755
+  index: SSCI
+- id: J41
+  year: 2025
+  date: '2025-05-01'
+  authors: <strong>Lee, H.</strong>, Rose, H., Macaro, E., & Lee, J. H.
+  title: 'Success of EMI in higher education and its key components: A meta-analytic structural equation modelling approach'
+  venue: Educational Research Review
+  detail: 47, 100684
+  doi: https://doi.org/10.1016/j.edurev.2025.100684
+  index: SSCI
+- id: J40
+  year: 2025
+  date: '2025-05-01'
+  authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y.
+  title: 'Effects of content and language integrated learning at the primary school level: A multi-level meta-analysis'
+  venue: Educational Research Review
+  detail: 47, 100666
+  doi: https://doi.org/10.1016/j.edurev.2025.100666
+  index: SSCI
+- id: J39
+  year: 2025
+  date: '2025-04-01'
+  authors: Kaiypova, P., <strong>Lee, H.</strong>, Lo, Y., & Lee, J. H.
+  title: 'Effects of content and language integrated learning on secondary-level students'' content learning: A meta-analysis'
+  venue: System
+  detail: 129, 103580
+  doi: https://doi.org/10.1016/j.system.2024.103580
+  index: SSCI
+- id: J38
+  year: 2024
+  date: '2024-08-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Extending the simple view of reading in second and foreign language learning: A meta-analytic structural equation modeling approach'
+  venue: Review of Educational Research
+  detail: 94(4), 467–500
+  doi: https://doi.org/10.3102/00346543231186605
+  index: SSCI
+- id: J37
+  year: 2024
+  date: '2024-06-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'The effects of AI-guided individualized language learning: A meta-analysis'
+  venue: Language Learning & Technology
+  detail: 28(2), 134–162
+  doi: https://hdl.handle.net/10125/73575
+  index: SSCI
+- id: J36
+  year: 2024
+  date: '2024-01-01'
+  authors: Kim, H., <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'The relative effects of L1 and L2 glosses on L2 learning: A meta-analysis'
+  venue: Language Teaching Research
+  detail: 28(1), 7–28
+  doi: https://doi.org/10.1177/1362168820981394
+  index: SSCI
+- id: J35
+  year: 2023
+  date: '2023-12-01'
+  authors: Kim, J., <strong>Lee, H.</strong>, Cho, S., & Kwack, H.
+  title: Analysis of combat effectiveness and military application plan of biological signal monitoring and cognition technology
+  venue: Journal of the Korea Association of Defense Industry Studies
+  detail: 30(3), 93–105
+  doi: https://doi.org/10.52798/KADIS.2023.30.3.8
+  index: KCI
+- id: J34
+  year: 2023
+  date: '2023-11-01'
+  authors: <strong>Lee, H.</strong>, Jin, S., & Lee, J. H.
+  title: 'Ending the cycle of anxiety in language learning: A non-recursive path analysis approach'
+  venue: System
+  detail: 118, 103154
+  doi: https://doi.org/10.1016/j.system.2023.103154
+  index: SSCI
+- id: J33
+  year: 2023
+  date: '2023-06-01'
+  authors: <strong>Lee, H.</strong>, & Jin, S.
+  title: 'Measuring communicative intentions and capabilities: Learners'' English proficiency as a supplement to willingness to communicate'
+  venue: English Language Assessment
+  detail: 18(1), 97–117
+  doi: https://doi.org/10.37244/ela.2023.18.1.97
+  index: KCI
+- id: J32
+  year: 2023
+  date: '2023-06-01'
+  authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y. Y.
+  title: 'Effects of EMI-CLIL on secondary-level students'' English learning: A multilevel meta-analysis'
+  venue: Studies in Second Language Learning and Teaching
+  detail: 13(2), 317–345
+  doi: https://doi.org/10.14746/ssllt.38277
+  index: SSCI
+- id: J31
+  year: 2023
+  date: '2023-05-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Interpreting the effectiveness of academic English writing programs in higher education: A meta-analysis'
+  venue: Oxford Review of Education
+  detail: 49(3), 281–300
+  doi: https://doi.org/10.1080/03054985.2022.2072284
+  index: SSCI
+- id: J30
+  year: 2023
+  date: '2023-04-01'
+  authors: Lee, J. H., & <strong>Lee, H.</strong>
+  title: The role of learners' socioeconomic status and perception of technology use in their second language learning motivation and achievement
+  venue: Language Awareness
+  detail: 32(2), 217–234
+  doi: https://doi.org/10.1080/09658416.2021.2014510
+  index: SSCI
+- id: J29
+  year: 2022
+  date: '2022-12-01'
+  authors: Jin, S., & <strong>Lee, H.</strong>
+  title: 'Willingness to communicate and its correlates: A meta-analytic structural equation modeling approach'
+  venue: Journal of Language and Social Psychology
+  detail: 41(6), 716–745
+  doi: https://doi.org/10.1177/0261927X221092098
+  index: SSCI
+- id: J28
+  year: 2022
+  date: '2022-11-01'
+  authors: <strong>Lee, H.</strong>, Jung, G., & Lee, J. H.
+  title: 'Simple view of second language reading: A meta-analytic structural equation modeling'
+  venue: Scientific Studies of Reading
+  detail: 26(6), 585–603
+  doi: https://doi.org/10.1080/10888438.2022.2087526
+  index: SSCI
+- id: J27
+  year: 2022
+  date: '2022-09-01'
+  authors: Lee, J. H., Ahn, J., & <strong>Lee, H.</strong>
+  title: 'The role of motivation and vocabulary learning strategies in L2 vocabulary knowledge: A structural equation modeling analysis'
+  venue: Studies in Second Language Learning and Teaching
+  detail: 12(3), 435–458
+  doi: https://doi.org/10.14746/ssllt.2022.12.3.5
+  index: SSCI
+- id: J26
+  year: 2022
+  date: '2022-06-01'
+  authors: Lee, J. H., & <strong>Lee, H.</strong>
+  title: 'Teachers'' verbal lexical explanation for L2 vocabulary learning: A meta-analysis'
+  venue: Language Learning
+  detail: 72(2), 576–612
+  doi: https://doi.org/10.1111/lang.12493
+  index: SSCI
+- id: J25
+  year: 2022
+  date: '2022-02-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'The effects of robot-assisted language learning: A meta-analysis'
+  venue: Educational Research Review
+  detail: 35, 100425
+  doi: https://doi.org/10.1016/j.edurev.2021.100425
+  index: SSCI
+- id: J24
+  year: 2022
+  date: '2022-01-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: Social robots for English language teaching
+  venue: ELT Journal
+  detail: 76(1), 119–124
+  doi: https://doi.org/10.1093/elt/ccab041
+  index: SSCI
+- id: J23
+  year: 2021
+  date: '2021-10-01'
+  authors: <strong>Lee, H.</strong>, Oh, J., & Jeong, T.
+  title: 'Implementation of formative assessment for motivating ESP learning: A case study of military English learning'
+  venue: Korean Journal of Military Arts and Science
+  detail: 77(3), 281–305
+  doi: https://doi.org/10.31066/kjmas.2021.77.3.011
+  index: KCI
+- id: J22
+  year: 2021
+  date: '2021-06-01'
+  authors: <strong>Lee, H.</strong>, & Kim, N.
+  title: 'Improving military English education based on the analysis of collocational knowledge: A meta-analysis'
+  venue: Korean Journal of Military Arts and Science
+  detail: 77(2), 152–170
+  doi: https://doi.org/10.31066/kjmas.2021.77.2.006
+  index: KCI
+- id: J21
+  year: 2020
+  date: '2020-12-01'
+  authors: Abedi, J., Zhang, Y., Rowe, S., & <strong>Lee, H.</strong>
+  title: 'Examining effectiveness and validity of accommodations for English language learners in mathematics: An evidence-based computer accommodation decision system'
+  venue: 'Educational Measurement: Issues and Practice'
+  detail: 39(5), 41–52
+  doi: https://doi.org/10.1111/emip.12328
+  index: SSCI
+- id: J20
+  year: 2020
+  date: '2020-11-01'
+  authors: Solanki, S., Fitzpatrick, D., Jones, M., & <strong>Lee, H.</strong>
+  title: 'Social-psychological interventions in college: A meta-analysis of effects on academic outcomes and heterogeneity by study context and treated population'
+  venue: Educational Research Review
+  detail: 31, 100359
+  doi: https://doi.org/10.1016/j.edurev.2020.100359
+  index: SSCI
+- id: J19
+  year: 2020
+  date: '2020-07-01'
+  authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
+  title: 'Towards the establishment of a data-driven learning model: Role of learner factors in corpus-based L2 vocabulary learning'
+  venue: The Modern Language Journal
+  detail: 104(2), 345–362
+  doi: https://doi.org/10.1111/modl.12634
+  index: SSCI
+- id: J18
+  year: 2020
+  date: '2020-06-01'
+  authors: <strong>Lee, H.</strong>, & Kim, N.
+  title: 'Exploring language learning strategies in ESP learning via a mixed-methods approach: A case of learning military English'
+  venue: Korean Journal of Military Arts and Science
+  detail: 76(2), 283–302
+  doi: https://doi.org/10.31066/kjmas.2020.76.2.012
+  index: KCI
+- id: J17
+  year: 2020
+  date: '2020-04-01'
+  authors: <strong>Lee, H.</strong>, Chung, H., Zhang, Y., Abedi, J., & Warschauer, M.
+  title: 'The effectiveness and features of formative assessment in US K-12 education: A systematic review'
+  venue: Applied Measurement in Education
+  detail: 33(2), 124–140
+  doi: https://doi.org/10.1080/08957347.2020.1732383
+  index: SSCI
+- id: J16
+  year: 2020
+  date: '2020-03-01'
+  authors: Kim, Y.-S. G., <strong>Lee, H.</strong>, & Zuilkowsky, S. S.
+  title: 'Impact of literacy interventions on reading skills in low- and middle-income countries: A meta-analysis'
+  venue: Child Development
+  detail: 91(2), 638–660
+  doi: https://doi.org/10.1111/cdev.13204
+  index: SSCI
+- id: J15
+  year: 2019
+  date: '2019-12-01'
+  authors: Kim, N., <strong>Lee, H.</strong>, & Jeong, T.-Y.
+  title: 'Motivation and strategies in ESP learning and assessment: A case of military English in South Korea'
+  venue: English Language Assessment
+  detail: 14, 109–132
+  doi: ''
+  index: KCI
+- id: J14
+  year: 2019
+  date: '2019-10-01'
+  authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
+  title: 'The effects of corpus use on second language vocabulary learning: A multilevel meta-analysis'
+  venue: Applied Linguistics
+  detail: 40(5), 721–753
+  doi: https://doi.org/10.1093/applin/amy012
+  index: SSCI
+- id: J13
+  year: 2019
+  date: '2019-05-01'
+  authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
+  title: 'Advancing CALL research via data mining techniques: Unearthing hidden groups of learners in a corpus-based L2 vocabulary learning experiment'
+  venue: ReCALL
+  detail: 31(2), 135–149
+  doi: https://doi.org/10.1017/S0958344018000162
+  index: SSCI
+- id: J12
+  year: 2019
+  date: '2019-03-01'
+  authors: Warschauer, M., Yim, S., <strong>Lee, H.</strong>, & Zheng, B.
+  title: Recent contributions of data mining to language learning research
+  venue: Annual Review of Applied Linguistics
+  detail: 39, 93–112
+  doi: https://doi.org/10.1017/S0267190519000023
+  index: SSCI
+- id: J11
+  year: 2017
+  date: '2017-06-01'
+  authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
+  title: The effects of concordance-based electronic glosses on L2 vocabulary learning
+  venue: Language Learning & Technology
+  detail: 21(2), 32–51
+  doi: https://dx.doi.org/10125/44610
+  index: SSCI
+- id: J10
+  year: 2017
+  date: '2017-05-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Reassessment of sentence combining and decombining: The effects of sentence manipulation activities on reading comprehension'
+  venue: 'English Teaching: Practice and Critique'
+  detail: 16(1), 55–71
+  doi: https://doi.org/10.1108/ETPC-05-2016-0064
+  index: SSCI
+- id: J9
+  year: 2016
+  date: '2016-08-01'
+  authors: Lee, Ho, <strong>Lee, Hansol</strong>, & Lee, J. H.
+  title: Evaluation of electronic and paper textual glosses on second language vocabulary learning and reading comprehension
+  venue: The Asia-Pacific Education Researcher
+  detail: 25(4), 499–507
+  doi: https://doi.org/10.1007/s40299-015-0270-1
+  index: SSCI
+- id: J8
+  year: 2015
+  date: '2015-12-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: The effects of different glossing formats on foreign language vocabulary acquisition
+  venue: The Asia-Pacific Education Researcher
+  detail: 24(4), 591–601
+  doi: https://doi.org/10.1007/s40299-014-0204-3
+  index: SSCI
+- id: J7
+  year: 2015
+  date: '2015-06-01'
+  authors: Lee, J. H., <strong>Lee, H.</strong>, & Sert, C.
+  title: 'A corpus approach for autonomous teachers and learners: Implementing an on-line concordancer on teachers'' laptops'
+  venue: Language Learning & Technology
+  detail: 19(2), 1–15
+  doi: https://dx.doi.org/10125/44411
+  index: SSCI
+- id: J6
+  year: 2013
+  date: '2013-10-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Implementing glossing in mobile-assisted language learning environments: Directions and outlook'
+  venue: Language Learning & Technology
+  detail: 17(3), 6–22
+  doi: https://dx.doi.org/10125/44334
+  index: SSCI
+- id: J5
+  year: 2012
+  date: '2012-10-01'
+  authors: <strong>Lee, H.</strong>, Shin, K., & Lee, J. H.
+  title: 'How a corpus-based study can help in ROK-US combined operations: A corpus-based study on the military vocabulary'
+  venue: Korean Journal of Military Arts and Science
+  detail: 68(3), 49–72
+  doi: https://doi.org/10.31066/kjmas.2012.68.3.003
+  index: KCI
+- id: J4
+  year: 2012
+  date: '2012-02-01'
+  authors: <strong>Lee, H.</strong>, Shin, K., & Lee, J. H.
+  title: A study on military English corpus based on authentic materials
+  venue: Korean Journal of Military Arts and Science
+  detail: 68(1), 239–263
+  doi: https://doi.org/10.31066/kjmas.2012.68.1.009
+  index: KCI
+- id: J3
+  year: 2011
+  date: '2011-02-01'
+  authors: <strong>Lee, H.</strong>
+  title: A future war in SF and posthumanism
+  venue: Korean Journal of Military Arts and Science
+  detail: 67(1), 1–15
+  doi: https://doi.org/10.31066/kjmas.2011.67.1.001
+  index: KCI
+- id: J2
+  year: 2010
+  date: '2010-12-01'
+  authors: <strong>Lee, H.</strong>
+  title: Women's subjectivity in <em>Sir Gawain and the Green Knight</em>
+  venue: Studies in Humanities
+  detail: 27, 209–228
+  doi: ''
+  index: KCI
+- id: J1
+  year: 2009
+  date: '2009-06-01'
+  authors: <strong>Lee, H.</strong>, & Lee, C.
+  title: A study of military in <em>Utopia</em>
+  venue: Korean Journal of Military Arts and Science
+  detail: 65(2), 135–148
+  doi: https://doi.org/10.31066/kjmas.2009.65.2.006
+  index: KCI

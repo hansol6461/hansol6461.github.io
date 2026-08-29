@@ -1,0 +1,64 @@
+# ─────────────────────────────────────────────────────────────
+#  사이트 설정. 아래 세 줄만 본인 값으로 바꾸면 됩니다.
+# ─────────────────────────────────────────────────────────────
+
+url: "https://hansol6461.github.io"
+baseurl: ""                          # 사용자 도메인을 붙이면 그대로 두면 됩니다
+github_username: hansol6461
+
+# ─────────────────────────────────────────────────────────────
+
+title: "Hansol Lee — Applied Linguistics, Korea Military Academy"
+title_ko: "이한솔 — 응용언어학, 육군사관학교"
+name: "Hansol Lee"
+name_ko: "이한솔"
+description: >-
+  Hansol Lee is Professor of English at the Korea Military Academy. Research on
+  meta-analysis and research synthesis in second language learning, the simple view
+  of reading, English-medium instruction, AI in language learning, and military English.
+description_ko: >-
+  이한솔은 육군사관학교 영어과 교수입니다. 제2언어 학습 메타분석과 연구 종합, 읽기 단순 관점
+  모형, 영어 매개 수업, 언어 학습에서의 인공지능, 군사영어를 연구합니다.
+
+email: hansol@kma.ac.kr
+phone: "+82-2-2197-2635"
+orcid: "0000-0002-6912-7128"
+
+# 프로필 사진을 assets/img/profile.jpg 로 올리면 자동으로 표시됩니다.
+portrait: "/assets/img/profile.jpg"
+
+# 다른 프로필 주소 — 구글이 동일 인물로 인식하게 하는 데 쓰입니다.
+# 없는 항목은 빈 문자열로 두면 화면에도 JSON-LD에도 나오지 않습니다.
+profiles:
+  scholar: "https://scholar.google.co.kr/citations?user=eEo8FwcAAAAJ&hl=en"
+  naver: "https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&pkid=1&os=10054864&query=%EC%9D%B4%ED%95%9C%EC%86%94+%EA%B5%90%EC%88%98"
+  researchgate: ""
+  linkedin: ""
+
+# 검색엔진 소유 확인용 토큰. 각 도구에서 받은 값을 따옴표 안에 넣으면
+# <head> 에 자동으로 들어갑니다. 비워두면 아무것도 출력되지 않습니다.
+verify:
+  google: ""    # 구글 서치 콘솔 → HTML 태그 방식의 content 값
+  naver: ""     # 네이버 서치어드바이저 → HTML 태그 방식의 content 값
+
+# 섹션 표시 여부. true 로 바꾸면 CV 안에 다시 나타납니다.
+show:
+  service: false      # 학회 활동
+  awards: false       # 수상 이력
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: "default" }

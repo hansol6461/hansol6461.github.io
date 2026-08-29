@@ -1,0 +1,220 @@
+{%- assign L = page.lang | default: "en" -%}
+{%- assign t = site.data.i18n[L] -%}
+{%- assign pubs = site.data.publications -%}
+{%- assign cv = site.data.cv -%}
+
+<section class="thesis">
+  <p>{{ t.thesis }}</p>
+  <p class="stamp">{{ t.labels.updated }}</p>
+</section>
+
+<!-- ── Research ─────────────────────────────────────────── -->
+<section id="research" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.research }}</h2>
+  <p class="sec-note">{{ t.labels.lines_count }}</p>
+
+  <ol class="lines">
+    {%- for l in cv.lines %}
+    <li class="line">
+      <h3>{% if L == "ko" %}{{ l.ko }}{% else %}{{ l.en }}{% endif %}</h3>
+      <p>{% if L == "ko" %}{{ l.body_ko }}{% else %}{{ l.body_en }}{% endif %}</p>
+      <p class="venues">{{ l.venues }}</p>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<!-- ── Publications ─────────────────────────────────────── -->
+<section id="publications" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.publications }}</h2>
+  <p class="sec-note">
+    {{ pubs | size }} {{ t.labels.pubs_count }}
+    {%- if site.profiles.scholar and site.profiles.scholar != "" %}
+    <a class="src" href="{{ site.profiles.scholar }}">{{ t.labels.scholar }}</a>
+    {%- endif %}
+  </p>
+
+  {%- assign years = pubs | map: "year" | uniq | sort | reverse %}
+  <div class="filter" data-filter hidden>
+    <button type="button" class="chip is-on" data-year="all">{{ t.labels.all }}</button>
+    {%- for y in years %}
+    <button type="button" class="chip" data-year="{{ y }}">{{ y }}</button>
+    {%- endfor %}
+  </div>
+
+  <ol class="pubs">
+    {%- for p in pubs %}
+    <li class="pub" data-year="{{ p.year }}">
+      <div class="pub-meta">
+        <span class="pub-yr">{{ p.year }}</span>
+        <span class="pub-id">{{ p.id }}</span>
+      </div>
+      <div class="pub-body">
+        <h3 class="pub-t">
+          {%- if p.doi and p.doi != "" -%}
+          <a href="{{ p.doi }}">{{ p.title }}</a>
+          {%- else -%}
+          {{ p.title }}
+          {%- endif -%}
+        </h3>
+        <p class="pub-a">{{ p.authors }}</p>
+        <p class="pub-v">
+          <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %}
+          {%- if p.index and p.index != "" %} <span class="tag">{{ p.index }}</span>{% endif %}
+        </p>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<!-- ── Funded projects ──────────────────────────────────── -->
+<section id="projects" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.projects }}</h2>
+
+  <ol class="cards">
+    {%- for p in cv.projects %}
+    <li class="card">
+      <p class="card-per">{{ p.period }}</p>
+      <h3>{% if L == "ko" %}{{ p.ko }}{% else %}{{ p.en }}{% endif %}</h3>
+      <dl class="kv">
+        <dt>{{ t.labels.role }}</dt>
+        <dd>{% if L == "ko" %}{{ p.role_ko }}{% else %}{{ p.role_en }}{% endif %}</dd>
+        <dt>{{ t.labels.funder }}</dt>
+        <dd>{% if L == "ko" %}{{ p.funder_ko }}{% else %}{{ p.funder_en }}{% endif %}{% if p.amount and p.amount != "" %} · {{ p.amount }}{% endif %}</dd>
+      </dl>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<!-- ── Doctrine translation ─────────────────────────────── -->
+<section id="translation" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.translation }}</h2>
+
+  <ol class="cards">
+    {%- for x in cv.translations %}
+    <li class="card">
+      <p class="card-per">{{ x.period }} · {% if L == "ko" %}{{ x.direction_ko }}{% else %}{{ x.direction_en }}{% endif %}</p>
+      <h3>{% if L == "ko" %}{{ x.ko }}{% else %}{{ x.en }}{% endif %}</h3>
+      <dl class="kv">
+        <dt>{{ t.labels.funder }}</dt>
+        <dd>{% if L == "ko" %}{{ x.funder_ko }}{% else %}{{ x.funder_en }}{% endif %}{% if x.amount and x.amount != "" %} · {{ x.amount }}{% endif %}</dd>
+        <dt>{{ t.labels.translated }}</dt>
+        <dd>
+          <ul class="works">
+            {%- for w in x.works %}<li>{{ w }}</li>{%- endfor %}
+          </ul>
+        </dd>
+      </dl>
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<!-- ── CV ───────────────────────────────────────────────── -->
+<section id="cv" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.nav.cv }}</h2>
+
+  <h3 class="sub">{{ t.headings.positions }}</h3>
+  <dl class="dated">
+    {%- for e in cv.employment %}
+    <dt>{{ e.period }}</dt>
+    <dd>{% if L == "ko" %}{{ e.ko }}{% else %}{{ e.en }}{% endif %}</dd>
+    {%- endfor %}
+  </dl>
+
+  <h3 class="sub">{{ t.headings.commission }}</h3>
+  <dl class="dated">
+    {%- for e in cv.commission %}
+    <dt>{{ e.period }}</dt>
+    <dd>{% if L == "ko" %}{{ e.ko }}{% else %}{{ e.en }}{% endif %}</dd>
+    {%- endfor %}
+  </dl>
+
+  <h3 class="sub">{{ t.headings.education }}</h3>
+  <ol class="degrees">
+    {%- for d in cv.education %}
+    <li>
+      <p class="deg">{% if L == "ko" %}{{ d.degree_ko }}{% else %}{{ d.degree_en }}{% endif %} <span class="deg-yr">{{ d.period }}</span></p>
+      <p class="deg-s">{% if L == "ko" %}{{ d.school_ko }}{% else %}{{ d.school_en }}{% endif %} — {% if L == "ko" %}{{ d.field_ko }}{% else %}{{ d.field_en }}{% endif %}</p>
+      {%- assign note = d.note_en %}{% if L == "ko" %}{% assign note = d.note_ko %}{% endif %}
+      {%- if note and note != "" %}<p class="deg-n">{{ note }}</p>{% endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+
+  {%- comment %} 학회 활동과 수상은 기본적으로 숨겨져 있습니다.
+       다시 보이게 하려면 _config.yml 의 show: 항목을 true 로 바꾸십시오. {% endcomment -%}
+  {%- if site.show.service %}
+  <h3 class="sub">{{ t.headings.service }}</h3>
+  <ul class="service">
+    {%- for s in cv.service %}
+    <li>
+      <p class="org">{% if L == "ko" %}{{ s.org_ko }}{% else %}{{ s.org_en }}{% endif %}</p>
+      <ul class="roles">
+        {%- for r in s.roles %}
+        <li><span class="r-yr">{{ r.period }}</span>{% if L == "ko" %}{{ r.ko }}{% else %}{{ r.en }}{% endif %}</li>
+        {%- endfor %}
+      </ul>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endif %}
+
+  {%- if site.show.awards %}
+  <h3 class="sub">{{ t.headings.awards }}</h3>
+  <dl class="dated">
+    {%- for a in cv.awards %}
+    <dt>{{ a.years }}</dt>
+    <dd>{% if L == "ko" %}{{ a.ko }}{% else %}{{ a.en }}{% endif %}</dd>
+    {%- endfor %}
+  </dl>
+  {%- endif %}
+</section>
+
+<!-- ── Press ────────────────────────────────────────────── -->
+<section id="press" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.press }}</h2>
+
+  <ol class="press">
+    {%- for a in site.data.press %}
+    <li>
+      <p class="p-meta">{{ a.date }} · {% if L == "ko" %}{{ a.outlet_ko }}{% else %}{{ a.outlet_en }}{% endif %}</p>
+      <p class="p-t"><a href="{{ a.url }}">{% if L == "ko" %}{{ a.title_ko }}{% else %}{{ a.title_en }}{% endif %}</a></p>
+      {%- assign nt = a.note_en %}{% if L == "ko" %}{% assign nt = a.note_ko %}{% endif %}
+      {%- if nt and nt != "" %}<p class="p-n">{{ nt }}</p>{% endif %}
+    </li>
+    {%- endfor %}
+  </ol>
+</section>
+
+<!-- ── Contact ──────────────────────────────────────────── -->
+<section id="contact" class="sec">
+  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.contact }}</h2>
+
+  <div class="contact">
+    <div>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p class="tel">{{ site.phone }}</p>
+      <p class="addr">{{ t.address | strip | newline_to_br }}</p>
+    </div>
+    <div>
+      <h3 class="sub">{{ t.headings.profiles }}</h3>
+      <ul class="plist">
+        <li><a class="oid" href="https://orcid.org/{{ site.orcid }}">{% include orcid-icon.html %}ORCID {{ site.orcid }}</a></li>
+        {%- if site.profiles.scholar and site.profiles.scholar != "" %}
+        <li><a href="{{ site.profiles.scholar }}">Google Scholar</a></li>{% endif %}
+        {%- if site.profiles.naver and site.profiles.naver != "" %}
+        <li><a href="{{ site.profiles.naver }}">{% if L == "ko" %}네이버 인물정보{% else %}Naver people profile{% endif %}</a></li>{% endif %}
+        {%- if site.profiles.researchgate and site.profiles.researchgate != "" %}
+        <li><a href="{{ site.profiles.researchgate }}">ResearchGate</a></li>{% endif %}
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="sub">{{ t.labels.prospective }}</h3>
+      <p>{{ t.prospective }}</p>
+    </div>
+  </div>
+</section>

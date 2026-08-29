@@ -1,0 +1,102 @@
+# 화면에 나오는 문구. 영문판과 국문판을 각각 수정하십시오.
+
+en:
+  lang_label: "한국어"
+  lang_href: "/ko/"
+  role: "Professor · Department of English · Korea Military Academy"
+  rank: "Lieutenant Colonel, Republic of Korea Army"
+  thesis: >-
+    I work on research synthesis in applied linguistics. Most of what I do is pooling
+    findings across studies to estimate what language-learning interventions actually
+    achieve — in reading, vocabulary, English-medium instruction, and AI-assisted
+    learning. I also teach English at the Korea Military Academy and translate joint
+    military doctrine between English and Korean.
+  nav:
+    research: "Research"
+    publications: "Publications"
+    projects: "Projects"
+    translation: "Translation"
+    cv: "CV"
+    press: "Press"
+    contact: "Contact"
+  headings:
+    research: "Research"
+    publications: "Publications"
+    projects: "Funded projects"
+    translation: "Doctrine translation"
+    positions: "Positions"
+    commission: "Commission"
+    education: "Education"
+    service: "Service"
+    awards: "Honours and awards"
+    press: "Press"
+    contact: "Contact"
+    profiles: "Profiles"
+  labels:
+    lines_count: "five lines of work"
+    pubs_count: "peer-reviewed journal articles"
+    all: "All"
+    role: "Role"
+    funder: "Funder"
+    translated: "Translated"
+    prospective: "For prospective collaborators"
+    updated: "Updated August 2026"
+    scholar: "Citations on Google Scholar"
+  prospective: >-
+    I welcome enquiries about collaboration on meta-analysis and research synthesis in
+    second language learning, and about military English and ESP assessment. Email me
+    with a short description of what you have in mind.
+  address: |
+    Division of Humanities
+    Korea Military Academy
+    Seoul 01805, Republic of Korea
+  footer: "Built with Jekyll, hosted on GitHub Pages."
+
+ko:
+  lang_label: "English"
+  lang_href: "/"
+  role: "교수 · 영어과 · 육군사관학교"
+  rank: "대한민국 육군 중령"
+  thesis: >-
+    응용언어학에서 연구 종합을 주로 다룹니다. 여러 연구의 결과를 통합해 언어 학습 개입이 실제로
+    어떤 효과를 내는지 추정하는 작업으로, 읽기와 어휘, 영어 매개 수업, 인공지능 활용 학습이
+    주된 대상입니다. 육군사관학교에서 영어를 가르치며 미 합동교리를 우리말로 옮기는 일도 하고
+    있습니다.
+  nav:
+    research: "연구"
+    publications: "논문"
+    projects: "연구과제"
+    translation: "번역"
+    cv: "이력"
+    press: "언론"
+    contact: "연락처"
+  headings:
+    research: "연구 분야"
+    publications: "학술논문"
+    projects: "수행 연구과제"
+    translation: "교리 번역"
+    positions: "경력"
+    commission: "임관 및 진급"
+    education: "학력"
+    service: "학회 활동"
+    awards: "수상"
+    press: "언론 보도"
+    contact: "연락처"
+    profiles: "프로필"
+  labels:
+    lines_count: "다섯 갈래"
+    pubs_count: "편의 학술논문"
+    all: "전체"
+    role: "역할"
+    funder: "지원"
+    translated: "번역 산출물"
+    prospective: "공동연구를 생각하고 계신 분께"
+    updated: "2026년 8월 기준"
+    scholar: "구글 학술검색에서 인용 현황 보기"
+  prospective: >-
+    제2언어 학습 분야의 메타분석과 연구 종합, 군사영어와 특수목적영어 평가에 관한 공동연구
+    문의를 환영합니다. 구상하고 계신 내용을 간단히 적어 메일로 보내주십시오.
+  address: |
+    대한민국 서울특별시 01805
+    육군사관학교 인문학처
+  footer: "Jekyll로 만들고 GitHub Pages에서 서비스합니다."
