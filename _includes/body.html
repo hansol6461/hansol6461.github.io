@@ -62,10 +62,11 @@
   </ol>
 </section>
 
-<!-- ── Funded projects ──────────────────────────────────── -->
+<!-- ── Projects ─────────────────────────────────────────── -->
 <section id="projects" class="sec">
   <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.projects }}</h2>
 
+  <h3 class="sub">{{ t.headings.projects_research }}</h3>
   <ol class="cards">
     {%- for p in cv.projects %}
     <li class="card">
@@ -80,12 +81,8 @@
     </li>
     {%- endfor %}
   </ol>
-</section>
 
-<!-- ── Doctrine translation ─────────────────────────────── -->
-<section id="translation" class="sec">
-  <h2 class="sec-h"><span class="fp" aria-hidden="true"></span>{{ t.headings.translation }}</h2>
-
+  <h3 class="sub">{{ t.headings.projects_translation }}</h3>
   <ol class="cards">
     {%- for x in cv.translations %}
     <li class="card">
