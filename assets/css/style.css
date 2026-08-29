@@ -161,6 +161,20 @@ a:focus-visible {
 }
 .hero-text { max-width: var(--read); }
 
+.ko-note {
+  margin: 1.75rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+}
+.ko-note p { margin: 0; font-size: .93rem; line-height: 1.75; color: var(--slate); }
+.ko-label {
+  font-family: var(--f-mono);
+  font-size: .68rem !important;
+  letter-spacing: .08em;
+  color: var(--brass);
+  margin-bottom: .5rem !important;
+}
+
 .hero-links {
   display: flex;
   flex-wrap: wrap;
@@ -191,10 +205,11 @@ a:focus-visible {
   letter-spacing: -.018em;
 }
 .name-alt {
-  margin: .3rem 0 0;
-  font-family: var(--f-disp);
-  font-size: 1.15rem;
-  font-style: italic;
+  margin: .2rem 0 0;
+  font-family: var(--f-body);
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: -.01em;
   color: var(--slate);
 }
 

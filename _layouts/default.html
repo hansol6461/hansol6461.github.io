@@ -34,6 +34,7 @@
     <div class="hero-text">
       <p class="eyebrow">{{ t.role }}</p>
       <h1 class="name">{{ site.name }}</h1>
+      <p class="name-alt" lang="ko">{{ site.name_ko }}</p>
       <p class="rank"><span class="fp" aria-hidden="true"></span>{{ t.rank }}</p>
 
       <p class="thesis">{{ t.thesis }}</p>
@@ -44,6 +45,14 @@
         {%- if site.profiles.scholar and site.profiles.scholar != "" %}
         <a href="{{ site.profiles.scholar }}">Google Scholar</a>{% endif %}
       </p>
+
+      {%- assign ko = site.data.i18n.ko_intro %}
+      {%- if ko and ko.body %}
+      <div class="ko-note" lang="ko">
+        <p class="ko-label">{{ ko.label }}</p>
+        <p>{{ ko.body }}</p>
+      </div>
+      {%- endif %}
     </div>
 
     <img class="portrait" src="{{ site.portrait | relative_url }}" alt="{{ site.name }}"
