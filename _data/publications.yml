@@ -1,7 +1,25 @@
 # 이 파일은 scripts/sync_publications.py 가 만듭니다. 직접 고치지 마십시오.
 # 내용을 바꾸려면 _data/publications_manual.yml 을 고치십시오.
-# 총 54편
-- id: J54
+# 총 81편
+- id: J81
+  year: 2026
+  date: '2026-08-26'
+  authors: <strong>Lee, H.</strong>
+  title: AI Utilization Strategies for Personalized Learning in K-12
+  venue: Ubiquitous Learning An International Journal
+  detail: ''
+  doi: https://doi.org/10.18848/1835-9795/cgp/a382
+  index: ''
+- id: J80
+  year: 2026
+  date: '2026-08-07'
+  authors: <strong>Lee, H.</strong>
+  title: Coopetitive Learning Integrated with Generative AI
+  venue: Ubiquitous Learning An International Journal
+  detail: ''
+  doi: https://doi.org/10.18848/1835-9795/cgp/a381
+  index: ''
+- id: J79
   year: 2026
   date: '2026-07-01'
   authors: <strong>Lee, H.</strong>
@@ -10,7 +28,7 @@
   detail: 26, 875–893
   doi: https://doi.org/10.15738/kjell.26..202607.875
   index: Scopus
-- id: J53
+- id: J78
   year: 2026
   date: '2026-07-01'
   authors: Lee, J. H., <strong>Lee, H.</strong>, & Kim, K.
@@ -19,7 +37,25 @@
   detail: 30(1), 1–19
   doi: https://doi.org/10.64152/10125/73697
   index: SSCI
-- id: J52
+- id: J77
+  year: 2026
+  date: '2026-06-19'
+  authors: <strong>Lee, H.</strong>, & Park, D.
+  title: EEG analysis of elementary students during paper-based and tablet-based learning and assessment
+  venue: Journal of Education and Learning (EduLearn)
+  detail: 20(3), 1586–1598
+  doi: https://doi.org/10.11591/edulearn.v20i3.25301
+  index: ''
+- id: J76
+  year: 2026
+  date: '2026-06-18'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Learners’ priority criteria for evaluating data-driven learning tools: An analytic hierarchy process study with traditional and GenAI-based concordancers'
+  venue: ReCALL
+  detail: 38(3), 366–381
+  doi: https://doi.org/10.1017/s0958344026100512
+  index: ''
+- id: J75
   year: 2026
   date: '2026-06-01'
   authors: Abdi Tabari, M., <strong>Lee, H.</strong>, & Farahanynia, M.
@@ -28,7 +64,7 @@
   detail: 64(2), 819–867
   doi: https://doi.org/10.1515/iral-2024-0219
   index: SSCI
-- id: J51
+- id: J74
   year: 2026
   date: '2026-06-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -37,7 +73,7 @@
   detail: 35(2), 692–711
   doi: https://doi.org/10.1080/09658416.2025.2574010
   index: SSCI
-- id: J50
+- id: J73
   year: 2026
   date: '2026-05-01'
   authors: <strong>Lee, H.</strong>, & Son, H.
@@ -46,7 +82,7 @@
   detail: ''
   doi: https://tdhj.org/blog/post/communication-operations-xr-ai/
   index: ''
-- id: J49
+- id: J72
   year: 2026
   date: '2026-05-01'
   authors: Abdi Tabari, M., & <strong>Lee, H.</strong>
@@ -55,7 +91,16 @@
   detail: 36(2), 1092–1108
   doi: https://doi.org/10.1111/ijal.12837
   index: SSCI
-- id: J48
+- id: J71
+  year: 2026
+  date: '2026-04-28'
+  authors: <strong>Lee, H.</strong>
+  title: Mirror Writing in Children
+  venue: The International Journal of Early Childhood Learning
+  detail: ''
+  doi: https://doi.org/10.18848/2327-7939/cgp/a137
+  index: ''
+- id: J70
   year: 2026
   date: '2026-04-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -64,7 +109,7 @@
   detail: 127, 102888
   doi: https://doi.org/10.1016/j.lindif.2026.102888
   index: SSCI
-- id: J47
+- id: J69
   year: 2026
   date: '2026-03-01'
   authors: <strong>Lee, H.</strong>
@@ -73,7 +118,7 @@
   detail: 32(1), 285–305
   doi: https://doi.org/10.25231/pee.2026.32.1.285
   index: KCI
-- id: J46
+- id: J68
   year: 2026
   date: '2026-01-01'
   authors: Abdi Tabari, M., <strong>Lee, H.</strong>, & Hanzawa, K.
@@ -82,7 +127,7 @@
   detail: 39(1), 29–67
   doi: https://doi.org/10.1007/s11145-024-10628-2
   index: SSCI
-- id: J45
+- id: J67
   year: 2026
   date: '2026-01-01'
   authors: Kim, K., Lee, J. H., & <strong>Lee, H.</strong>
@@ -91,7 +136,7 @@
   detail: 52(1), 1–19
   doi: https://doi.org/10.1080/03054985.2024.2413109
   index: SSCI
-- id: J44
+- id: J66
   year: 2026
   date: '2026-01-01'
   authors: <strong>Lee, H.</strong>, Lee, J. H., & Scarcella, R. C.
@@ -100,7 +145,16 @@
   detail: 30(1), 92–114
   doi: https://doi.org/10.1177/13621688221143258
   index: SSCI
-- id: J43
+- id: J65
+  year: 2026
+  date: '2026-01-01'
+  authors: Tabari, M. A., <strong>Lee, H.</strong>, & Mansouri, A.
+  title: 'The role of depth of processing in ISLA: A research synthesis and meta-analysis'
+  venue: Applied Psycholinguistics
+  detail: '47'
+  doi: https://doi.org/10.1017/s0142716426100666
+  index: ''
+- id: J64
   year: 2025
   date: '2025-10-01'
   authors: Abdi Tabari, M., & <strong>Lee, H.</strong>
@@ -109,7 +163,7 @@
   detail: 66, 100974
   doi: https://doi.org/10.1016/j.asw.2025.100974
   index: SSCI
-- id: J42
+- id: J63
   year: 2025
   date: '2025-10-01'
   authors: <strong>Lee, H.</strong>, Rose, H., Macaro, E., & Lee, J. H.
@@ -118,7 +172,25 @@
   detail: 133, 103755
   doi: https://doi.org/10.1016/j.system.2025.103755
   index: SSCI
-- id: J41
+- id: J62
+  year: 2025
+  date: '2025-09-30'
+  authors: Jung, J., Kim, J., <strong>Lee, H.</strong>, Park, D. H., Yu, H., Cho, H. S., Kim, Y., & Kim, H.
+  title: Development of a Unification Competence Inventory
+  venue: Korean Journal of Teacher Education
+  detail: 41(5), 371–390
+  doi: https://doi.org/10.14333/kjte.2025.41.5.15
+  index: ''
+- id: J61
+  year: 2025
+  date: '2025-08-31'
+  authors: 석사과정, 아. 비., Lee, D., Choi, H., Kang, J., & <strong>Lee, H.</strong>
+  title: Research on Building a Q&A System to Improve Financial Literacy Using RAG
+  venue: Information Systems Review
+  detail: 27(3), 313–333
+  doi: https://doi.org/10.14329/isr.2025.27.3.313
+  index: ''
+- id: J60
   year: 2025
   date: '2025-05-01'
   authors: <strong>Lee, H.</strong>, Rose, H., Macaro, E., & Lee, J. H.
@@ -127,7 +199,7 @@
   detail: 47, 100684
   doi: https://doi.org/10.1016/j.edurev.2025.100684
   index: SSCI
-- id: J40
+- id: J59
   year: 2025
   date: '2025-05-01'
   authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y.
@@ -136,7 +208,7 @@
   detail: 47, 100666
   doi: https://doi.org/10.1016/j.edurev.2025.100666
   index: SSCI
-- id: J39
+- id: J58
   year: 2025
   date: '2025-04-01'
   authors: Kaiypova, P., <strong>Lee, H.</strong>, Lo, Y., & Lee, J. H.
@@ -145,7 +217,61 @@
   detail: 129, 103580
   doi: https://doi.org/10.1016/j.system.2024.103580
   index: SSCI
-- id: J38
+- id: J57
+  year: 2025
+  date: '2025-03-31'
+  authors: <strong>Lee, H.</strong>
+  title: Analysis of Differences in Elementary School Students' Academic Achievement between Tablet-Based and Paper-Based Assessments
+  venue: Korean Journal of Teacher Education
+  detail: 41(2), 71–89
+  doi: https://doi.org/10.14333/kjte.2025.41.2.04
+  index: ''
+- id: J56
+  year: 2025
+  date: '2025-02-28'
+  authors: Lee, D., Kang, J., & <strong>Lee, H.</strong>
+  title: 'A study on technology convergence trends in the domestic pet industry using patent information: Using network analysis and text mining'
+  venue: Korean Institute of Smart Media
+  detail: 14(2), 115–130
+  doi: https://doi.org/10.30693/smj.2025.14.2.115
+  index: ''
+- id: J55
+  year: 2025
+  date: '2025-02-15'
+  authors: <strong>Lee, H.</strong>
+  title: Analysis of elementary school teachers' perceptions of the changes AI digital textbooks will bring to classes
+  venue: Korean Association For Learner-Centered Curriculum And Instruction
+  detail: 25(3), 323–343
+  doi: https://doi.org/10.22251/jlcci.2025.25.3.323
+  index: ''
+- id: J54
+  year: 2025
+  date: '2025-01-30'
+  authors: <strong>Lee, H.</strong>, Kim, G., & Moon, A. R.
+  title: Analyzing Characteristics of Elementary School Students' Frenemyships
+  venue: Korean Journal of Teacher Education
+  detail: 41(1), 51–74
+  doi: https://doi.org/10.14333/kjte.2024.41.1.03
+  index: ''
+- id: J53
+  year: 2024
+  date: '2024-12-31'
+  authors: Kim, H., <strong>Lee, H.</strong>, Kim, J., & Dongtaik, K.
+  title: An Analysis of the Characteristics and Outcomes of Integrated Primary and Secondary Schools in Japan
+  venue: Korean Association For Learner-Centered Curriculum And Instruction
+  detail: 24(24), 625–639
+  doi: https://doi.org/10.22251/jlcci.2024.24.24.625
+  index: ''
+- id: J52
+  year: 2024
+  date: '2024-12-31'
+  authors: Choi, H., Kang, J., & <strong>Lee, H.</strong>
+  title: Analysis of Drug Delivery System Research Trends Using BERTopic and LLM(Large Language Models) Based on PubMed Abstract Data
+  venue: Journal of Intelligence and Information Systems
+  detail: 30(4), 293–310
+  doi: https://doi.org/10.13088/jiis.2024.30.4.293
+  index: ''
+- id: J51
   year: 2024
   date: '2024-08-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -154,7 +280,7 @@
   detail: 94(4), 467–500
   doi: https://doi.org/10.3102/00346543231186605
   index: SSCI
-- id: J37
+- id: J50
   year: 2024
   date: '2024-06-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -163,7 +289,7 @@
   detail: 28(2), 134–162
   doi: https://hdl.handle.net/10125/73575
   index: SSCI
-- id: J36
+- id: J49
   year: 2024
   date: '2024-01-01'
   authors: Kim, H., <strong>Lee, H.</strong>, & Lee, J. H.
@@ -172,7 +298,7 @@
   detail: 28(1), 7–28
   doi: https://doi.org/10.1177/1362168820981394
   index: SSCI
-- id: J35
+- id: J48
   year: 2023
   date: '2023-12-01'
   authors: Kim, J., <strong>Lee, H.</strong>, Cho, S., & Kwack, H.
@@ -181,7 +307,25 @@
   detail: 30(3), 93–105
   doi: https://doi.org/10.52798/KADIS.2023.30.3.8
   index: KCI
-- id: J34
+- id: J47
+  year: 2023
+  date: '2023-12-01'
+  authors: <strong>Lee, H.</strong>, Lee, G., Kim, H. S., Choi, K., Choo, J., & Kang, H.
+  title: Development of Test-Equipment for AUVs’ Navigation Performance Pre-verification
+  venue: The Journal of Korea Robotics Society
+  detail: 18(4), 472–480
+  doi: https://doi.org/10.7746/jkros.2023.18.4.472
+  index: ''
+- id: J46
+  year: 2023
+  date: '2023-11-30'
+  authors: <strong>Lee, H.</strong>, & Kim, H.
+  title: Analysis of the constructs of Cooperative learning perceived by elementary school students
+  venue: Korean Journal of Teacher Education
+  detail: 39(6), 431–450
+  doi: https://doi.org/10.14333/kjte.2023.39.6.19
+  index: ''
+- id: J45
   year: 2023
   date: '2023-11-01'
   authors: <strong>Lee, H.</strong>, Jin, S., & Lee, J. H.
@@ -190,7 +334,7 @@
   detail: 118, 103154
   doi: https://doi.org/10.1016/j.system.2023.103154
   index: SSCI
-- id: J33
+- id: J44
   year: 2023
   date: '2023-06-01'
   authors: <strong>Lee, H.</strong>, & Jin, S.
@@ -199,7 +343,7 @@
   detail: 18(1), 97–117
   doi: https://doi.org/10.37244/ela.2023.18.1.97
   index: KCI
-- id: J32
+- id: J43
   year: 2023
   date: '2023-06-01'
   authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y. Y.
@@ -208,7 +352,16 @@
   detail: 13(2), 317–345
   doi: https://doi.org/10.14746/ssllt.38277
   index: SSCI
-- id: J31
+- id: J42
+  year: 2023
+  date: '2023-05-31'
+  authors: <strong>Lee, H.</strong>, Park, D., & Kim, H.
+  title: Effects of Carbon Dioxide Concentration and Noise Level in Classroom on Attention and Problem Behavior of Elementary School Students
+  venue: Korean Association For Learner-Centered Curriculum And Instruction
+  detail: 23(10), 369–384
+  doi: https://doi.org/10.22251/jlcci.2023.23.10.369
+  index: ''
+- id: J41
   year: 2023
   date: '2023-05-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -217,7 +370,7 @@
   detail: 49(3), 281–300
   doi: https://doi.org/10.1080/03054985.2022.2072284
   index: SSCI
-- id: J30
+- id: J40
   year: 2023
   date: '2023-04-01'
   authors: Lee, J. H., & <strong>Lee, H.</strong>
@@ -226,7 +379,25 @@
   detail: 32(2), 217–234
   doi: https://doi.org/10.1080/09658416.2021.2014510
   index: SSCI
-- id: J29
+- id: J39
+  year: 2023
+  date: '2023-01-16'
+  authors: Son, M., <strong>Lee, H.</strong>, Kwak, S., & Woo, J.
+  title: 'ORCA: An end-to-end video object removal framework with cropping interested region and quality assessment'
+  venue: Electronic Imaging
+  detail: 35(9), 285–1
+  doi: https://doi.org/10.2352/ei.2023.35.9.ipas-285
+  index: ''
+- id: J38
+  year: 2022
+  date: '2022-12-31'
+  authors: <strong>Lee, H.</strong>, Kang, J., & Park, S.
+  title: Applications of the Text Mining Approach to Online Financial Information
+  venue: Asia Pacific Journal of Information Systems
+  detail: 32(4), 770–802
+  doi: https://doi.org/10.14329/apjis.2022.32.4.770
+  index: ''
+- id: J37
   year: 2022
   date: '2022-12-01'
   authors: Jin, S., & <strong>Lee, H.</strong>
@@ -235,7 +406,7 @@
   detail: 41(6), 716–745
   doi: https://doi.org/10.1177/0261927X221092098
   index: SSCI
-- id: J28
+- id: J36
   year: 2022
   date: '2022-11-01'
   authors: <strong>Lee, H.</strong>, Jung, G., & Lee, J. H.
@@ -244,7 +415,16 @@
   detail: 26(6), 585–603
   doi: https://doi.org/10.1080/10888438.2022.2087526
   index: SSCI
-- id: J27
+- id: J35
+  year: 2022
+  date: '2022-09-30'
+  authors: <strong>Lee, H.</strong>, & Kim, H.
+  title: Analysis of the constructs of Competitive learning as perceived by elementary school students
+  venue: Korean Journal of Teacher Education
+  detail: 38(5), 261–280
+  doi: https://doi.org/10.14333/kjte.2022.38.5.13
+  index: ''
+- id: J34
   year: 2022
   date: '2022-09-01'
   authors: Lee, J. H., Ahn, J., & <strong>Lee, H.</strong>
@@ -253,7 +433,7 @@
   detail: 12(3), 435–458
   doi: https://doi.org/10.14746/ssllt.2022.12.3.5
   index: SSCI
-- id: J26
+- id: J33
   year: 2022
   date: '2022-06-01'
   authors: Lee, J. H., & <strong>Lee, H.</strong>
@@ -262,7 +442,7 @@
   detail: 72(2), 576–612
   doi: https://doi.org/10.1111/lang.12493
   index: SSCI
-- id: J25
+- id: J32
   year: 2022
   date: '2022-02-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -271,7 +451,7 @@
   detail: 35, 100425
   doi: https://doi.org/10.1016/j.edurev.2021.100425
   index: SSCI
-- id: J24
+- id: J31
   year: 2022
   date: '2022-01-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -280,7 +460,7 @@
   detail: 76(1), 119–124
   doi: https://doi.org/10.1093/elt/ccab041
   index: SSCI
-- id: J23
+- id: J30
   year: 2021
   date: '2021-10-01'
   authors: <strong>Lee, H.</strong>, Oh, J., & Jeong, T.
@@ -289,7 +469,16 @@
   detail: 77(3), 281–305
   doi: https://doi.org/10.31066/kjmas.2021.77.3.011
   index: KCI
-- id: J22
+- id: J29
+  year: 2021
+  date: '2021-06-30'
+  authors: Ham, Y., Cho, Y. H., <strong>Lee, H.</strong>, & Kim, H.
+  title: Systematic Literature Review to Explore Research Trends and Future Directions of Multimodal Learning Analytics
+  venue: Korean Association for Educational Information and Media
+  detail: 27(2), 501–529
+  doi: https://doi.org/10.15833/kafeiam.27.2.501
+  index: ''
+- id: J28
   year: 2021
   date: '2021-06-01'
   authors: <strong>Lee, H.</strong>, & Kim, N.
@@ -298,7 +487,25 @@
   detail: 77(2), 152–170
   doi: https://doi.org/10.31066/kjmas.2021.77.2.006
   index: KCI
-- id: J21
+- id: J27
+  year: 2021
+  date: '2021-04-13'
+  authors: Cuadra, A., Li, S., <strong>Lee, H.</strong>, Cho, J., & Ju, W.
+  title: My Bad! Repairing Intelligent Voice Assistant Errors Improves Interaction
+  venue: Proceedings of the ACM on Human-Computer Interaction
+  detail: 5(CSCW1), 1–24
+  doi: https://doi.org/10.1145/3449101
+  index: ''
+- id: J26
+  year: 2021
+  date: '2021-03-31'
+  authors: <strong>Lee, H.</strong>
+  title: The Effect of Integrated Art Play Utilizing SAFETY-Related Picture Books on the Understanding of Stories of Children with Disabilities
+  venue: ''
+  detail: 6(1), 28–40
+  doi: https://doi.org/10.22471/crisis.2021.6.1.28
+  index: ''
+- id: J25
   year: 2020
   date: '2020-12-01'
   authors: Abedi, J., Zhang, Y., Rowe, S., & <strong>Lee, H.</strong>
@@ -307,7 +514,16 @@
   detail: 39(5), 41–52
   doi: https://doi.org/10.1111/emip.12328
   index: SSCI
-- id: J20
+- id: J24
+  year: 2020
+  date: '2020-12-01'
+  authors: <strong>Lee, H.</strong>
+  title: '書評論文 アメリカのミドルクラスの崩壊 : 原因、結果、解決策 Kevin T. Leicht and Scott T. Fitzgerald, Middle Class Meltdown in America : Causes, Consequences, and Remedies (Routledge, [2006] 2014) (松田素二教授退職記念号)'
+  venue: Medical Entomology and Zoology
+  detail: (28), 241–252
+  doi: ''
+  index: ''
+- id: J23
   year: 2020
   date: '2020-11-01'
   authors: Solanki, S., Fitzpatrick, D., Jones, M., & <strong>Lee, H.</strong>
@@ -316,7 +532,7 @@
   detail: 31, 100359
   doi: https://doi.org/10.1016/j.edurev.2020.100359
   index: SSCI
-- id: J19
+- id: J22
   year: 2020
   date: '2020-07-01'
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
@@ -325,7 +541,7 @@
   detail: 104(2), 345–362
   doi: https://doi.org/10.1111/modl.12634
   index: SSCI
-- id: J18
+- id: J21
   year: 2020
   date: '2020-06-01'
   authors: <strong>Lee, H.</strong>, & Kim, N.
@@ -334,7 +550,7 @@
   detail: 76(2), 283–302
   doi: https://doi.org/10.31066/kjmas.2020.76.2.012
   index: KCI
-- id: J17
+- id: J20
   year: 2020
   date: '2020-04-01'
   authors: <strong>Lee, H.</strong>, Chung, H., Zhang, Y., Abedi, J., & Warschauer, M.
@@ -343,7 +559,7 @@
   detail: 33(2), 124–140
   doi: https://doi.org/10.1080/08957347.2020.1732383
   index: SSCI
-- id: J16
+- id: J19
   year: 2020
   date: '2020-03-01'
   authors: Kim, Y.-S. G., <strong>Lee, H.</strong>, & Zuilkowsky, S. S.
@@ -352,7 +568,7 @@
   detail: 91(2), 638–660
   doi: https://doi.org/10.1111/cdev.13204
   index: SSCI
-- id: J15
+- id: J18
   year: 2019
   date: '2019-12-01'
   authors: Kim, N., <strong>Lee, H.</strong>, & Jeong, T.-Y.
@@ -361,7 +577,16 @@
   detail: 14, 109–132
   doi: https://doi.org/10.37244/ela.2019.14.109
   index: KCI
-- id: J14
+- id: J17
+  year: 2019
+  date: '2019-12-01'
+  authors: Kim, N., <strong>Lee, H.</strong>, & Jeong, T.
+  title: '특수목적영어 학습 및 평가에 미치는 학습동기와 학습전략에 관한 연구: 군사영어 학습을 중점으로'
+  venue: ''
+  detail: ''
+  doi: ''
+  index: ''
+- id: J16
   year: 2019
   date: '2019-10-01'
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
@@ -370,7 +595,7 @@
   detail: 40(5), 721–753
   doi: https://doi.org/10.1093/applin/amy012
   index: SSCI
-- id: J13
+- id: J15
   year: 2019
   date: '2019-05-01'
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
@@ -379,7 +604,7 @@
   detail: 31(2), 135–149
   doi: https://doi.org/10.1017/S0958344018000162
   index: SSCI
-- id: J12
+- id: J14
   year: 2019
   date: '2019-03-01'
   authors: Warschauer, M., Yim, S., <strong>Lee, H.</strong>, & Zheng, B.
@@ -388,7 +613,16 @@
   detail: 39, 93–112
   doi: https://doi.org/10.1017/S0267190519000023
   index: SSCI
-- id: J11
+- id: J13
+  year: 2018
+  date: '2018-10-12'
+  authors: Yu, H., <strong>Lee, H.</strong>, Lee, S., Kim, Y., & Lee, H.
+  title: Recent Advances in FPGA Reverse Engineering
+  venue: Electronics
+  detail: 7(10), 246
+  doi: https://doi.org/10.3390/electronics7100246
+  index: ''
+- id: J12
   year: 2017
   date: '2017-06-01'
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
@@ -397,7 +631,7 @@
   detail: 21(2), 32–51
   doi: https://dx.doi.org/10125/44610
   index: SSCI
-- id: J10
+- id: J11
   year: 2017
   date: '2017-05-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -406,7 +640,7 @@
   detail: 16(1), 55–71
   doi: https://doi.org/10.1108/ETPC-05-2016-0064
   index: SSCI
-- id: J9
+- id: J10
   year: 2016
   date: '2016-08-01'
   authors: Lee, Ho, <strong>Lee, Hansol</strong>, & Lee, J. H.
@@ -415,7 +649,7 @@
   detail: 25(4), 499–507
   doi: https://doi.org/10.1007/s40299-015-0270-1
   index: SSCI
-- id: J8
+- id: J9
   year: 2015
   date: '2015-12-01'
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -424,7 +658,7 @@
   detail: 24(4), 591–601
   doi: https://doi.org/10.1007/s40299-014-0204-3
   index: SSCI
-- id: J7
+- id: J8
   year: 2015
   date: '2015-06-01'
   authors: Lee, J. H., <strong>Lee, H.</strong>, & Sert, C.
@@ -433,6 +667,15 @@
   detail: 19(2), 1–15
   doi: https://dx.doi.org/10125/44411
   index: SSCI
+- id: J7
+  year: 2015
+  date: '2015-01-01'
+  authors: Lee, J. H., & <strong>Lee, H.</strong>
+  title: 'EMERGING TECHNOLOGIES A CORPUS APPROACH FOR AUTONOMOUS TEACHERS AND LEARNERS: IMPLEMENTING AN ON-LINE CONCORDANCER ON TEACHERS'' LAPTOPS'
+  venue: ''
+  detail: ''
+  doi: ''
+  index: ''
 - id: J6
   year: 2013
   date: '2013-10-01'
