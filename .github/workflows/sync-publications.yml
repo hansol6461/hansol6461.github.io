@@ -1,33 +1,43 @@
-name: Sync publications
+name: Check publications
 
+# 매주 월요일 새벽에 OpenAlex를 확인합니다.
+# 목록에 자동으로 추가하지 않습니다. 새로 잡힌 것이 있으면 실행 요약에 표로만 보여줍니다.
+# Actions 탭에서 "Run workflow" 로 직접 돌릴 수도 있습니다.
 on:
   schedule:
-    - cron: "0 18 * * 0"
+    - cron: "0 18 * * 0"     # UTC 일 18:00 = 한국시간 월 03:00
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  sync:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install PyYAML
         run: pip install --quiet pyyaml
-      - name: Sync from OpenAlex
+
+      - name: Rebuild list and check OpenAlex
         run: python3 scripts/sync_publications.py
-      - name: Commit if changed
+
+      # publications.yml 은 publications_manual.yml 을 그대로 옮긴 것이라
+      # 수기 목록을 고쳤을 때만 달라집니다. 그 경우에만 커밋합니다.
+      # OpenAlex에서 새로 잡힌 논문은 여기서 절대 반영되지 않습니다.
+      - name: Commit only if the manual list changed
         run: |
           if git diff --quiet -- _data/publications.yml; then
-            echo "no changes"
+            echo "변경 없음"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data/publications.yml
-          git commit -m "Sync publications ($(date -u +%Y-%m-%d))"
+          git commit -m "Rebuild publication list from manual source ($(date -u +%Y-%m-%d))"
           git push
