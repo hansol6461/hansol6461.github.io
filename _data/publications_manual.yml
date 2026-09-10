@@ -1,6 +1,24 @@
-# 수기로 관리하는 논문 목록 — 여기를 고치십시오.
-# 이 목록의 값이 OpenAlex 자동 수집분보다 항상 우선합니다.
-# OpenAlex에 안 잡히는 KCI 논문도 여기에 두면 유지됩니다.
+# 수기로 관리하는 논문 목록. 이 파일이 화면에 나오는 유일한 근거입니다.
+# 새 논문은 맨 위에 같은 형식으로 추가하십시오.
+# id 는 동기화 스크립트가 다시 매기므로 대충 넣어도 됩니다.
+- id: J56
+  year: 2026
+  date: '2026-08-01'
+  authors: <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Learners’ priority criteria for evaluating data-driven learning tools: An analytic hierarchy process study with traditional and GenAI-based concordancers'
+  venue: ReCALL
+  detail: 38(3), 366–381
+  doi: https://doi.org/10.1017/S0958344026100512
+  index: SSCI
+- id: J55
+  year: 2026
+  date: '2026-07-15'
+  authors: Abdi Tabari, M. A., <strong>Lee, H.</strong>, & Mansouri, A.
+  title: 'The role of depth of processing in ISLA: A research synthesis and meta-analysis'
+  venue: Applied Psycholinguistics
+  detail: 47, e28
+  doi: https://doi.org/10.1017/S0142716426100666
+  index: SSCI
 - id: J54
   year: 2026
   date: '2026-07-01'
