@@ -1,5 +1,5 @@
 {%- assign t = site.data.i18n.en -%}
-{%- assign pubs = site.data.publications -%}
+{%- assign pubs = site.data.publications | sort: "date" | reverse -%}
 {%- assign cv = site.data.cv -%}
 
 <!-- ── Research ─────────────────────────────────────────── -->
@@ -41,7 +41,7 @@
     <li class="pub" data-year="{{ p.year }}">
       <div class="pub-meta">
         <span class="pub-yr">{{ p.year }}</span>
-        <span class="pub-id">{{ p.id }}</span>
+        <span class="pub-id">J{{ pubs.size | minus: forloop.index0 }}</span>
       </div>
       <div class="pub-body">
         <h3 class="pub-t">

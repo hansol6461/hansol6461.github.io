@@ -50,13 +50,12 @@ Branch를 `main` / `/ (root)`로 두고 `Save`.
 
 모든 내용은 `_data/` 폴더의 네 파일에 들어 있습니다. HTML을 건드릴 일은 없습니다.
 
-| 파일 | 내용 | 갱신 방식 |
-|---|---|---|
-| `_data/publications.yml` | 학술논문 (표시용) | **자동** — 직접 고치지 마십시오 |
-| `_data/publications_manual.yml` | 학술논문 (원본) | 수기 |
-| `_data/cv.yml` | 경력, 학력, 연구과제, 번역, 연구 분야 | 수기 |
-| `_data/press.yml` | 언론 보도 | 수기 |
-| `_data/i18n.yml` | 화면 문구와 소개글(`thesis`) | 수기 |
+| 파일 | 내용 |
+|---|---|
+| `_data/publications.yml` | 학술논문 |
+| `_data/cv.yml` | 경력, 학력, 연구과제, 번역, 연구 분야 |
+| `_data/press.yml` | 언론 보도 |
+| `_data/i18n.yml` | 화면 문구, 영문 소개(`thesis`), 국문 소개(`ko_intro`) |
 
 사이트는 **영문 단일 페이지**입니다. 상단 바의 「한국어」 버튼은 국문 페이지가
 아니라 네이버 인물정보로 새 창을 엽니다. 주소는 `_config.yml` 의
@@ -67,34 +66,14 @@ Branch를 `main` / `/ (root)`로 두고 `Save`.
 페이지를 다시 만들 때 쓸 수 있습니다. 새 항목을 넣을 때는 영문 칸만 채우면
 됩니다.
 
-### 논문 목록은 자동으로 갱신됩니다
+### 논문 추가하기
 
-Google Scholar는 공개 API가 없어 직접 가져올 수 없습니다. 대신 **OpenAlex**를
-씁니다. Crossref를 실시간으로 받아오는 공개 데이터베이스라, 논문이 출판되면
-대개 며칠 안에 잡힙니다. 행님 ORCID(`0000-0002-6912-7128`)로 조회합니다.
-
-`.github/workflows/sync-publications.yml`이 **매주 월요일 새벽 3시**에 돌면서
-
-1. OpenAlex에서 ORCID로 걸린 논문을 전부 받고
-2. `_data/publications_manual.yml`의 수기 목록과 합친 뒤
-3. `_data/publications.yml`에 씁니다
-
-새 논문이 있을 때만 커밋하므로 이력이 지저분해지지 않습니다.
-지금 바로 돌려보려면 저장소 `Actions` 탭 → `Sync publications` →
-`Run workflow` 버튼을 누르십시오.
-
-**수기 목록이 항상 이깁니다.** 서지 표기를 직접 다듬어 두었거나,
-OpenAlex에 없는 KCI 논문(군사과학논집, 영어평가 등)도 그대로 유지됩니다.
-OpenAlex 조회가 실패해도 수기 목록을 그대로 쓰므로 목록이 비는 일은 없습니다.
-
-### 논문을 수기로 고치거나 추가하기
-
-`_data/publications_manual.yml`을 고칩니다. `_data/publications.yml`이 아닙니다.
+`_data/publications.yml` 하나만 고치면 됩니다. 아래 여덟 줄을 **파일 아무 데나**
+붙여 넣으십시오. 위치를 맞출 필요가 없습니다.
 
 ```yaml
-- id: J55
+- date: '2026-09-15'
   year: 2026
-  date: '2026-09-15'
   authors: <strong>Lee, H.</strong>, & Kim, S.
   title: 'Title of the paper: With a subtitle'
   venue: Journal Name
@@ -103,15 +82,16 @@ OpenAlex 조회가 실패해도 수기 목록을 그대로 쓰므로 목록이 �
   index: SSCI
 ```
 
-- 본인 이름은 `<strong>`으로 감싸면 굵게 나옵니다.
-- 제목에 콜론(`:`)이 들어가면 반드시 작은따옴표로 감싸야 합니다.
-- `date`는 정렬에 쓰입니다. 월을 모르면 `'2026-01-01'`처럼 적어도 됩니다.
-- `index`는 `SSCI`, `Scopus`, `KCI` 중 하나거나 빈 문자열입니다.
-- `id`는 자동으로 다시 매겨지니 대충 넣어도 됩니다.
+`date` 를 보고 알아서 최신순으로 정렬되고, 왼쪽의 J 번호도 화면에서 자동으로
+다시 매겨집니다. 56편을 손으로 번호 고칠 일이 없습니다.
 
-자동 수집분의 저자 표기가 마음에 안 들면(예: `Tabari, M. A.`를
-`Abdi Tabari, M.`으로 고치고 싶을 때) 같은 DOI로 수기 목록에 항목을 만드십시오.
-DOI가 일치하면 수기 쪽 표기로 덮어씁니다.
+- `date` 는 정렬 기준입니다. 월을 모르면 `'2026-01-01'` 처럼 적어도 됩니다.
+- 본인 이름은 `<strong>` 으로 감싸면 굵게 나옵니다.
+- 제목에 콜론(`:`)이 들어가면 반드시 작은따옴표로 감싸야 합니다.
+- `doi` 를 비워 두면 제목에 링크가 걸리지 않습니다.
+- `index` 는 `SSCI`, `Scopus`, `KCI` 중 하나거나 빈 문자열입니다.
+
+논문을 지우려면 해당 여덟 줄을 지우면 됩니다. 번호는 알아서 당겨집니다.
 
 ### 연구과제는 수기입니다
 
@@ -246,9 +226,6 @@ bundle exec jekyll serve
 
 ```
 ├── _config.yml          사이트 설정 (주소, 이메일, ORCID, Scholar)
-├── .github/workflows/   논문 목록 주간 자동 갱신
-├── scripts/
-│   └── sync_publications.py   OpenAlex 동기화
 ├── _data/               내용 데이터 — 여기만 고치면 됩니다
 ├── _includes/
 │   ├── head.html        메타 태그와 구조화 데이터
