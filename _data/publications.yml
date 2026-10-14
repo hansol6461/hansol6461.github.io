@@ -27,6 +27,9 @@
   venue: Primary English Education
   detail: 32(3), 75–101
   doi: https://doi.org/10.25231/pee.2026.32.3.075
+  pdf: /assets/papers/2026-pee-pengtalk-meta.pdf
+  pdf_version: author
+  page: /papers/2026-pee-pengtalk-meta/
   index: KCI
 - date: '2026-08-01'
   year: 2026
@@ -101,6 +104,9 @@
   venue: The Defence Horizon Journal
   detail: ''
   doi: https://tdhj.org/blog/post/communication-operations-xr-ai/
+  pdf: /assets/papers/2026-tdhj-xr-ai.pdf
+  pdf_version: author
+  page: /papers/2026-tdhj-xr-ai/
   index: ''
 - date: '2026-05-01'
   year: 2026
@@ -131,6 +137,9 @@
   venue: Primary English Education
   detail: 32(1), 285–305
   doi: https://doi.org/10.25231/pee.2026.32.1.285
+  pdf: /assets/papers/2026-pee-pengtalk-synthesis.pdf
+  pdf_version: author
+  page: /papers/2026-pee-pengtalk-synthesis/
   index: KCI
 - date: '2026-01-03'
   year: 2026
@@ -255,11 +264,13 @@
   index: SSCI
 - date: '2023-12-01'
   year: 2023
-  authors: Kim, J., <strong>Lee, H.</strong>, Cho, S., & Kwack, H.
+  authors: Kim, J., <strong>Lee, H.</strong>, Cho, S., & Kwak, H.
   title: Analysis of combat effectiveness and military application plan of biological signal monitoring and cognition technology
   venue: Journal of the Korea Association of Defense Industry Studies
   detail: 30(3), 93–105
   doi: https://doi.org/10.52798/KADIS.2023.30.3.8
+  pdf: /assets/papers/2023-kadis-biosignal.pdf
+  pdf_version: author
   index: KCI
 - date: '2023-11-01'
   year: 2023
@@ -279,6 +290,9 @@
   venue: English Language Assessment
   detail: 18(1), 97–117
   doi: https://doi.org/10.37244/ela.2023.18.1.97
+  pdf: /assets/papers/2023-ela-wtc.pdf
+  pdf_version: author
+  page: /papers/2023-ela-wtc/
   index: KCI
 - date: '2023-06-01'
   year: 2023
@@ -386,6 +400,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 77(3), 281–305
   doi: https://doi.org/10.31066/kjmas.2021.77.3.011
+  pdf: /assets/papers/2021-kjmas-formative.pdf
+  pdf_version: author
   index: KCI
 - date: '2021-06-01'
   year: 2021
@@ -394,6 +410,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 77(2), 152–170
   doi: https://doi.org/10.31066/kjmas.2021.77.2.006
+  pdf: /assets/papers/2021-kjmas-collocation.pdf
+  pdf_version: author
   index: KCI
 - date: '2020-12-01'
   year: 2020
@@ -431,10 +449,12 @@
 - date: '2020-06-01'
   year: 2020
   authors: <strong>Lee, H.</strong>, & Kim, N.
-  title: 'Exploring language learning strategies in ESP learning via a mixed-methods approach: A case of learning military English'
+  title: 'Exploring the relationship among language learning strategies, motivation, and achievement in ESP learning: A case of learning military English'
   venue: Korean Journal of Military Arts and Science
   detail: 76(2), 283–302
   doi: https://doi.org/10.31066/kjmas.2020.76.2.012
+  pdf: /assets/papers/2020-kjmas-strategies.pdf
+  pdf_version: author
   index: KCI
 - date: '2020-04-01'
   year: 2020
@@ -465,6 +485,8 @@
   venue: English Language Assessment
   detail: 14, 109–132
   doi: https://doi.org/10.37244/ela.2019.14.109
+  pdf: /assets/papers/2019-ela-esp-motivation.pdf
+  pdf_version: author
   index: KCI
 - date: '2019-10-01'
   year: 2019
@@ -572,6 +594,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 68(3), 49–72
   doi: https://doi.org/10.31066/kjmas.2012.68.3.003
+  pdf: /assets/papers/2012-kjmas-combined-ops.pdf
+  pdf_version: author
   index: KCI
 - date: '2012-02-01'
   year: 2012
@@ -580,6 +604,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 68(1), 239–263
   doi: https://doi.org/10.31066/kjmas.2012.68.1.009
+  pdf: /assets/papers/2012-kjmas-military-corpus.pdf
+  pdf_version: author
   index: KCI
 - date: '2011-02-01'
   year: 2011
@@ -588,6 +614,9 @@
   venue: Korean Journal of Military Arts and Science
   detail: 67(1), 1–15
   doi: https://doi.org/10.31066/kjmas.2011.67.1.001
+  pdf: /assets/papers/2011-kjmas-sf-posthumanism.pdf
+  pdf_version: author
+  page: /papers/2011-kjmas-sf-posthumanism/
   index: KCI
 - date: '2010-12-01'
   year: 2010
@@ -596,12 +625,17 @@
   venue: Studies in Humanities
   detail: 27, 209–228
   doi: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001516239
+  pdf: /assets/papers/2010-sih-gawain.pdf
+  pdf_version: author
   index: KCI
 - date: '2009-06-01'
   year: 2009
   authors: <strong>Lee, H.</strong>, & Lee, C.
-  title: A study of military in <em>Utopia</em>
+  title: A study on military in <em>Utopia</em>
   venue: Korean Journal of Military Arts and Science
   detail: 65(2), 135–148
   doi: https://doi.org/10.31066/kjmas.2009.65.2.006
+  pdf: /assets/papers/2009-kjmas-utopia.pdf
+  pdf_version: author
+  page: /papers/2009-kjmas-utopia/
   index: KCI
