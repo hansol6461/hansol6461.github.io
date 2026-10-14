@@ -9,6 +9,17 @@
 # - title   콜론(:)이 들어가면 반드시 작은따옴표로 감싸야 합니다.
 # - doi     비워 두면 제목에 링크가 걸리지 않습니다.
 # - index   SSCI / Scopus / KCI 중 하나거나 빈 문자열.
+- date: '2026-10-08'
+  year: 2026
+  authors: Lee, E., <strong>Lee, H.</strong>, & Lee, J. H.
+  title: 'Effects of speech-enabled LLM-based chatbots on L2 learning outcomes and affective domains: A multilevel meta-analysis'
+  venue: International Review of Applied Linguistics in Language Teaching
+  detail: Advance online publication
+  doi: https://doi.org/10.1515/iral-2026-0172
+  pdf: /assets/papers/2026-iral-speech-llm-chatbots.pdf
+  pdf_version: published
+  page: /papers/2026-iral-speech-llm-chatbots/
+  index: SSCI
 - date: '2026-09-30'
   year: 2026
   authors: <strong>Lee, H.</strong>

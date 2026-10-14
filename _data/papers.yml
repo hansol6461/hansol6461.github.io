@@ -1324,6 +1324,12 @@
   issue: '2'
   lastpage: '1108'
   volume: '36'
+2026-iral-speech-llm-chatbots:
+  abstract: <p>Recent developments in natural language processing and automatic speech recognition have significantly advanced chatbot communication using the voice mode, establishing these tools as viable resources for L2 speaking practice. More recently, the L2 chatbot domain has leveraged large language models (LLMs) to enhance contextual understanding and facilitate meaningful dialogues, prompting research into the effects of speech- and LLM-based chatbots on L2 learning outcomes and affective domains. This study presents a synthesis of these findings using a multilevel meta-analysis. Based on a dataset of 19 studies (32 samples, <i>N</i> = 2,643), the results revealed that the overall effect size for L2 learning outcomes was 0.68 (<i>p</i> &lt; 0.001). The overall effect size for affective domains was 0.64 (<i>p</i> &lt; 0.001). Moreover, moderator analyses indicated that a range of learner and intervention characteristics, including learner proficiency, educational level, interaction format, and context of chatbot use, significantly influenced the overall effectiveness.</p>
+  authors:
+  - Eunjin Lee
+  - Hansol Lee
+  - Jang Ho Lee
 2026-iral-task-sequencing:
   abstract: '<p>Drawing on the SSARC model, TBLT research has investigated the role
 
