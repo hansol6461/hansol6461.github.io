@@ -9,6 +9,17 @@
 # - title   콜론(:)이 들어가면 반드시 작은따옴표로 감싸야 합니다.
 # - doi     비워 두면 제목에 링크가 걸리지 않습니다.
 # - index   SSCI / Scopus / KCI 중 하나거나 빈 문자열.
+- date: '2026-09-30'
+  year: 2026
+  authors: <strong>Lee, H.</strong>
+  title: 'The educational effects of AI PengTalk on Korean primary English learners: A two-level meta-analysis'
+  venue: Primary English Education
+  detail: 32(3), 75–101
+  doi: https://doi.org/10.25231/pee.2026.32.3.075
+  pdf: /assets/papers/2026-pee-pengtalk-meta.pdf
+  pdf_version: published
+  page: /papers/2026-pee-pengtalk-meta/
+  index: KCI
 - date: '2026-08-01'
   year: 2026
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
@@ -16,6 +27,9 @@
   venue: ReCALL
   detail: 38(3), 366–381
   doi: https://doi.org/10.1017/S0958344026100512
+  pdf: /assets/papers/2026-recall-ahp.pdf
+  pdf_version: published
+  page: /papers/2026-recall-ahp/
   index: SSCI
 - date: '2026-07-15'
   year: 2026
@@ -24,6 +38,9 @@
   venue: Applied Psycholinguistics
   detail: 47, e28
   doi: https://doi.org/10.1017/S0142716426100666
+  pdf: /assets/papers/2026-ap-depth-of-processing.pdf
+  pdf_version: published
+  page: /papers/2026-ap-depth-of-processing/
   index: SSCI
 - date: '2026-07-02'
   year: 2026
@@ -32,6 +49,9 @@
   venue: Korean Journal of English Language and Linguistics
   detail: 26, 875–893
   doi: https://doi.org/10.15738/kjell.26..202607.875
+  pdf: /assets/papers/2026-kjell-svr.pdf
+  pdf_version: published
+  page: /papers/2026-kjell-svr/
   index: Scopus
 - date: '2026-07-01'
   year: 2026
@@ -40,6 +60,9 @@
   venue: Language Learning & Technology
   detail: 30(1), 1–19
   doi: https://doi.org/10.64152/10125/73697
+  pdf: /assets/papers/2026-llt-chatbot-design.pdf
+  pdf_version: published
+  page: /papers/2026-llt-chatbot-design/
   index: SSCI
 - date: '2026-06-02'
   year: 2026
@@ -48,6 +71,9 @@
   venue: International Review of Applied Linguistics in Language Teaching
   detail: 64(2), 819–867
   doi: https://doi.org/10.1515/iral-2024-0219
+  pdf: /assets/papers/2026-iral-task-sequencing.pdf
+  pdf_version: author
+  page: /papers/2026-iral-task-sequencing/
   index: SSCI
 - date: '2026-06-01'
   year: 2026
@@ -56,6 +82,9 @@
   venue: Language Awareness
   detail: 35(2), 692–711
   doi: https://doi.org/10.1080/09658416.2025.2574010
+  pdf: /assets/papers/2026-la-wtc-chatbot.pdf
+  pdf_version: author
+  page: /papers/2026-la-wtc-chatbot/
   index: SSCI
 - date: '2026-05-02'
   year: 2026
@@ -72,6 +101,9 @@
   venue: International Journal of Applied Linguistics
   detail: 36(2), 1092–1108
   doi: https://doi.org/10.1111/ijal.12837
+  pdf: /assets/papers/2026-ijal-task-type-order.pdf
+  pdf_version: author
+  page: /papers/2026-ijal-task-type-order/
   index: SSCI
 - date: '2026-04-01'
   year: 2026
@@ -80,6 +112,9 @@
   venue: Learning and Individual Differences
   detail: 127, 102888
   doi: https://doi.org/10.1016/j.lindif.2026.102888
+  pdf: /assets/papers/2026-lid-ddl-masem.pdf
+  pdf_version: author
+  page: /papers/2026-lid-ddl-masem/
   index: SSCI
 - date: '2026-03-01'
   year: 2026
@@ -88,6 +123,9 @@
   venue: Primary English Education
   detail: 32(1), 285–305
   doi: https://doi.org/10.25231/pee.2026.32.1.285
+  pdf: /assets/papers/2026-pee-pengtalk-synthesis.pdf
+  pdf_version: published
+  page: /papers/2026-pee-pengtalk-synthesis/
   index: KCI
 - date: '2026-01-03'
   year: 2026
@@ -96,6 +134,9 @@
   venue: Reading and Writing
   detail: 39(1), 29–67
   doi: https://doi.org/10.1007/s11145-024-10628-2
+  pdf: /assets/papers/2026-rw-task-repetition.pdf
+  pdf_version: author
+  page: /papers/2026-rw-task-repetition/
   index: SSCI
 - date: '2026-01-02'
   year: 2026
@@ -104,6 +145,9 @@
   venue: Oxford Review of Education
   detail: 52(1), 1–19
   doi: https://doi.org/10.1080/03054985.2024.2413109
+  pdf: /assets/papers/2026-ore-study-abroad.pdf
+  pdf_version: author
+  page: /papers/2026-ore-study-abroad/
   index: SSCI
 - date: '2026-01-01'
   year: 2026
@@ -112,6 +156,9 @@
   venue: Language Teaching Research
   detail: 30(1), 92–114
   doi: https://doi.org/10.1177/13621688221143258
+  pdf: /assets/papers/2026-ltr-mindsets-lta.pdf
+  pdf_version: author
+  page: /papers/2026-ltr-mindsets-lta/
   index: SSCI
 - date: '2025-10-02'
   year: 2025
@@ -120,6 +167,9 @@
   venue: Assessing Writing
   detail: 66, 100974
   doi: https://doi.org/10.1016/j.asw.2025.100974
+  pdf: /assets/papers/2025-asw-repetition-lta.pdf
+  pdf_version: author
+  page: /papers/2025-asw-repetition-lta/
   index: SSCI
 - date: '2025-10-01'
   year: 2025
@@ -128,6 +178,9 @@
   venue: System
   detail: 133, 103755
   doi: https://doi.org/10.1016/j.system.2025.103755
+  pdf: /assets/papers/2025-system-emi-he-meta.pdf
+  pdf_version: author
+  page: /papers/2025-system-emi-he-meta/
   index: SSCI
 - date: '2025-05-02'
   year: 2025
@@ -136,22 +189,31 @@
   venue: Educational Research Review
   detail: 47, 100684
   doi: https://doi.org/10.1016/j.edurev.2025.100684
+  pdf: /assets/papers/2025-err-emi-masem.pdf
+  pdf_version: author
+  page: /papers/2025-err-emi-masem/
   index: SSCI
 - date: '2025-05-01'
   year: 2025
-  authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y.
+  authors: Lee, J. H., <strong>Lee, H.</strong>, & Lo, Y. Y.
   title: 'Effects of content and language integrated learning at the primary school level: A multi-level meta-analysis'
   venue: Educational Research Review
   detail: 47, 100666
   doi: https://doi.org/10.1016/j.edurev.2025.100666
+  pdf: /assets/papers/2025-err-clil-primary.pdf
+  pdf_version: author
+  page: /papers/2025-err-clil-primary/
   index: SSCI
 - date: '2025-04-01'
   year: 2025
-  authors: Kaiypova, P., <strong>Lee, H.</strong>, Lo, Y., & Lee, J. H.
+  authors: Kaiypova, F., <strong>Lee, H.</strong>, Lo, Y. Y., & Lee, J. H.
   title: 'Effects of content and language integrated learning on secondary-level students'' content learning: A meta-analysis'
   venue: System
   detail: 129, 103580
   doi: https://doi.org/10.1016/j.system.2024.103580
+  pdf: /assets/papers/2025-system-clil-secondary.pdf
+  pdf_version: author
+  page: /papers/2025-system-clil-secondary/
   index: SSCI
 - date: '2024-08-01'
   year: 2024
@@ -160,6 +222,9 @@
   venue: Review of Educational Research
   detail: 94(4), 467–500
   doi: https://doi.org/10.3102/00346543231186605
+  pdf: /assets/papers/2024-rer-svr-masem.pdf
+  pdf_version: author
+  page: /papers/2024-rer-svr-masem/
   index: SSCI
 - date: '2024-06-01'
   year: 2024
@@ -168,14 +233,20 @@
   venue: Language Learning & Technology
   detail: 28(2), 134–162
   doi: https://hdl.handle.net/10125/73575
+  pdf: /assets/papers/2024-llt-ai-meta.pdf
+  pdf_version: published
+  page: /papers/2024-llt-ai-meta/
   index: SSCI
 - date: '2024-01-01'
   year: 2024
-  authors: Kim, H., <strong>Lee, H.</strong>, & Lee, J. H.
+  authors: Kim, H. S., Lee, J. H., & <strong>Lee, H.</strong>
   title: 'The relative effects of L1 and L2 glosses on L2 learning: A meta-analysis'
   venue: Language Teaching Research
   detail: 28(1), 7–28
   doi: https://doi.org/10.1177/1362168820981394
+  pdf: /assets/papers/2024-ltr-gloss-meta.pdf
+  pdf_version: author
+  page: /papers/2024-ltr-gloss-meta/
   index: SSCI
 - date: '2023-12-01'
   year: 2023
@@ -184,6 +255,8 @@
   venue: Journal of the Korea Association of Defense Industry Studies
   detail: 30(3), 93–105
   doi: https://doi.org/10.52798/KADIS.2023.30.3.8
+  pdf: /assets/papers/2023-kadis-biosignal.pdf
+  pdf_version: published
   index: KCI
 - date: '2023-11-01'
   year: 2023
@@ -192,6 +265,9 @@
   venue: System
   detail: 118, 103154
   doi: https://doi.org/10.1016/j.system.2023.103154
+  pdf: /assets/papers/2023-system-anxiety.pdf
+  pdf_version: author
+  page: /papers/2023-system-anxiety/
   index: SSCI
 - date: '2023-06-02'
   year: 2023
@@ -200,6 +276,9 @@
   venue: English Language Assessment
   detail: 18(1), 97–117
   doi: https://doi.org/10.37244/ela.2023.18.1.97
+  pdf: /assets/papers/2023-ela-wtc.pdf
+  pdf_version: published
+  page: /papers/2023-ela-wtc/
   index: KCI
 - date: '2023-06-01'
   year: 2023
@@ -208,14 +287,20 @@
   venue: Studies in Second Language Learning and Teaching
   detail: 13(2), 317–345
   doi: https://doi.org/10.14746/ssllt.38277
+  pdf: /assets/papers/2023-ssllt-emi-clil.pdf
+  pdf_version: published
+  page: /papers/2023-ssllt-emi-clil/
   index: SSCI
 - date: '2023-05-01'
   year: 2023
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
-  title: 'Interpreting the effectiveness of academic English writing programs in higher education: A meta-analysis'
+  title: 'Interpreting the effectiveness of academic English writing programmes in higher education: A meta-analysis'
   venue: Oxford Review of Education
   detail: 49(3), 281–300
   doi: https://doi.org/10.1080/03054985.2022.2072284
+  pdf: /assets/papers/2023-ore-eap-writing.pdf
+  pdf_version: author
+  page: /papers/2023-ore-eap-writing/
   index: SSCI
 - date: '2023-04-01'
   year: 2023
@@ -224,22 +309,31 @@
   venue: Language Awareness
   detail: 32(2), 217–234
   doi: https://doi.org/10.1080/09658416.2021.2014510
+  pdf: /assets/papers/2023-la-ses.pdf
+  pdf_version: author
+  page: /papers/2023-la-ses/
   index: SSCI
 - date: '2022-12-01'
   year: 2022
   authors: Jin, S., & <strong>Lee, H.</strong>
-  title: 'Willingness to communicate and its correlates: A meta-analytic structural equation modeling approach'
+  title: 'Willingness to communicate and its high-evidence factors: A meta-analytic structural equation modeling approach'
   venue: Journal of Language and Social Psychology
   detail: 41(6), 716–745
   doi: https://doi.org/10.1177/0261927X221092098
+  pdf: /assets/papers/2022-jlsp-wtc-masem.pdf
+  pdf_version: author
+  page: /papers/2022-jlsp-wtc-masem/
   index: SSCI
 - date: '2022-11-01'
   year: 2022
   authors: <strong>Lee, H.</strong>, Jung, G., & Lee, J. H.
-  title: 'Simple view of second language reading: A meta-analytic structural equation modeling'
+  title: 'Simple view of second language reading: A meta-analytic structural equation modeling approach'
   venue: Scientific Studies of Reading
   detail: 26(6), 585–603
   doi: https://doi.org/10.1080/10888438.2022.2087526
+  pdf: /assets/papers/2022-ssr-svr.pdf
+  pdf_version: author
+  page: /papers/2022-ssr-svr/
   index: SSCI
 - date: '2022-09-01'
   year: 2022
@@ -248,14 +342,20 @@
   venue: Studies in Second Language Learning and Teaching
   detail: 12(3), 435–458
   doi: https://doi.org/10.14746/ssllt.2022.12.3.5
+  pdf: /assets/papers/2022-ssllt-motivation-vls.pdf
+  pdf_version: published
+  page: /papers/2022-ssllt-motivation-vls/
   index: SSCI
 - date: '2022-06-01'
   year: 2022
   authors: Lee, J. H., & <strong>Lee, H.</strong>
-  title: 'Teachers'' verbal lexical explanation for L2 vocabulary learning: A meta-analysis'
+  title: 'Teachers’ verbal lexical explanation for second language vocabulary learning: A meta-analysis'
   venue: Language Learning
   detail: 72(2), 576–612
   doi: https://doi.org/10.1111/lang.12493
+  pdf: /assets/papers/2022-ll-lexical-explanation.pdf
+  pdf_version: author
+  page: /papers/2022-ll-lexical-explanation/
   index: SSCI
 - date: '2022-02-01'
   year: 2022
@@ -264,6 +364,9 @@
   venue: Educational Research Review
   detail: 35, 100425
   doi: https://doi.org/10.1016/j.edurev.2021.100425
+  pdf: /assets/papers/2022-err-rall.pdf
+  pdf_version: author
+  page: /papers/2022-err-rall/
   index: SSCI
 - date: '2022-01-01'
   year: 2022
@@ -272,6 +375,9 @@
   venue: ELT Journal
   detail: 76(1), 119–124
   doi: https://doi.org/10.1093/elt/ccab041
+  pdf: /assets/papers/2022-eltj-social-robots.pdf
+  pdf_version: author
+  page: /papers/2022-eltj-social-robots/
   index: SSCI
 - date: '2021-10-01'
   year: 2021
@@ -280,6 +386,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 77(3), 281–305
   doi: https://doi.org/10.31066/kjmas.2021.77.3.011
+  pdf: /assets/papers/2021-kjmas-formative.pdf
+  pdf_version: published
   index: KCI
 - date: '2021-06-01'
   year: 2021
@@ -288,30 +396,41 @@
   venue: Korean Journal of Military Arts and Science
   detail: 77(2), 152–170
   doi: https://doi.org/10.31066/kjmas.2021.77.2.006
+  pdf: /assets/papers/2021-kjmas-collocation.pdf
+  pdf_version: published
   index: KCI
 - date: '2020-12-01'
   year: 2020
-  authors: Abedi, J., Zhang, Y., Rowe, S., & <strong>Lee, H.</strong>
+  authors: Abedi, J., Zhang, Y., Rowe, S. E., & <strong>Lee, H.</strong>
   title: 'Examining effectiveness and validity of accommodations for English language learners in mathematics: An evidence-based computer accommodation decision system'
   venue: 'Educational Measurement: Issues and Practice'
-  detail: 39(5), 41–52
+  detail: 39(4), 41–52
   doi: https://doi.org/10.1111/emip.12328
+  pdf: /assets/papers/2020-emip-accommodations.pdf
+  pdf_version: author
+  page: /papers/2020-emip-accommodations/
   index: SSCI
 - date: '2020-11-01'
   year: 2020
-  authors: Solanki, S., Fitzpatrick, D., Jones, M., & <strong>Lee, H.</strong>
+  authors: Solanki, S., Fitzpatrick, D., Jones, M. R., & <strong>Lee, H.</strong>
   title: 'Social-psychological interventions in college: A meta-analysis of effects on academic outcomes and heterogeneity by study context and treated population'
   venue: Educational Research Review
   detail: 31, 100359
   doi: https://doi.org/10.1016/j.edurev.2020.100359
+  pdf: /assets/papers/2020-err-social-psych.pdf
+  pdf_version: author
+  page: /papers/2020-err-social-psych/
   index: SSCI
 - date: '2020-07-01'
   year: 2020
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
-  title: 'Towards the establishment of a data-driven learning model: Role of learner factors in corpus-based L2 vocabulary learning'
+  title: 'Toward the establishment of a data-driven learning model: Role of learner factors in corpus-based second language vocabulary learning'
   venue: The Modern Language Journal
   detail: 104(2), 345–362
   doi: https://doi.org/10.1111/modl.12634
+  pdf: /assets/papers/2020-mlj-ddl.pdf
+  pdf_version: author
+  page: /papers/2020-mlj-ddl/
   index: SSCI
 - date: '2020-06-01'
   year: 2020
@@ -320,22 +439,30 @@
   venue: Korean Journal of Military Arts and Science
   detail: 76(2), 283–302
   doi: https://doi.org/10.31066/kjmas.2020.76.2.012
+  pdf: /assets/papers/2020-kjmas-strategies.pdf
+  pdf_version: published
   index: KCI
 - date: '2020-04-01'
   year: 2020
-  authors: <strong>Lee, H.</strong>, Chung, H., Zhang, Y., Abedi, J., & Warschauer, M.
+  authors: <strong>Lee, H.</strong>, Chung, H. Q., Zhang, Y., Abedi, J., & Warschauer, M.
   title: 'The effectiveness and features of formative assessment in US K-12 education: A systematic review'
   venue: Applied Measurement in Education
   detail: 33(2), 124–140
   doi: https://doi.org/10.1080/08957347.2020.1732383
+  pdf: /assets/papers/2020-ame-formative.pdf
+  pdf_version: author
+  page: /papers/2020-ame-formative/
   index: SSCI
 - date: '2020-03-01'
   year: 2020
-  authors: Kim, Y.-S. G., <strong>Lee, H.</strong>, & Zuilkowsky, S. S.
+  authors: Kim, Y.-S. G., <strong>Lee, H.</strong>, & Zuilkowski, S. S.
   title: 'Impact of literacy interventions on reading skills in low- and middle-income countries: A meta-analysis'
   venue: Child Development
   detail: 91(2), 638–660
   doi: https://doi.org/10.1111/cdev.13204
+  pdf: /assets/papers/2020-cdev-literacy.pdf
+  pdf_version: author
+  page: /papers/2020-cdev-literacy/
   index: SSCI
 - date: '2019-12-01'
   year: 2019
@@ -344,6 +471,8 @@
   venue: English Language Assessment
   detail: 14, 109–132
   doi: https://doi.org/10.37244/ela.2019.14.109
+  pdf: /assets/papers/2019-ela-esp-motivation.pdf
+  pdf_version: published
   index: KCI
 - date: '2019-10-01'
   year: 2019
@@ -352,14 +481,20 @@
   venue: Applied Linguistics
   detail: 40(5), 721–753
   doi: https://doi.org/10.1093/applin/amy012
+  pdf: /assets/papers/2019-al-corpus-meta.pdf
+  pdf_version: author
+  page: /papers/2019-al-corpus-meta/
   index: SSCI
 - date: '2019-05-01'
   year: 2019
   authors: <strong>Lee, H.</strong>, Warschauer, M., & Lee, J. H.
-  title: 'Advancing CALL research via data mining techniques: Unearthing hidden groups of learners in a corpus-based L2 vocabulary learning experiment'
+  title: 'Advancing CALL research via data-mining techniques: Unearthing hidden groups of learners in a corpus-based L2 vocabulary learning experiment'
   venue: ReCALL
   detail: 31(2), 135–149
   doi: https://doi.org/10.1017/S0958344018000162
+  pdf: /assets/papers/2019-recall-clustering.pdf
+  pdf_version: author
+  page: /papers/2019-recall-clustering/
   index: SSCI
 - date: '2019-03-01'
   year: 2019
@@ -368,6 +503,9 @@
   venue: Annual Review of Applied Linguistics
   detail: 39, 93–112
   doi: https://doi.org/10.1017/S0267190519000023
+  pdf: /assets/papers/2019-aral-data-mining.pdf
+  pdf_version: author
+  page: /papers/2019-aral-data-mining/
   index: SSCI
 - date: '2017-06-01'
   year: 2017
@@ -376,6 +514,9 @@
   venue: Language Learning & Technology
   detail: 21(2), 32–51
   doi: https://dx.doi.org/10125/44610
+  pdf: /assets/papers/2017-llt-concordance-glosses.pdf
+  pdf_version: published
+  page: /papers/2017-llt-concordance-glosses/
   index: SSCI
 - date: '2017-05-01'
   year: 2017
@@ -384,6 +525,9 @@
   venue: 'English Teaching: Practice and Critique'
   detail: 16(1), 55–71
   doi: https://doi.org/10.1108/ETPC-05-2016-0064
+  pdf: /assets/papers/2017-etpc-sentence-combining.pdf
+  pdf_version: author
+  page: /papers/2017-etpc-sentence-combining/
   index: SSCI
 - date: '2016-08-01'
   year: 2016
@@ -392,14 +536,20 @@
   venue: The Asia-Pacific Education Researcher
   detail: 25(4), 499–507
   doi: https://doi.org/10.1007/s40299-015-0270-1
+  pdf: /assets/papers/2016-taper-glosses.pdf
+  pdf_version: author
+  page: /papers/2016-taper-glosses/
   index: SSCI
 - date: '2015-12-01'
   year: 2015
   authors: <strong>Lee, H.</strong>, & Lee, J. H.
-  title: The effects of different glossing formats on foreign language vocabulary acquisition
+  title: 'The effects of electronic glossing types on foreign language vocabulary learning: Different types of format and glossary information'
   venue: The Asia-Pacific Education Researcher
   detail: 24(4), 591–601
   doi: https://doi.org/10.1007/s40299-014-0204-3
+  pdf: /assets/papers/2015-taper-glossing.pdf
+  pdf_version: author
+  page: /papers/2015-taper-glossing/
   index: SSCI
 - date: '2015-06-01'
   year: 2015
@@ -408,6 +558,9 @@
   venue: Language Learning & Technology
   detail: 19(2), 1–15
   doi: https://dx.doi.org/10125/44411
+  pdf: /assets/papers/2015-llt-concordancer.pdf
+  pdf_version: published
+  page: /papers/2015-llt-concordancer/
   index: SSCI
 - date: '2013-10-01'
   year: 2013
@@ -416,6 +569,9 @@
   venue: Language Learning & Technology
   detail: 17(3), 6–22
   doi: https://dx.doi.org/10125/44334
+  pdf: /assets/papers/2013-llt-mall-glossing.pdf
+  pdf_version: published
+  page: /papers/2013-llt-mall-glossing/
   index: SSCI
 - date: '2012-10-01'
   year: 2012
@@ -424,6 +580,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 68(3), 49–72
   doi: https://doi.org/10.31066/kjmas.2012.68.3.003
+  pdf: /assets/papers/2012-kjmas-combined-ops.pdf
+  pdf_version: published
   index: KCI
 - date: '2012-02-01'
   year: 2012
@@ -432,6 +590,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 68(1), 239–263
   doi: https://doi.org/10.31066/kjmas.2012.68.1.009
+  pdf: /assets/papers/2012-kjmas-military-corpus.pdf
+  pdf_version: published
   index: KCI
 - date: '2011-02-01'
   year: 2011

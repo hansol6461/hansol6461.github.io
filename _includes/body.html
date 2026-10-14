@@ -56,6 +56,12 @@
           <em>{{ p.venue }}</em>{% if p.detail and p.detail != "" %}, {{ p.detail }}{% endif %}
           {%- if p.index and p.index != "" %} <span class="tag">{{ p.index }}</span>{% endif %}
         </p>
+        {%- if p.pdf and p.pdf != "" %}
+        <p class="pub-x">
+          <a href="{{ p.pdf | relative_url }}">PDF{% if p.pdf_version == "author" %} (author version){% endif %}</a>
+          {%- if p.page and p.page != "" %}<a href="{{ p.page | relative_url }}">Abstract</a>{% endif %}
+        </p>
+        {%- endif %}
       </div>
     </li>
     {%- endfor %}

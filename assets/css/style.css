@@ -595,3 +595,18 @@ a:focus-visible {
   .nav, .filter, .lang, .skip { display: none; }
   body { background: #fff; }
 }
+
+/* ── publication PDF links and per-paper pages ─────────── */
+.pub-x { margin: .3rem 0 0; font-family: var(--f-mono); font-size: .7rem; letter-spacing: .04em; }
+.pub-x a { margin-right: .9rem; }
+.paper-page { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1rem 4rem; }
+.paper-back { font-family: var(--f-mono); font-size: .75rem; margin: 0 0 2rem; }
+.paper-title { font-family: var(--f-disp); font-weight: 500; font-size: 1.7rem; line-height: 1.25; margin: 0 0 .8rem; }
+.paper-auth { margin: 0 0 .2rem; color: var(--ink); }
+.paper-venue { margin: 0 0 1.2rem; color: var(--slate); }
+.paper-links { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 .6rem; }
+.btn { display: inline-block; font-family: var(--f-mono); font-size: .78rem; padding: .45rem .8rem; background: var(--ink); color: var(--paper); border: 1px solid var(--ink); }
+.btn-o { background: transparent; color: var(--ink); }
+.paper-note { font-size: .82rem; color: var(--slate); margin: 0 0 1.6rem; }
+.paper-h { font-family: var(--f-disp); font-weight: 500; font-size: 1.15rem; margin: 1.6rem 0 .5rem; }
+.paper-abs p { line-height: 1.6; margin: 0 0 .8rem; }

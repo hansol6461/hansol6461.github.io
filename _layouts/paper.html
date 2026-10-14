@@ -1,0 +1,52 @@
+{%- assign pp = site.data.papers[page.slug] -%}
+{%- assign pub = site.data.publications | where: "page", page.url | first -%}
+{%- assign t = site.data.i18n.en -%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pub.title | strip_html }} | {{ site.name }}</title>
+<meta name="description" content="{{ pp.abstract | strip_html | strip_newlines | truncate: 300 }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- comment %} Google Scholar inclusion tags (Highwire Press) {% endcomment %}
+<meta name="citation_title" content="{{ pub.title | strip_html }}">
+{%- for a in pp.authors %}
+<meta name="citation_author" content="{{ a }}">
+{%- endfor %}
+<meta name="citation_publication_date" content="{{ pub.date | date: '%Y/%m/%d' }}">
+<meta name="citation_journal_title" content="{{ pub.venue | strip_html }}">
+{%- if pp.volume and pp.volume != "" %}<meta name="citation_volume" content="{{ pp.volume }}">{% endif %}
+{%- if pp.issue and pp.issue != "" %}<meta name="citation_issue" content="{{ pp.issue }}">{% endif %}
+{%- if pp.firstpage and pp.firstpage != "" %}<meta name="citation_firstpage" content="{{ pp.firstpage }}">{% endif %}
+{%- if pp.lastpage and pp.lastpage != "" %}<meta name="citation_lastpage" content="{{ pp.lastpage }}">{% endif %}
+{%- if pub.doi contains "doi.org/" %}<meta name="citation_doi" content="{{ pub.doi | split: 'doi.org/' | last }}">{% endif %}
+<meta name="citation_pdf_url" content="{{ pub.pdf | absolute_url }}">
+<meta name="citation_abstract_html_url" content="{{ page.url | absolute_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<div class="paper-page">
+  <p class="paper-back"><a href="{{ '/#publications' | relative_url }}">← {{ site.name }} · Publications</a></p>
+  <h1 class="paper-title">{{ pub.title }}</h1>
+  <p class="paper-auth">{{ pp.authors | join: ", " }}</p>
+  <p class="paper-venue"><em>{{ pub.venue }}</em>{% if pub.detail and pub.detail != "" %}, {{ pub.detail }}{% endif %} ({{ pub.year }})</p>
+  <p class="paper-links">
+    <a class="btn" href="{{ pub.pdf | relative_url }}">PDF{% if pub.pdf_version == "author" %} (author version){% endif %}</a>
+    {%- if pub.doi and pub.doi != "" %}
+    <a class="btn btn-o" href="{{ pub.doi }}" target="_blank" rel="noopener">Version of record<span class="ext" aria-hidden="true">↗</span></a>
+    {%- endif %}
+  </p>
+  {%- if pub.pdf_version == "author" %}
+  <p class="paper-note">The PDF is the authors’ version of this article. It differs from the published article in layout and pagination; please cite the published version.</p>
+  {%- endif %}
+  {%- if pp.abstract and pp.abstract != "" %}
+  <h2 class="paper-h">Abstract</h2>
+  <div class="paper-abs">{{ pp.abstract }}</div>
+  {%- endif %}
+</div>
+</body>
+</html>

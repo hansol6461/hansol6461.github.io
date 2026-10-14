@@ -1,0 +1,1593 @@
+2013-llt-mall-glossing:
+  abstract: '<p>While mobile technology, such as the touch-based smart-phone, has become part of our daily lives, research into and classroom practices surrounding mobile-assisted language learning (MALL) have generally not kept up with the pace of technological development. This situation may be caused in part by the fact that a considerable proportion of researchers and teachers have not had personal experience with the newly developing technology. In order to improve this situation, the present paper provides comprehensible and useful directions for building web-based reading materials with integrated electronic glossing, with which readers can create their own web-based materials. The authors provide methodological descriptions and discussions of how to implement two useful formats of electronic glossing: (a) hyperlinks to target iframe and (b) tooltips by touching in web pages. The directions are carefully written so that these two formats of glossing work properly in both PC and mobile device environments. Lastly, the authors urge researchers and teachers to be more actively involved in the field of MALL and look forward to future work bridging the gap between computer-assisted language learning and mobile-assisted language learning.</p>'
+  authors:
+  - Lee, H.
+  - Lee, J. H.
+  firstpage: '6'
+  issue: '3'
+  lastpage: '22'
+  volume: '17'
+2015-llt-concordancer:
+  abstract: '<p>The present article deals with the issue of how to create and operate a customizable on-line concordancer from viewpoints of language teachers and with their own laptops. It aims to introduce how to use and manage this application without relying on computer engineers for various pedagogical purposes, focusing on the four beneficial dimensions of its interface and technical features: accessibility, simplicity, functionality, and manageability. In addition, the carefully written directions illustrate how to implement this open-source application on laptops using pre-established or customized corpora. For those in the field of language teaching and learning, this application is designed to allow teachers to operate different types or levels of corpora in separate spaces on one server and to enable multiple simultaneous connections in classroom contexts. Ultimately, the authors believe that this application will not only allow students to actively experience data-driven learning anywhere and anytime, but also will help teachers manage their own version of this on-line concordancer by autonomously uploading any kinds of source texts for corpus analysis at their pedagogical discretion.</p>'
+  authors:
+  - Lee, J. H.
+  - Lee, H.
+  - Sert, C.
+  firstpage: '1'
+  issue: '2'
+  lastpage: '15'
+  volume: '19'
+2015-taper-glossing:
+  abstract: '<p>This study investigated the effects of three different types of
+
+    electronic textual glosses, tooltip-type glossing, frame-type glossing,
+
+    and concordance glossing on foreign language vocabulary learning. While
+
+    the first two glossing types provide the definitions of glossed words,
+
+    with the only difference being their user interface designs, the third
+
+    type provides authentic concordance sentences for glossed words. A total
+
+    of 83 university students of English as a foreign language (EFL)
+
+    participated in the study. They completed a computer-based reading task,
+
+    meaning-recall vocabulary tests at three different points in time, and a
+
+    post-reading questionnaire. The results showed that the intermediate EFL
+
+    learners were affected not by a difference in terms of glossing formats,
+
+    but by the type of information provided, with tooltip-type and
+
+    frame-type glosses bringing about more positive learning outcomes. While
+
+    the three groups all experienced a similar cognitive load, the findings
+
+    further revealed that the tooltip-type and frame-type groups made
+
+    greater gains of target vocabulary than their concordance counterpart.
+
+    Moreover, the participants from the two former groups consequently rated
+
+    their respective glossing more positively than those from the latter
+
+    group.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '591'
+  issue: '4'
+  lastpage: '601'
+  volume: '24'
+2016-taper-glosses:
+  abstract: '<p>Second language studies have supported the use of glossing for
+
+    enhancing vocabulary learning. Along with technological developments, an
+
+    increasing number of studies have examined electronic textual glossing
+
+    in computer-assisted environments, yet only a small number of studies
+
+    have compared electronic glossing to its traditional paper counterpart.
+
+    In the present study, we examined the effectiveness of electronic and
+
+    paper textual glosses on second language vocabulary learning and reading
+
+    comprehension within a cognitive load theory framework. We adopted an
+
+    experimental design using Korean undergraduate learners of English as a
+
+    foreign language, who read a target text under one of the three reading
+
+    conditions: electronic gloss, paper gloss, and no gloss. The results
+
+    showed that the electronic glossing condition resulted in the greatest
+
+    gains of vocabulary. The electronic glossing condition was also the most
+
+    efficient in light of the cognitive load framework, showing the highest
+
+    instructional efficiency. However, there were no significant differences
+
+    among the three reading conditions for measures related to reading
+
+    comprehension.</p>'
+  authors:
+  - Ho Lee
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '499'
+  issue: '4'
+  lastpage: '507'
+  volume: '25'
+2017-etpc-sentence-combining:
+  abstract: '<p><strong>Purpose –</strong> The purpose of this paper is to examine
+
+    the effects of sentence combining (SC) and sentence decombining (SD)
+
+    activities on fostering reading comprehension. As a widely used writing
+
+    activity for enhancing syntactic fluency in English Language Arts (ELA)
+
+    classes, SC requires learners to combine short sentences into longer and
+
+    more complex sentences, while SD requires learners to break down a long
+
+    sentence into the shortest grammatically allowable sentences.</p>
+
+    <p><strong>Design/methodology/approach –</strong> This study assessed
+
+    the effects of SD and SC in comparison with a control group on the
+
+    improvement of reading comprehension ability among college students
+
+    learning English as their second language (L2) in the context of a
+
+    six-week English language learning program. Participants with overall
+
+    intermediate English language proficiency were randomly assigned to one
+
+    of three different conditions: SC, SD and control. Also, a subset of the
+
+    participants was interviewed after the intervention.</p>
+
+    <p><strong>Findings –</strong> The results showed that SD was more
+
+    effective than SC or control condition in enhancing syntactic knowledge
+
+    and reading comprehension, as measured by a standardized English
+
+    proficiency test. Data obtained from post-study interviews further
+
+    suggested that only SD was perceived by the participants as having
+
+    enhanced their reading comprehension.</p>
+
+    <p><strong>Originality/value –</strong> The present study provides a
+
+    valuable addition to a body of research on sentence manipulation
+
+    activities in ELA classes. For those L2 learners who have passed a
+
+    pre-intermediate threshold level, SD appears to be more beneficial than
+
+    SC in enhancing syntactic knowledge, which, in turn, appears to
+
+    contribute to better reading comprehension.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '55'
+  issue: '1'
+  lastpage: '71'
+  volume: '16'
+2017-llt-concordance-glosses:
+  abstract: <p>The present study investigates the effects of two different vocabulary learning conditions in digital reading environments equipped with electronic textual glossing. The first condition presents the concordance lines of a target lexical item, thereby making learners infer its meaning by reading the referenced sentences. The second condition additionally offers the definition of a target lexical item after learners consult the concordance lines, thus enabling learners to confirm their meaning inference. A total of 138 English as a Foreign Language students completed a meaning-recall vocabulary pre-test, and three different reading tasks, which were followed by meaning-recall vocabulary post-tests in a repeated measures design with a control condition. Overall, the findings showed that the second condition resulted in higher vocabulary gains than both the first condition and the control condition. Yet, a closer look at the interactions of (a) the participants’ clicking behaviors, (b) the difficulty of selected concordance lines, (c) the surrounding contexts around target lexical items, and (d) the participants’ prior knowledge of the target lexical items showed that each target lexical item may require different treatments for it to be recalled most efficiently and effectively. Through this investigation, the present study suggests that glossary information, such as concordance lines, may involve more complex and unexpected learner interactions.</p>
+  authors:
+  - Lee, H.
+  - Warschauer, M.
+  - Lee, J. H.
+  firstpage: '32'
+  issue: '2'
+  lastpage: '51'
+  volume: '21'
+2019-al-corpus-meta:
+  abstract: '<p>This study investigates the effects of corpus use on second language
+
+    (L2) vocabulary learning as well as the influence of moderators on
+
+    effectiveness. Based on 29 studies representing 38 unique samples, all
+
+    of which met several criteria for inclusion (e.g. with control groups),
+
+    we found an overall positive medium-sized effect of corpus use on L2
+
+    vocabulary learning for both short-term (77 posttest effect sizes;
+
+    Hedges’ <em>g</em> = 0.74, <em>SE</em> = 0.09, <em>p</em> &lt; .001) and
+
+    long-term periods (34 follow-up effect sizes; Hedges’ <em>g</em> = 0.64,
+
+    <em>SE</em> = 0.17, <em>p</em> &lt; .001). Furthermore, large variation
+
+    in adjusted mean effect sizes across moderators was revealed. Above all,
+
+    for the different dimensions of L2 vocabulary knowledge, in-depth
+
+    knowledge (i.e. referential meanings as well as syntactic features of
+
+    vocabulary) was associated with a large effect size. Moreover, the
+
+    results revealed that learners’ L2 proficiency and several features of
+
+    corpus use (i.e. interaction types, corpus types, training, and
+
+    duration) influence the magnitude of the effectiveness of corpus use in
+
+    improving L2 vocabulary learning.</p>'
+  authors:
+  - Hansol Lee
+  - Mark Warschauer
+  - Jang Ho Lee
+  firstpage: '721'
+  issue: '5'
+  lastpage: '753'
+  volume: '40'
+2019-aral-data-mining:
+  abstract: '<p>This paper will review the role of data mining in research on second
+
+    language learning. Following a general introduction to the topic, three
+
+    areas of data mining research will be summarized—clustering techniques,
+
+    text-mining, and social network analysis—with examples from both the
+
+    broader field and studies conducted by the authors. The application of
+
+    data mining in second language learning research is relatively new, and
+
+    more theoretical and empirical support is needed in the appropriate
+
+    collection, use, and interpretation of data for specific research and
+
+    pedagogical objectives. The three examples that we introduce illustrate
+
+    how new data sources accessible in online environments can be analyzed
+
+    to better understand the optimal instructional context for corpus-based
+
+    vocabulary learning (clustering technique), characteristics and patterns
+
+    of collaborative written interaction using Google Docs (text mining and
+
+    visualizations), and issues of access and community in computer-mediated
+
+    discussion (social network analysis). Implications of these new
+
+    techniques for L2 research will be discussed.</p>'
+  authors:
+  - Mark Warschauer
+  - Soobin Yim
+  - Hansol Lee
+  - Binbin Zheng
+  firstpage: '93'
+  issue: ''
+  lastpage: '112'
+  volume: '39'
+2019-recall-clustering:
+  abstract: '<p>In this study, we used a data-mining approach to identify hidden
+
+    groups in a corpus-based second-language (L2) vocabulary experiment.
+
+    After a vocabulary pre-test, a total of 132 participants performed three
+
+    online reading tasks (in random orders) equipped with the following
+
+    glossary types: (1) concordance lines and definitions of target lexical
+
+    items, (2) concordance lines of target lexical items, and (3) no
+
+    glossary information. Although the results of a previous study based on
+
+    variable-centred analysis (i.e. multiple regression analysis) revealed
+
+    that more glossary information could lead to better learning outcomes
+
+    (Lee, Warschauer &amp; Lee, 2017), using a model-based clustering
+
+    technique in the present study allowed us to unearth learner types not
+
+    identified in the previous analysis. Instead of the performance pattern
+
+    found in the previous study (more glossary led to higher gains), we
+
+    identified one learner group who exhibited their ability to make
+
+    successful use of concordance lines (and thus are optimized for
+
+    data-driven learning, or DDL; Johns, 1991), and another group who showed
+
+    limited L2 vocabulary learning when exposed to concordance lines only.
+
+    Further, our results revealed that L2 proficiency intersects with
+
+    vocabulary gains of different learner types in complex ways. Therefore,
+
+    using this technique in computer-assisted language learning (CALL)
+
+    research to understand differential effects of accommodations can help
+
+    us better identify hidden learner types and provide personalized CALL
+
+    instruction.</p>'
+  authors:
+  - Hansol Lee
+  - Mark Warschauer
+  - Jang Ho Lee
+  firstpage: '135'
+  issue: '2'
+  lastpage: '149'
+  volume: '31'
+2020-ame-formative:
+  abstract: '<p>In the present article, we present a systematical review of previous
+
+    empirical studies that conducted formative assessment interventions to
+
+    improve student learning. Previous meta-analysis research on the overall
+
+    effects of formative assessment on student learning has been conclusive,
+
+    but little has been studied on important features of formative
+
+    assessment interventions and their differential impacts on student
+
+    learning in the United States’ K-12 education system. Analysis of the
+
+    identified 126 effect sizes from the selected 33 studies representing 25
+
+    research projects that met the inclusion criteria (e.g., included a
+
+    control condition) revealed an overall small-sized positive effect of
+
+    formative assessment on student learning (<em>d</em> = .29) with
+
+    benefits for mathematics (<em>d</em> = .34), literacy (<em>d</em> =
+
+    .33), and arts (<em>d</em> = .29). Further investigation with
+
+    meta-regression analyses indicated that supporting student-initiated
+
+    self-assessment (<em>d</em> = .61) and providing formal formative
+
+    assessment evidence (e.g., written feedback on quizzes; <em>d</em> =
+
+    .40) via a medium-cycle length (within or between instructional units;
+
+    <em>d</em> = .52) were found to enhance the effectiveness of formative
+
+    assessments.</p>'
+  authors:
+  - Hansol Lee
+  - Huy Q. Chung
+  - Yu Zhang
+  - Jamal Abedi
+  - Mark Warschauer
+  firstpage: '124'
+  issue: '2'
+  lastpage: '140'
+  volume: '33'
+2020-cdev-literacy:
+  abstract: '<p>Reading skills are foundational for daily lives, academic
+
+    achievement, and careers. In this study, we systematically reviewed
+
+    literacy interventions in low- and middle-income countries, and
+
+    estimated their effects on children’s reading skills using a
+
+    meta-analytic approach. A total of 67 studies (<em>N</em> = 213,464)
+
+    from 32 countries found in various databases (e.g., PsycINFO, ERIC) and
+
+    sources (e.g., United States Agency for International Development) met
+
+    our inclusion criteria. The results revealed an overall effect of .30
+
+    across various literacy outcomes. Effects varied for different outcomes,
+
+    such that largest effects were found in emergent literacy skills (e.g.,
+
+    .40) and the smallest effects in reading comprehension (.25) and oral
+
+    language skills (.20). Effects also varied as a function of other
+
+    features such as teacher training support.</p>'
+  authors:
+  - Young-Suk G. Kim
+  - Hansol Lee
+  - Stephanie S. Zuilkowski
+  firstpage: '638'
+  issue: '2'
+  lastpage: '660'
+  volume: '91'
+2020-emip-accommodations:
+  abstract: '<p>Research indicates that the performance-gap between English Language
+
+    Learners (ELLs) and their non-ELL peers is partly due to ELLs’
+
+    difficulty in understanding assessment language. Accommodations have
+
+    been shown to narrow this performance-gap, but many accommodations
+
+    studies have not used a randomized design and are based on relatively
+
+    small sample sizes. Addressing such issues, we administered a
+
+    standard-based mathematics assessment to approximately 3,000 Grade 9 ELL
+
+    and non-ELL students under five different language-based accommodations.
+
+    Results indicate that many of these accommodations did not produce
+
+    significant gains for the recipients. Some even had a negative impact.
+
+    We believe several factors may explain these findings. First, newer
+
+    assessments, including those developed for this study, may have been
+
+    linguistically modified to the point that further modification has only
+
+    a limited effect. Second, the language of instruction may have not
+
+    adequately prepared students for the assessment. If the language of
+
+    instruction (textbook, etc.) contains unnecessary linguistic complexity,
+
+    then students may not have had the opportunity to learn the assessed
+
+    content. A third factor is students’ unfamiliarity with these
+
+    accommodations because they are seldom used in classroom instruction and
+
+    teacher assessments. We discuss our findings and implications for
+
+    policymakers, assessment developers, practitioners, and researchers.</p>'
+  authors:
+  - Jamal Abedi
+  - Yu Zhang
+  - Susan E. Rowe
+  - Hansol Lee
+  firstpage: '41'
+  issue: '4'
+  lastpage: '52'
+  volume: '39'
+2020-err-social-psych:
+  abstract: ''
+  authors:
+  - Sabrina Solanki
+  - Dan Fitzpatrick
+  - Masha R. Jones
+  - Hansol Lee
+  firstpage: '100359'
+  issue: ''
+  lastpage: ''
+  volume: '31'
+2020-mlj-ddl:
+  abstract: '<p>We investigated how learner factors, such as vocabulary proficiency,
+
+    strategy use, and working memory, are associated with successful
+
+    corpus-based second language (L2) vocabulary learning, in which learners
+
+    are encouraged to analyze and explore large, structured collections of
+
+    authentic language data (i.e., corpora) to resolve their lexical issues
+
+    (i.e., data-driven learning [DDL]). After measuring L2 vocabulary
+
+    proficiency and working memory capacity, 35 South Korean college
+
+    students performed a DDL activity during an English reading task using a
+
+    think-aloud protocol to document their strategy use. Through this we
+
+    identified participants’ lexical inferencing strategy use, including
+
+    DDL-focused strategies, based on qualitative coding. Using path
+
+    analysis, we identified that participants’ DDL-focused strategy use
+
+    largely influenced their vocabulary acquisition and retention,
+
+    highlighting the pedagogical advantages of these strategies for
+
+    successful DDL. We found that participants’ L2 vocabulary proficiency
+
+    and working memory contributed to their vocabulary acquisition and
+
+    retention, indicating the roles of these factors in managing cognitive
+
+    load in DDL. Future investigation into the causal relationship between
+
+    improved working memory and corpus-based L2 vocabulary learning and the
+
+    role of other learner factors, including motivation and learning style,
+
+    is needed to extend our understanding of DDL.</p>'
+  authors:
+  - Hansol Lee
+  - Mark Warschauer
+  - Jang Ho Lee
+  firstpage: '345'
+  issue: '2'
+  lastpage: '362'
+  volume: '104'
+2022-eltj-social-robots:
+  abstract: ''
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '119'
+  issue: '1'
+  lastpage: '124'
+  volume: '76'
+2022-err-rall:
+  abstract: '<p>Given the importance of learner–interlocutor interactions, social
+
+    robots have received considerable attention in the field of language
+
+    learning, as this technology can physically accompany learners, is
+
+    equipped with common social behaviors, and can effectively communicate
+
+    with learners for language acquisition. In line with the continuous
+
+    efforts to examine the effects of using social robots in language
+
+    learning, this study is a meta-analysis aiming to integrate the findings
+
+    of previous experimental studies on robot-assisted language learning
+
+    (RALL), focusing on language learning achievement. To this end, we
+
+    selected 12 independent samples (<em>N</em> = 522) from the initial pool
+
+    of 16 empirical studies—including 23 independent samples (<em>N</em> =
+
+    1147)—and computed effect sizes along with their standard errors. The
+
+    results indicated that RALL had a medium-sized average effect
+
+    (<em>d</em> = 0.59, SE = 0.09, 95% CI: 0.41–0.76) compared to non-RALL
+
+    conditions, such as traditional learning conditions without technology
+
+    (e.g., teacher-only) or other technology-mediated conditions (e.g.,
+
+    virtual agents and tablet PCs). We further identified several moderator
+
+    variables (i.e., age group, target language, language domain, robots’
+
+    role, interaction type, type of non-RALL condition), and provided an
+
+    in-depth discussion on how these variables were related to the
+
+    effectiveness of using robots for language learning.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '100425'
+  issue: ''
+  lastpage: ''
+  volume: '35'
+2022-jlsp-wtc-masem:
+  abstract: '<p>This study aimed to synthesize the structural relationships among
+
+    willingness to communicate (WTC) and its high-evidence factors in second
+
+    language (L2) learning contexts by adopting meta-analytic structural
+
+    equation modeling (MASEM). The MASEM approach is designed to construct a
+
+    structural equation model (SEM) to explain correlations between
+
+    variables by pooling correlation coefficients reported in previous
+
+    literature. This study integrated 44 independent samples (<em>N</em> =
+
+    12,094) and built a MASEM model to investigate the structural relations
+
+    of WTC, its three high-evidence factors (learners’ perceived L2
+
+    competence, L2 motivation, and L2 anxiety), and frequency of learners’
+
+    L2 use. The results of meta-analysis successfully supported our proposed
+
+    model of L2 WTC. Furthermore, among the three high-evidence factors, it
+
+    was found that learners’ perceived L2 competence influenced L2 WTC the
+
+    most. In addition, the results of the moderator analyses indicated that
+
+    learners’ L2 proficiency and WTC contexts (inside vs. outside
+
+    classrooms) significantly influenced the relationships between L2 WTC
+
+    and its high-evidence factors. The implications of these results are
+
+    discussed in further depth and detail.</p>'
+  authors:
+  - Seonghan Jin
+  - Hansol Lee
+  firstpage: '716'
+  issue: '6'
+  lastpage: '745'
+  volume: '41'
+2022-ll-lexical-explanation:
+  abstract: '<p>This article reports a meta-analysis of studies on the effects of
+
+    teachers’ verbal lexical explanation (TVLE), as one type of lexical
+
+    focus on form, on second language vocabulary learning. The dataset for
+
+    this meta-analysis included 14 studies, representing a total of 36
+
+    independent samples (<em>N</em> = 3,304). The results of this study
+
+    reveal that TVLE resulted in more vocabulary gains than an absence of
+
+    TVLE, at posttest and delayed posttest. In addition, explanation in the
+
+    first language was more effective than explanation in the second
+
+    language at posttest and delayed posttest. We further identified a range
+
+    of potential moderators that may influence the effects of TVLE. In
+
+    particular, we found that the overall effectiveness of TVLE was greater
+
+    when the degree of vocabulary knowledge was measured through recall
+
+    tests rather than through recognition tests in the long term.</p>'
+  authors:
+  - Jang Ho Lee
+  - Hansol Lee
+  firstpage: '576'
+  issue: '2'
+  lastpage: '612'
+  volume: '72'
+2022-ssllt-motivation-vls:
+  abstract: <p>This study explores the complex relationships between language learning motivation, vocabulary learning strategies, and two components of second language vocabulary knowledge (i.e., vocabulary size and depth), within the framework of self-regulated learning. Responses to questionnaires were gathered from 185 secondary-level Korean adolescent learners of English as a foreign language, regarding their motivation and vocabulary learning strategy use; additionally, the results of their vocabulary size and depth tests were collected. We adopted structural equation modeling for analysis, with vocabulary learning strategies consisting of memory, cognitive, and metacognitive categories, and vocabulary knowledge consisting of vocabulary size and depth. The results showed that motivation directly predicted vocabulary learning strategies and vocabulary knowledge, and indirectly predicted vocabulary knowledge via vocabulary learning strategies. When further classified, intrinsic motivation was found to have a stronger influence on the use of vocabulary learning strategies and vocabulary knowledge than extrinsic motivation. We discuss the implications of increasing learners’ motivation and repertoire of strategies for improving vocabulary size and depth.</p>
+  authors:
+  - Lee, J. H.
+  - Ahn, J.
+  - Lee, H.
+  firstpage: '435'
+  issue: '3'
+  lastpage: '458'
+  volume: '12'
+2022-ssr-svr:
+  abstract: '<p><strong>Purpose:</strong> The present study aimed to systemically
+
+    summarize the structural relationships among correlated components of
+
+    second language (L2) reading comprehension to investigate the extent to
+
+    which the two major components – language comprehension abilities and
+
+    decoding skills – could account for reading comprehension in L2 contexts
+
+    in accordance with the model of Simple View of Reading.</p>
+
+    <p><strong>Method:</strong> We used a meta-analytic structural equation
+
+    modeling. This study included 81 samples (from 67 studies) including
+
+    10,526 participants, and the collected dataset successfully fitted the
+
+    proposed model of Simple View of L2 Reading.</p>
+
+    <p><strong>Results:</strong> L2 comprehension abilities and L2 decoding
+
+    skills accounted for over 60% of the variation in L2 reading
+
+    comprehension, with the former having a larger contribution. Considering
+
+    age and L2 proficiency as moderator variables, it was revealed that L2
+
+    decoding skills played less important roles for more proficient and
+
+    older learners, whereas L2 comprehension abilities maintained their
+
+    importance across different ages and L2 proficiency levels. The
+
+    moderators related to language differences between learners’ first
+
+    language and L2 did not show significant moderating effects.</p>
+
+    <p><strong>Conclusion:</strong> The study presented acceptable model fit
+
+    indices for its models. Future studies can incorporate more pooled
+
+    correlation coefficients and variables to investigate an effective
+
+    instruction for L2 reading.</p>'
+  authors:
+  - Hansol Lee
+  - Geryong Jung
+  - Jang Ho Lee
+  firstpage: '585'
+  issue: '6'
+  lastpage: '603'
+  volume: '26'
+2023-ela-wtc:
+  abstract: <p>In this study, we attempted to measure English learners’ communicative intentions and capabilities (CIC) by adding their English proficiency to their willingness to communicate (WTC) as a predictor of the learners’ English use. In the context of communicative language teaching (CLT), learners’ WTC is considered the key to linking important learner factors such as self-perceived competence, anxiety, and motivation. Given that WTC only accounts for learners’ communicative intentions, we hypothesized that learners’ communicative capabilities (i.e., language proficiency) would be a meaningful addition to measuring overall CIC. To test this hypothesis, we collected a total of 67 samples (N = 17,811) and conducted an analysis using a meta-analytic structural equation modeling (MASEM) approach. The results indicated that the learners’ overall CIC successfully predicted their English use, with a significant path coefficient (β = .525, p = .02). Furthermore, we found that the size of the direct contributions of perceived competence and motivation became non-significantly marginal (ps &gt; .05), indicating that adding learners’ proficiency to the WTC to measure the overall CIC can improve the overall explanatory power of the MASEM model to predict learners’ English use.</p>
+  authors:
+  - Lee, H.
+  - Jin, S.
+  firstpage: '97'
+  issue: '1'
+  lastpage: '117'
+  volume: '18'
+2023-la-ses:
+  abstract: '<p>As digital technology is becoming an increasingly critical component
+
+    of education, learners’ socioeconomic status (SES) and technology use
+
+    are becoming more important in their learning. In the context of English
+
+    learning, the present study modeled how learners’ SES and their
+
+    perception of technology use for language learning are linked to their
+
+    motivation for learning English as a foreign language (EFL) and level of
+
+    English achievement. To this end, 306 South Korean college students’
+
+    learner factors, motivation, and English achievement were measured. The
+
+    results of the structural equation modeling analysis indicated that
+
+    learners’ SES was positively associated with their perception of
+
+    technology use and motivation and indirectly associated with their
+
+    language learning achievement. Furthermore, we found that learners’
+
+    perception of technology use in language learning is associated with
+
+    their motivation and achievement. In addition, among the several learner
+
+    factors measured in this study, learners’ expectancy of being successful
+
+    in language learning as part of achievement motivation emerged as the
+
+    strongest predictor of their language learning achievement. An in-depth
+
+    discussion of pedagogical and policy implications is also provided.</p>'
+  authors:
+  - Jang Ho Lee
+  - Hansol Lee
+  firstpage: '217'
+  issue: '2'
+  lastpage: '234'
+  volume: '32'
+2023-ore-eap-writing:
+  abstract: '<p>This study synthesised previous literature focused on college English
+
+    for Academic Purposes (EAP) programmes for writing. A meta-analysis of
+
+    identified longitudinal studies (14 samples; 175 effect sizes;
+
+    <em>N</em> = 602) revealed that the students improved their English
+
+    writing through EAP programmes (<em>d</em> = .45, <em>SE</em> = .07,
+
+    <em>p</em> &lt; .001). By computing effect size mean estimates from
+
+    ranges for the 25<sup>th</sup>, 50<sup>th</sup>, and 75<sup>th</sup>
+
+    percentiles, we proposed effect size interpretation benchmarks for this
+
+    subdomain of 0.3, 0.5, and 0.7 for small, medium, and large effects,
+
+    respectively, for interpreting the improvements in writing through
+
+    college EAP programmes. The meta-regression revealed that the students
+
+    with low English proficiency improved significantly more than those with
+
+    higher proficiency. Further, the programmes had a small effect in
+
+    improving accuracy and complexity dimensions of writing. Different
+
+    features of programmes and contexts have also been found to influence
+
+    the degree of the improvements in complex ways.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '281'
+  issue: '3'
+  lastpage: '300'
+  volume: '49'
+2023-ssllt-emi-clil:
+  abstract: '<p>This meta-analysis synthesized the effects of the English medium instruction and content and language integrated learning (EMI-CLIL) approach on secondary-level students’ English learning. The dataset included 44 samples (N = 7,434) from 38 primary studies. The results revealed EMI-CLIL’s overall effectiveness for the development of English competence compared to the mainstream condition in the short term (d = 0.73, SE = 0.06, 95% CI [0.61, 0.86]) and longer term (d = 1.01, SE = 0.06, 95% CI [0.88, 1.15]). Additionally, we found that EMI-CLIL’s overall effectiveness was influenced by several moderator variables. Its effectiveness was significantly: (1) higher for learners whose first language (L1) was linguistically related to English; (2) lower for primary studies which confirmed the homogeneity of the EMI-CLIL and comparison groups; (3) lower when studies targeted the productive (rather than receptive or overall) dimension of English learning; and (4) higher when outcome measures focused on vocabulary. Implications for pedagogy and future research are discussed.</p>'
+  authors:
+  - Lee, J. H.
+  - Lee, H.
+  - Lo, Y. Y.
+  firstpage: '317'
+  issue: '2'
+  lastpage: '345'
+  volume: '13'
+2023-system-anxiety:
+  abstract: '<p>From a socio-psychological perspective, learners with high second
+
+    language (L2) learning anxiety are likely to avoid using L2, missing
+
+    substantial L2 learning opportunities to improve their L2 competence,
+
+    which would result in negatively impacting their L2 anxiety, forming a
+
+    circulation process, also known as “vicious cycle of language anxiety”
+
+    (Lou &amp; Noels, 2020a). In this study, we explored the reciprocal
+
+    relationship between self-perceived language competence, language
+
+    anxiety, and language proficiency using two structural models applied to
+
+    second language learning settings by recruiting 270 undergraduate
+
+    students learning English as their foreign language, and building a
+
+    recursive (i.e., a structural equation model) and a non-recursive (i.e.,
+
+    a path analysis with a feedback loop) structural models to investigate
+
+    how to end the cycle of anxiety. Evidently, we found that there existed
+
+    a reciprocal relationship between these factors, and building a growth
+
+    language mindset, previous proficiency, and motivation would alleviate
+
+    the “vicious cycle of language anxiety” in light of the results from the
+
+    non-recursive path analysis model. Our findings are a major step forward
+
+    from prior suggestions of piecemeal solutions that only partially affect
+
+    a cyclical element to eventually break this so-called vicious cycle,
+
+    such as fostering learners’ growth mindset to mitigate their
+
+    anxiety.</p>'
+  authors:
+  - Hansol Lee
+  - Seonghan Jin
+  - Jang Ho Lee
+  firstpage: '103154'
+  issue: ''
+  lastpage: ''
+  volume: '118'
+2024-llt-ai-meta:
+  abstract: <p>Artificial intelligence (AI) has considerably advanced the methods for individualizing language learning opportunities, such as assessing learning progress and recommending effective individual instruction. In the present study, we conducted a meta-analysis to synthesize recent empirical findings pertaining to the utilization of AI-guided language learning and collected 61 samples (N = 8,282) from 17 research projects (e.g., Assessment to Instruction [A2i], Duolingo, and Project LISTEN). The results of our meta-analysis confirmed that AI-guided individualized language learning was effective for learners’ language development (d = 1.18, based on 26 within-group samples, N = 2,262) and had an overall positive treatment effect compared to business-as-usual conditions (d = 0.39, based on 35 between-group samples, N = 6,020). Moreover, the results of our moderator analyses for the treatment effect revealed that AI-guided language learning with machine learning and hybrid systems were more impactful than those with rule-based systems, which may be more helpful (compared to the former) in understanding how predictions are made from a pedagogical perspective. Evidence-based implications are provided based on the results of this meta-analysis.</p>
+  authors:
+  - Lee, H.
+  - Lee, J. H.
+  firstpage: '134'
+  issue: '2'
+  lastpage: '162'
+  volume: '28'
+2024-ltr-gloss-meta:
+  abstract: '<p>Glossing is a widely used and examined vocabulary learning tool, and
+
+    one of the major branches of glossing research has compared the relative
+
+    effects of first language (L1) and second language (L2) glosses on
+
+    reading comprehension and vocabulary learning. However, the findings in
+
+    this literature have not been consistent, calling for a comprehensive
+
+    and systematic review. To this end, we conducted a meta-analysis to
+
+    investigate the relative effects of L1 and L2 glossing on L2 reading
+
+    comprehension and L2 vocabulary learning. Based on 78 effect sizes
+
+    gathered from 26 studies representing 30 independent samples (<em>N</em>
+
+    = 2,189), we found that L1 glossing was more effective than L2 glossing
+
+    in general (Hedge’s <em>g</em> = .33, SE = .09, <em>p</em> &lt; .001),
+
+    but the effect size may vary depending on the target outcome measure.
+
+    The relative effectiveness of L1 glossing was particularly supported by
+
+    the results of immediate posttests of vocabulary, rather than delayed
+
+    posttests of vocabulary and reading comprehension tests. Further, among
+
+    a few selected moderator variables, the results of meta-regression
+
+    revealed that learners’ L2 proficiency level significantly influenced
+
+    the average effectiveness, such that L1 glossing is particularly
+
+    effective for beginner learners compared to those with intermediate or
+
+    higher L2 proficiency levels.</p>'
+  authors:
+  - Hyun Soo Kim
+  - Jang Ho Lee
+  - Hansol Lee
+  firstpage: '7'
+  issue: '1'
+  lastpage: '28'
+  volume: '28'
+2024-rer-svr-masem:
+  abstract: '<p>This study used a meta-analytic structural equation modeling approach
+
+    to build extended versions of the simple view of reading (SVR) model in
+
+    second and foreign language (SFL) learning contexts (i.e., SVR-SFL).
+
+    Based on the correlation coefficients derived from primary studies, we
+
+    replicated and integrated two previous extended meta-analytic SVR
+
+    models, that is, Quinn and Wagner’s (2018) model with an
+
+    English-speaking population with a cognitive factor and Peng et al.’s
+
+    (2021) model with Chinese-speaking readers with metalinguistic skills. A
+
+    total of 180 independent samples (<em>N</em> = 36,235) obtained from 152
+
+    empirical studies in SFL contexts were included in our meta-analytic
+
+    structural equation model. The results revealed that the collected data
+
+    successfully replicated H. Lee et al.’s (2022) SVR model in SL contexts
+
+    (SV2R) in terms of overall model fit and moderation effects; in
+
+    addition, the results confirmed that the data fit well with the extended
+
+    SVR-SFL models.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '467'
+  issue: '4'
+  lastpage: '500'
+  volume: '94'
+2025-asw-repetition-lta:
+  abstract: '<p>This study employed Latent Transition Analysis (LTA) to identify
+
+    distinct L2 writing performance profiles based on CALF measures
+
+    (Syntactic Complexity, Accuracy, Lexical Complexity, and Fluency) and to
+
+    examine the influence of emotional states under varying task repetition
+
+    schedules. Participants included 270 ESL undergraduates in a U.S.
+
+    university writing course, and they were randomly assigned to
+
+    long-spaced, short-spaced, or massed repetition schedules. Each
+
+    completed a persuasive writing task, followed by a questionnaire
+
+    measuring anxiety and enjoyment. Results indicated that learners
+
+    initially displayed similar performance levels but ultimately formed two
+
+    profiles: Lower Performance and Higher Performance. Those in the
+
+    long-spaced group were more likely to belong to the Higher Performance
+
+    Profile, characterized by higher CALF measures, particularly in
+
+    syntactic complexity, accuracy, and lexical complexity. Among the
+
+    predictors—three types of task repetition schedules (long-spaced,
+
+    short-spaced, and massed repetitions) and two task-related emotions
+
+    (enjoyment and anxiety)—perceived enjoyment emerged as the strongest
+
+    predictor of being classified into the Higher Performance Profile. These
+
+    findings emphasize the importance of utilizing a person-centered
+
+    approach to explore individual differences in L2 writing trajectories
+
+    and suggest that carefully designed task repetition schedules and
+
+    attention to emotional states can enhance writing performance.</p>'
+  authors:
+  - Mahmoud Abdi Tabari
+  - Hansol Lee
+  firstpage: '100974'
+  issue: ''
+  lastpage: ''
+  volume: '66'
+2025-err-clil-primary:
+  abstract: '<p>This meta-analysis synthesized the effects of content and language
+
+    integrated learning (CLIL)—an approach in which non-language subjects
+
+    are taught in a foreign language—on primary school students. The dataset
+
+    comprised 28 samples (<em>N</em> = 214,103) drawn from 21
+
+    (quasi-)experimental studies that evaluated either foreign language (FL)
+
+    or academic content learning. A multi-level meta-analysis revealed that
+
+    CLIL was significantly more effective than non-CLIL for FL learning
+
+    (<em>d</em> = 0.63, SE = 0.21, <em>p</em> = .003), with particularly
+
+    strong effects observed concerning improving speaking skills (<em>d</em>
+
+    = 1.24, SE = 0.24, <em>p</em> &lt; .001) and smaller effects for
+
+    improving other language domains (<em>d</em> = 0.48, SE = 0.18,
+
+    <em>p</em> = .009). Additionally, publication year was significantly
+
+    associated with the impact of CLIL on FL learning, with earlier studies
+
+    reporting slightly stronger effect sizes than later ones, which
+
+    demonstrated marginally weaker effects (β = −0.07, SE = 0.03, <em>p</em>
+
+    = .04). In contrast, CLIL and non-CLIL approaches were comparable in
+
+    terms of aiding academic content learning (<em>d</em> = −0.06, SE =
+
+    0.16, <em>p</em> = .72). Moderator analyses suggested that the observed
+
+    effects of CLIL on content learning might be influenced by pre-existing
+
+    differences between groups; studies with confirmed group homogeneity
+
+    indicated a negative effect of CLIL on content learning (<em>d</em> =
+
+    −0.22, SE = 0.13, <em>p</em> = .09), whereas studies without
+
+    confirmation of group equivalence showed a positive effect (<em>d</em> =
+
+    0.31, SE = 0.22, <em>p</em> = .17).</p>'
+  authors:
+  - Jang Ho Lee
+  - Hansol Lee
+  - Yuen Yi Lo
+  firstpage: '100666'
+  issue: ''
+  lastpage: ''
+  volume: '47'
+2025-err-emi-masem:
+  abstract: '<p>The increasing global demand for English Medium Instruction (EMI) in
+
+    higher education (HE) highlights the need for empirical research to
+
+    contribute to its success and suggest ways of mitigating the diverse
+
+    challenges faced by students and institutions. Identifying the key
+
+    factors that contribute to successful EMI is critical for improving both
+
+    content and language learning outcomes for students. In the wake of the
+
+    recent surge in EMI research, more research synthesis is needed to
+
+    understand how these factors interact to influence EMI success rather
+
+    than focusing solely on their isolated, bivariate relationships. To
+
+    address this gap, we conducted meta-analytic structural equation
+
+    modelling (MASEM) to examine the structural relationships among the key
+
+    factors affecting the success of EMI. Synthesising data from 50 studies
+
+    (N = 15,032), our analysis demonstrates that learners’ engagement and
+
+    English proficiency are pivotal for both content and language learning,
+
+    with English proficiency being more important for language learning
+
+    outcomes, although itself considerably also influenced by learners’
+
+    anxiety and motivation. Additionally, the moderator analysis shows that
+
+    learner engagement plays a more significant role in partial EMI
+
+    contexts, leading to our recommendation for differentiated institutional
+
+    support in full and partial EMI settings. However, owing to the limited
+
+    availability of correlation coefficients, some key factors and
+
+    moderators were excluded, prompting the need for further empirical
+
+    research to explore these relationships in greater depth.</p>'
+  authors:
+  - Hansol Lee
+  - Heath Rose
+  - Ernesto Macaro
+  - Jang Ho Lee
+  firstpage: '100684'
+  issue: ''
+  lastpage: ''
+  volume: '47'
+2025-system-clil-secondary:
+  abstract: '<p>Content and Language Integrated Learning (CLIL) has demonstrated
+
+    benefits for target language development, specifically because the
+
+    target language is used as the medium of instruction. However, existing
+
+    primary studies report conflicting results regarding CLIL’s effects on
+
+    knowledge acquisition of non-language content subjects. This lack of
+
+    consistency in findings suggests that synthesis of CLIL study results on
+
+    content subjects is necessary. To fill this gap, the present study
+
+    identified 21 between-group CLIL studies on the acquisition of content
+
+    knowledge among secondary school students over the past two decades, and
+
+    used a multilevel meta-analysis to estimate the overall effectiveness of
+
+    the CLIL approach. Based on 29 independent samples and 39 effect sizes
+
+    (<em>N</em> = 36,905), CLIL’s general effectiveness regarding
+
+    secondary-level students’ knowledge gains in content subjects was 0.09
+
+    (<em>SE</em> = 0.10, <em>z</em> = 0.85, <em>p</em> = .40, 95% CI [−0.11,
+
+    0.28]), indicating comparable gains of the CLIL approach with that of
+
+    its mainstream counterpart. The results of the moderator analyses
+
+    further confirmed the homogeneity of CLIL and mainstream groups and the
+
+    nature of the content subjects as significant variables that may
+
+    moderate the effectiveness of the CLIL approach.</p>'
+  authors:
+  - Fatima Kaiypova
+  - Hansol Lee
+  - Yuen Yi Lo
+  - Jang Ho Lee
+  firstpage: '103580'
+  issue: ''
+  lastpage: ''
+  volume: '129'
+2025-system-emi-he-meta:
+  abstract: '<p>This study is one of the first comprehensive multi-level
+
+    meta-analyses investigating the effects of English Medium Instruction in
+
+    higher education. It synthesizes a total of 41 samples, comprising a
+
+    total of 8,747 participants, from 28 quantitative studies, including 23
+
+    samples on content learning (7,659 participants) and 18 on English
+
+    performance (1,088 participants). A comparison of EMI students’
+
+    post-test and pre-test scores (within-group comparison) revealed that
+
+    students significantly improved on measures of content knowledge
+
+    (<em>d</em> = 1.57, <em>p</em> &lt; .001) and English proficiency
+
+    (<em>d</em> = 0.81, <em>p</em> &lt; .001), although we acknowledge that
+
+    this finding does not account for external factors or establish
+
+    causality. A comparison of post-test performance between EMI and non-EMI
+
+    groups (between-group comparison), which aimed to assess EMI’s
+
+    effectiveness relative to non-EMI, showed that EMI students achieved
+
+    comparable outcomes in content learning (<em>d</em> = 0.13, <em>p</em> =
+
+    0.14) and significantly outperformed non-EMI students in English
+
+    development (<em>d</em> = 0.33, <em>p</em> = 0.009). Moderator analyses
+
+    further revealed that studies with methodological limitations, such as
+
+    selection biases for within-group comparisons or unaddressed group
+
+    homogeneity for between-group comparisons, often overestimate the
+
+    effectiveness of EMI for content learning. Based on our findings, we
+
+    offer practical implications for the implementation of EMI in higher
+
+    education.</p>'
+  authors:
+  - Hansol Lee
+  - Heath Rose
+  - Ernesto Macaro
+  - Jang Ho Lee
+  firstpage: '103755'
+  issue: ''
+  lastpage: ''
+  volume: '133'
+2026-ap-depth-of-processing:
+  abstract: <p>Increased interest in depth of processing (DoP) within instructed second language acquisition (ISLA) research highlights its influence on L2 learning outcomes, especially in vocabulary retention, grammatical accuracy, and overall proficiency. Despite its theoretical significance, inconsistencies in DoP’s conceptualization and operationalization have resulted in mixed findings regarding its impact on language development. This study presents a research synthesis and quantitative meta-analysis of ISLA studies on DoP, examining the operational definitions of DoP and the variations in its operationalizations across studies. The analysis examines how DoP affects L2 learning outcomes and how differences in its definition and operationalization shape these outcomes. The study also identifies key limitations in DoP research, including inconsistencies across conceptual frameworks and operationalizations, and a lack of a unified approach. Finally, it discusses the methodological and pedagogical implications of DoP and proposes future research directions to refine its operationalization and explore its sustained effects on L2 development.</p>
+  authors:
+  - Abdi Tabari, M. A.
+  - Lee, H.
+  - Mansouri, A.
+  firstpage: e28
+  issue: ''
+  lastpage: ''
+  volume: '47'
+2026-ijal-task-type-order:
+  abstract: '<p>This study investigates the effects of task type, task order, and
+
+    their interaction on second language (L2) writing performance, focusing
+
+    on independent and integrated writing tasks. While task type has been
+
+    widely studied, the role of task order and their interaction remains
+
+    underexplored. This research examines how task configurations influence
+
+    syntactic complexity, accuracy, lexical complexity, and fluency (CALF)
+
+    in L2 writing. Four hundred L2 learners performed independent and
+
+    integrated writing tasks in a counterbalanced order at a testing center
+
+    at a large university in the US. Their essays were analyzed using
+
+    fine-grained CALF measures. Results revealed that task type generally
+
+    had a stronger and more stable effect on CALF metrics, with learners
+
+    performing better on the integrated task (INTEG) compared to the
+
+    independent task (IND). Task type emerged as a significant predictor of
+
+    syntactic complexity, particularly for MLTU, DC/T, and CN/T, with
+
+    effects enhanced when task order was considered. While task order alone
+
+    had less impact, significant interaction effects indicated that task
+
+    order modulated the influence of task type on syntactic complexity
+
+    measures except for CN/C. Lexical complexity measures similarly
+
+    highlighted the task type’s stronger effect, though task order
+
+    occasionally reached significance. Interaction effects were also
+
+    observed for accuracy (EFC/C) and fluency (WPM), underscoring the
+
+    combined influence of task type and task order. Notably, CN/C remained
+
+    unaffected by either task type, task order, or their interaction. These
+
+    findings highlight the complexity of L2 writing performance and the need
+
+    to consider task configurations when interpreting writing outcomes.</p>
+
+    <h2 id="초록">초록</h2>'
+  authors:
+  - Mahmoud Abdi Tabari
+  - Hansol Lee
+  firstpage: '1092'
+  issue: '2'
+  lastpage: '1108'
+  volume: '36'
+2026-iral-task-sequencing:
+  abstract: '<p>Drawing on the SSARC model, TBLT research has investigated the role
+
+    of task sequencing in L2 production, yielding mixed results. This study
+
+    conducts a multi-level meta-analysis of methodological practices in task
+
+    sequencing to provide more transparency. Sixteen studies published up to
+
+    May 2024 were selected based on inclusion criteria, and each study was
+
+    coded for analyzed features and contextual variables. Methodological
+
+    aspects, including study designs, sampling procedures, analyses, and
+
+    reporting practices, were also coded. Significant methodological
+
+    variations were identified across studies, including differences in L2
+
+    proficiency, learning contexts, task modalities, types, complexities,
+
+    delivery methods, and constructs. Task complexity emerged as a
+
+    significant factor influencing L2 performance, with more complex tasks
+
+    yielding larger effect sizes. Additionally, simple and complex
+
+    sequencing tasks exhibited a medium effect size in enhancing accuracy,
+
+    particularly in between-group studies. These findings highlight the
+
+    importance of balanced learner representation and standardized research
+
+    practices to improve L2 learning outcomes.</p>'
+  authors:
+  - Mahmoud Abdi Tabari
+  - Hansol Lee
+  - Mahsa Farahanynia
+  firstpage: '819'
+  issue: '2'
+  lastpage: '867'
+  volume: '64'
+2026-kjell-svr:
+  abstract: <p>This study systematically synthesizes 31 empirical studies to examine how the foundational components of the Simple View of Reading (SVR) framework are reconceptualized and contextually adapted for Korean secondary-level EFL learners. Through a qualitative research synthesis, this study reveals that the application of the SVR model exhibits unique characteristics that reflect a print-heavy environment driven by limited exposure to authentic oral input. First, regarding word recognition and its development, reading fluency operates as a crucial bridging process; advanced learners transition effectively from decoding to reading fluency, whereas basic decoding remains a persistent bottleneck for lower-proficiency students. Second, regarding linguistic comprehension, the literature indicates a predominant reliance on written linguistic knowledge (WLK), specifically vocabulary depth, grammatical knowledge, and morphological awareness. WLK functions as a major analytical resource that systematically compensates for the highly limited authentic oral language input. Finally, substantial learner heterogeneity within the same grade suggests that the predictive weights of these SVR components are dynamically moderated by cumulative L2 proficiency rather than chronological age. Ultimately, this study advocates for the incorporation of formative diagnostic assessments targeting basic decoding and reading fluency to resolve foundational bottlenecks. Concurrently, it calls for a pedagogical shift toward cultivating WLK as an active, meaning-making analytical resource, thereby providing a comprehensive framework for tailored interventions.</p>
+  authors:
+  - Lee, H.
+  firstpage: '875'
+  issue: ''
+  lastpage: '893'
+  volume: '26'
+2026-la-wtc-chatbot:
+  abstract: '<p>Shifting the focus from behavioural outcomes to in-task affective
+
+    experiences, this study examines how learners’ willingness to
+
+    communicate (WTC) and its key factors—perceived competence, anxiety, and
+
+    motivation—influence task emotions such as enjoyment and anxiety within
+
+    the context of chatbot-assisted language learning. Participants
+
+    completed questionnaires assessing WTC, perceived competence, anxiety,
+
+    and motivation before engaging in the three conversational tasks with
+
+    the chatbots. Each chatbot displayed distinct characteristics in terms
+
+    of personality and feedback style. Findings from a structural equation
+
+    model, incorporating a latent variable for task emotion (encompassing
+
+    task enjoyment and task anxiety) revealed that WTC and its key factors
+
+    exhibited relationships consistent with existing literature, with WTC
+
+    exerting a significant influence on learners’ task emotion.
+
+    Additionally, we found that task emotions were explicitly moderated by
+
+    chatbot characteristics, with the chatbot providing more engaging
+
+    interactions and enhanced feedback eliciting higher task emotions.
+
+    Further analysis, which separated task emotions into two distinct models
+
+    revealed nuanced insights. The model with task enjoyment as the primary
+
+    outcome was consistent with the results of the latent variable model. By
+
+    contrast, the model with task anxiety as the outcome indicated that
+
+    learners’ perceived competence played a significant role in shaping
+
+    their task anxiety.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '692'
+  issue: '2'
+  lastpage: '711'
+  volume: '35'
+2026-lid-ddl-masem:
+  abstract: '<p>Although the pedagogical benefits of data-driven learning (DDL) are
+
+    well established in language learning, the role of individual
+
+    differences—such as learners’ demographic, cognitive, and affective
+
+    factors—has received limited systematic attention. To address this gap,
+
+    this study employed meta-analytic structural equation modeling to
+
+    identify individual difference variables and analyze the structural
+
+    relationships influencing language learning outcomes in DDL. Based on 25
+
+    studies (<em>N</em> = 1094), this analysis identified the following key
+
+    predictors of DDL effectiveness: learners’ working memory, L2
+
+    proficiency, positive perceptions of DDL, and familiarity with DDL
+
+    (including corpus-consultation skills). Structural relationships
+
+    revealed that L2 proficiency (β = 0.20, SE = 0.07, <em>p</em> = .003)
+
+    and familiarity with DDL (β = 0.06, SE = 0.03, <em>p</em> = .046)
+
+    significantly impacted learning outcomes. Additional analyses explored
+
+    potential moderating factors, such as target-language domains, L1-L2
+
+    relatedness, instructional mode, and a concordancing approach; however,
+
+    no significant moderating effects were observed.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  firstpage: '102888'
+  issue: ''
+  lastpage: ''
+  volume: '127'
+2026-llt-chatbot-design:
+  abstract: <p>This study investigated how chatbots, designed with distinct personality traits (more engaging vs. less engaging) and feedback features (basic vs. enhanced) influenced L2 learners’ affective variables, such as anxiety, enjoyment, curiosity, and boredom, during their conversational interactions. Although second language acquisition research, including AI-based chatbot studies, has examined how learners’ emotions are shaped during L2 tasks, there has been insufficient focus on how variations in chatbot characteristics affect learners’ emotional experiences. To address this gap, we conducted a mixed-methods study of undergraduate EFL students, examining their interactions with three conversational agents, each featuring distinct combinations of personality traits and feedback features. Participants engaged in conventional tasks and completed a questionnaire to assess affective variables, which was supplemented with open-ended questions to gain further insights. Our findings revealed how L2 learners’ emotional experiences differ depending on the conversational agents’ characteristics. Based on these insights, we propose the pedagogical implications for the design and implementation of chatbots for L2 learning.</p>
+  authors:
+  - Lee, J. H.
+  - Lee, H.
+  - Kim, K.
+  firstpage: '1'
+  issue: '1'
+  lastpage: '19'
+  volume: '30'
+2026-ltr-mindsets-lta:
+  abstract: '<p>This study examined changes in undergraduate students’ language
+
+    mindsets and academic writing competence as a result of taking a
+
+    one-semester English for academic purposes (EAP) writing course with a
+
+    pre–post intervention on mindset. A total of 319 students participated
+
+    in the study and completed a 10-week EAP course. The participants were
+
+    administered the mindset questionnaire and the writing test at two
+
+    different time-points. The results showed that the participants’ level
+
+    in one component of growth language mindset (general language
+
+    intelligence beliefs), and scores on the writing test increased
+
+    significantly. The results of the latent profile analysis revealed three
+
+    distinctive profiles among the participants at both time-points: Growth
+
+    profile, Mixed profile, and Fixed profile. The Growth and Mixed profiles
+
+    were found to perform significantly better than the Fixed profile on the
+
+    writing tests. Finally, the result of a latent transition analysis
+
+    revealed that dynamic shifts in the profile membership could occur
+
+    through the mindset intervention.</p>'
+  authors:
+  - Hansol Lee
+  - Jang Ho Lee
+  - Robin C. Scarcella
+  firstpage: '92'
+  issue: '1'
+  lastpage: '114'
+  volume: '30'
+2026-ore-study-abroad:
+  abstract: '<p>Given the importance of learning contexts in second language (L2)
+
+    learning, study abroad (SA) has received due attention in the L2
+
+    literature, as this context has been proposed to accelerate L2
+
+    development. In line with recent efforts to synthesise the effects of SA
+
+    on L2 learning, the present study reports a meta-analysis of the effects
+
+    of SA experience on the development of L2 fluency compared to the
+
+    at-home environment. Our dataset comprised 14 between-group studies, all
+
+    based on quasi-experimental designs, including a comparison group. The
+
+    results indicate that the SA context had an overall medium effect
+
+    (Hedges’ <em>g</em> = 0.65, <em>SE</em> = 0.10, 95% CI [0.44, 0.87]) on
+
+    the development of L2 fluency compared to its at-home counterpart. We
+
+    also identified several variables related to learner characteristics and
+
+    SA programme features and further examined their moderating effects on
+
+    SA. Based on our findings, an in-depth discussion of how these variables
+
+    are related to the effectiveness of SA was provided, and recommendations
+
+    for L2 learners and SA researchers involved in SA programmes were
+
+    proposed.</p>'
+  authors:
+  - Kyungmin Kim
+  - Jang Ho Lee
+  - Hansol Lee
+  firstpage: '1'
+  issue: '1'
+  lastpage: '19'
+  volume: '52'
+2026-pee-pengtalk-meta:
+  abstract: <p>This study provides the first quantitative synthesis of the educational effects of ‘AI PengTalk,’ a government-launched AI speaking practice platform, on Korean primary English learners. Building on a prior qualitative synthesis of the tool’s pedagogical mechanisms (Lee, 2026), this meta-analysis tested whether those mechanisms translate into measurable learning gains. A systematic search identified 16 quantitative studies. After influential-case diagnostics, 77 effect sizes (Hedges’ g) nested in 28 independent samples (N = 928) were retained and analyzed using a two-level meta-analytic model. Effects on the cognitive domain were medium-sized (within-group g = 0.68; between-group g = 0.53), whereas affective effects were consistently smaller within each design (g = 0.59 and 0.41, respectively). Sixth graders showed a large cognitive gain (g = 1.12) relative to third through fifth graders (g = 0.52, p = .047), a pattern verifiable only in single-group designs, while teacher intervention and shorter implementation periods showed non-significant positive trends. Although the moderation evidence rests on a small number of single-group samples, these findings are directionally consistent with the ‘Paradox of AI Scaffolding,’ , and suggest that sustainable AI integration is likely to require teachers’ hybrid scaffolding.</p>
+  authors:
+  - Lee, H.
+  firstpage: '75'
+  issue: '3'
+  lastpage: '101'
+  volume: '32'
+2026-pee-pengtalk-synthesis:
+  abstract: <p>This study investigates the pedagogical mechanisms underlying the integration of ‘AI PengTalk,’ a government-initiated AI speaking practice system, into South Korean primary English education. To address the gap in understanding its classroom operationalization, a thematic qualitative synthesis of 36 empirical studies was conducted. Instructional models, learner affordances and perceptions, and teacher and peer mediation strategies in response to technological and assessment constraints were systematically analyzed. The findings reveal that AI PengTalk is most prominently operationalized within Flipped Learning, Spaced Practice, and Differentiated Remedial Instruction models. Pedagogically, the tool creates a ‘psychological safety zone’ that significantly lowers the affective filter for lower-proficiency learners, fostering a sense of social presence and motivation through gamification. However, it simultaneously exhibits a ‘ceiling effect’ and a fading novelty for advanced students due to the lack of sophisticated corrective feedback. Furthermore, technical and assessment constraints—such as speech recognition errors and rigid grading algorithms—necessitate that teachers evolve into active pedagogical mediators who manage learner frustration, supported by peer collaborative scaffolding. The study concludes that successful AI integration does not replace human instruction but requires a restructuring of the teacher’s role to combine high-tech data utilization with high-touch emotional support.</p>
+  authors:
+  - Lee, H.
+  firstpage: '285'
+  issue: '1'
+  lastpage: '305'
+  volume: '32'
+2026-recall-ahp:
+  abstract: '<p>This study investigates how language learners prioritize criteria for evaluating data-driven learning (DDL) tools and how these priorities relate to tool preference. While previous research has proposed multiple criteria for evaluating the perceived effectiveness of DDL tools in capturing the emic dimension of the learner experience, empirical work has scantily examined how learners differentially prioritize these criteria, or how such priority structures can be empirically incorporated into systematic comparisons of tools. Given the recent emergence of generative artificial intelligence (GenAI) in language learning, this study examines how GenAI-based tools may contribute to DDL when judged against learner-valued effectiveness criteria. Drawing on a literature review, six criteria were identified: sentence comprehensibility, relevance to semantic learning, relevance to syntactic learning, perceived pedagogical value, accessibility for independent use, and support for autonomous learning. Thirty-five Korean EFL university students completed an analytic hierarchy process (AHP) task. First, they made pairwise comparisons among the six criteria, yielding priority weights that indicated the relative importance learners attach to each aspect of DDL effectiveness. Second, the study compared the perceived effectiveness of a traditional online concordancer that accesses the British National Corpus with that of a custom-developed GenAI-based concordancer, prioritizing these weighted criteria. The results indicate that learners assign differentiated importance to the six criteria and that these priority patterns are associated with the concordance they regard as more effective. This study demonstrates the usefulness of AHP for modelling multi-criteria, perception-based evaluations of DDL tools and incorporating learners’ priority judgements into the comparison of alternative tool designs.</p>'
+  authors:
+  - Lee, H.
+  - Lee, J. H.
+  firstpage: '366'
+  issue: '3'
+  lastpage: '381'
+  volume: '38'
+2026-rw-task-repetition:
+  abstract: '<p>Recently, in task repetition research, distributed practice has
+
+    received considerable attention for its potential impact on learners’
+
+    performance (Rogers, 2022). While several studies have begun exploring
+
+    its effects on oral task repetition, little attention has been paid to
+
+    the effects of spacing in writing task repetition and its interaction
+
+    with learners’ emotional states (i.e., enjoyment and anxiety). Focusing
+
+    on 270 learners studying English as their second language (ESL) in the
+
+    U.S., the current study examined their writing performance and emotions
+
+    in the same decision-making task under three different schedules: (1) in
+
+    one class (massed practice), (2) with a two-day interval (short-spaced
+
+    practice), and (3) with a one-week interval (long-spaced practice).
+
+    Following each writing session, learners completed a questionnaire
+
+    assessing their anxiety and enjoyment during the task. The results
+
+    showed that the long-spaced group outperformed the other groups after
+
+    the experiment in general syntactic complexity, phrasal complexity, and
+
+    lexical diversity, and they also experienced lower anxiety and higher
+
+    enjoyment. Conversely, the massed group had lower achievements in
+
+    phrasal complexity and lexical diversity and experienced lower enjoyment
+
+    and higher anxiety than the other groups. These findings suggest that
+
+    the interval between task repetitions can significantly influence
+
+    learners’ writing performance and emotional states.</p>'
+  authors:
+  - Mahmoud Abdi Tabari
+  - Hansol Lee
+  - Keiko Hanzawa
+  firstpage: '29'
+  issue: '1'
+  lastpage: '67'
+  volume: '39'
