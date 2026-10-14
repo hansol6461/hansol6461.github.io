@@ -1111,6 +1111,48 @@
   issue: ''
   lastpage: ''
   volume: '47'
+2025-palgrave-ddl-outcomes:
+  abstract: '<p>Since the 1960s, the use of large electronic text collections, or
+
+    corpora, has evolved from educator-focused applications, such as
+
+    building dictionaries and textbooks, to more learner-centred ones. This
+
+    shift, exemplified by data-driven learning (DDL), empowers learners to
+
+    autonomously explore linguistic inquiries using language data. This
+
+    entry discusses the educational outcomes of DDL, particularly its
+
+    effectiveness in second-language (L2) learning where authentic input is
+
+    limited. DDL employs text-based corpora to provide authentic contexts
+
+    for vocabulary and multiword units, aiding learners in recognizing
+
+    language patterns and making incremental progress. However, challenges
+
+    such as the relevance and comprehensibility of corpus data and the
+
+    complexity of using concordancers need to be addressed, for example, by
+
+    using tailored/simplified corpora and providing training opportunities
+
+    for effective DDL implementation. Previous meta-analyses highlight DDL’s
+
+    significant benefits for writing, translation and vocabulary
+
+    acquisition. Today’s students are adept at using technology, such as
+
+    Google, for language queries, and advances now allow for the integration
+
+    of multimedia into corpora. This enhances language learning by providing
+
+    textual, verbal and visual contexts. Further research is necessary to
+
+    explore DDL’s full potential as a language learning tool.</p>'
+  authors:
+  - Hansol Lee
 2025-system-clil-secondary:
   abstract: '<p>Content and Language Integrated Learning (CLIL) has demonstrated
 
@@ -1591,3 +1633,8 @@
   issue: '1'
   lastpage: '67'
   volume: '39'
+2026-tdhj-xr-ai:
+  abstract: <p>Communicative interoperability is vital in multinational coalition warfare. While current Extended Reality (XR) systems excel in procedural motor training, this study proposes developing the KMA-XR-AI system to expand this scope to the communicative ‘fog of war.’ The system is intended to synergise multimodal sensing with adaptive AI to complement traditional XR capabilities. By fusing bio-physiological and acoustic signals via a Hybrid Sensing Module, the system would calculate a real-time Cognitive Load Index (CLI) to drive a Smart Scaffolding Protocol. This intervention will be designed to distinguish between linguistic deficits and stress-induced inhibition during tactical verbal interactions, and ultimately, optimise verbal proficiencies essential for mission success, offering a technological evolution for future military training.</p>
+  authors:
+  - Hansol Lee
+  - Hyeyun Son

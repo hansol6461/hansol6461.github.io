@@ -66,6 +66,26 @@
     </li>
     {%- endfor %}
   </ol>
+
+  {%- assign chs = site.data.chapters | sort: "date" | reverse %}
+  {%- if chs and chs.size > 0 %}
+  <h3 class="sub">Book chapters</h3>
+  <ol class="pubs">
+    {%- for p in chs %}
+    <li class="pub">
+      <div class="pub-meta"><span class="pub-yr">{{ p.year }}</span><span class="pub-id">C{{ chs.size | minus: forloop.index0 }}</span></div>
+      <div class="pub-body">
+        <h3 class="pub-t">{% if p.doi and p.doi != "" %}<a href="{{ p.doi }}" target="_blank" rel="noopener">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
+        <p class="pub-a">{{ p.authors }}</p>
+        <p class="pub-v">In {{ p.editors }}, <em>{{ p.book }}</em>. {{ p.publisher }}</p>
+        {%- if p.pdf and p.pdf != "" %}
+        <p class="pub-x"><a href="{{ p.pdf | relative_url }}">PDF{% if p.pdf_version == "author" %} (author version){% endif %}</a>{%- if p.page and p.page != "" %}<a href="{{ p.page | relative_url }}">Abstract</a>{% endif %}</p>
+        {%- endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  {%- endif %}
 </section>
 
 <!-- ── Projects ─────────────────────────────────────────── -->

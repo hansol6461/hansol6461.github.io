@@ -1,5 +1,6 @@
 {%- assign pp = site.data.papers[page.slug] -%}
 {%- assign pub = site.data.publications | where: "page", page.url | first -%}
+{%- unless pub -%}{%- assign pub = site.data.chapters | where: "page", page.url | first -%}{%- endunless -%}
 {%- assign t = site.data.i18n.en -%}
 <!DOCTYPE html>
 <html lang="en">
@@ -14,8 +15,14 @@
 {%- for a in pp.authors %}
 <meta name="citation_author" content="{{ a }}">
 {%- endfor %}
-<meta name="citation_publication_date" content="{{ pub.date | date: '%Y/%m/%d' }}">
+<meta name="citation_publication_date" content="{% if pub.book %}{{ pub.year }}{% else %}{{ pub.date | date: '%Y/%m/%d' }}{% endif %}">
+{%- if pub.book %}
+<meta name="citation_inbook_title" content="{{ pub.book }}">
+<meta name="citation_book_title" content="{{ pub.book }}">
+<meta name="citation_publisher" content="{{ pub.publisher }}">
+{%- else %}
 <meta name="citation_journal_title" content="{{ pub.venue | strip_html }}">
+{%- endif %}
 {%- if pp.volume and pp.volume != "" %}<meta name="citation_volume" content="{{ pp.volume }}">{% endif %}
 {%- if pp.issue and pp.issue != "" %}<meta name="citation_issue" content="{{ pp.issue }}">{% endif %}
 {%- if pp.firstpage and pp.firstpage != "" %}<meta name="citation_firstpage" content="{{ pp.firstpage }}">{% endif %}
@@ -33,7 +40,11 @@
   <p class="paper-back"><a href="{{ '/#publications' | relative_url }}">← {{ site.name }} · Publications</a></p>
   <h1 class="paper-title">{{ pub.title }}</h1>
   <p class="paper-auth">{{ pp.authors | join: ", " }}</p>
+  {%- if pub.book %}
+  <p class="paper-venue">In {{ pub.editors }}, <em>{{ pub.book }}</em>. {{ pub.publisher }} ({{ pub.year }})</p>
+  {%- else %}
   <p class="paper-venue"><em>{{ pub.venue }}</em>{% if pub.detail and pub.detail != "" %}, {{ pub.detail }}{% endif %} ({{ pub.year }})</p>
+  {%- endif %}
   <p class="paper-links">
     <a class="btn" href="{{ pub.pdf | relative_url }}">PDF{% if pub.pdf_version == "author" %} (author version){% endif %}</a>
     {%- if pub.doi and pub.doi != "" %}
@@ -41,7 +52,7 @@
     {%- endif %}
   </p>
   {%- if pub.pdf_version == "author" %}
-  <p class="paper-note">The PDF is the authors’ version of this article. It differs from the published article in layout and pagination; please cite the published version.</p>
+  <p class="paper-note">The PDF is the {% if pp.authors.size == 1 %}author’s{% else %}authors’{% endif %} version of this {% if pub.book %}entry{% else %}article{% endif %}. It differs from the published {% if pub.book %}entry{% else %}article{% endif %} in layout and pagination; please cite the published version.</p>
   {%- endif %}
   {%- if pp.abstract and pp.abstract != "" %}
   <h2 class="paper-h">Abstract</h2>

@@ -93,6 +93,9 @@
   venue: The Defence Horizon Journal
   detail: ''
   doi: https://tdhj.org/blog/post/communication-operations-xr-ai/
+  pdf: /assets/papers/2026-tdhj-xr-ai.pdf
+  pdf_version: published
+  page: /papers/2026-tdhj-xr-ai/
   index: ''
 - date: '2026-05-01'
   year: 2026
@@ -600,6 +603,8 @@
   venue: Korean Journal of Military Arts and Science
   detail: 67(1), 1–15
   doi: https://doi.org/10.31066/kjmas.2011.67.1.001
+  pdf: /assets/papers/2011-kjmas-sf-posthumanism.pdf
+  pdf_version: published
   index: KCI
 - date: '2010-12-01'
   year: 2010
@@ -608,6 +613,8 @@
   venue: Studies in Humanities
   detail: 27, 209–228
   doi: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001516239
+  pdf: /assets/papers/2010-sih-gawain.pdf
+  pdf_version: published
   index: KCI
 - date: '2009-06-01'
   year: 2009
@@ -616,4 +623,6 @@
   venue: Korean Journal of Military Arts and Science
   detail: 65(2), 135–148
   doi: https://doi.org/10.31066/kjmas.2009.65.2.006
+  pdf: /assets/papers/2009-kjmas-utopia.pdf
+  pdf_version: published
   index: KCI
