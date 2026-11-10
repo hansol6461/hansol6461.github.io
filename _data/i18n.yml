@@ -6,10 +6,10 @@ en:
   # 행님이 직접 쓰신 바이오입니다. 고치실 때 이 줄만 바꾸면 됩니다.
   thesis: >-
     Hansol Lee, Professor at Korea Military Academy, earned his PhD from UC Irvine and
-    served as a Visiting Professor at the University of Oxford. Integrating applied
-    linguistics and educational psychology, he investigates learning mechanisms via
-    advanced quantitative frameworks. His work is published in premier journals across
-    education, linguistics, and psychology.
+    served as a Visiting Professor at the University of Oxford. An applied linguist
+    specializing in second language learning and teaching, he investigates learning
+    mechanisms via advanced quantitative frameworks. His work is published in premier
+    journals across applied linguistics, education, and psychology.
   nav:
     research: "Research"
     publications: "Publications"
@@ -43,9 +43,9 @@ en:
   # 행님이 직접 쓰신 문구입니다.
   prospective: >-
     I welcome enquiries about collaboration on meta-analysis and research synthesis
-    across any educational agendas including educational technology, educational
-    psychology, language learning, etc. Email me with a short description of what you
-    have in mind.
+    across second language learning and teaching and related educational agendas,
+    including educational technology and educational psychology. Email me with a short
+    description of what you have in mind.
   address: |
     Division of Humanities
     Korea Military Academy
@@ -61,8 +61,9 @@ ko_intro:
   # 행님이 직접 쓰신 문장입니다.
   body: >-
     현재 육군사관학교 영어 교수로 재직 중입니다. 캘리포니아대학교 어바인에서 교육학
-    박사학위를 받았고 옥스퍼드대학교 교육학과 객원교수를 지냈습니다. 교육공학,
-    교육심리학, 응용언어학을 함께 다루며, 메타분석을 비롯한 양적 연구 방법으로 학습의
-    기제를 밝히는 연구를 해 왔습니다. 리터러시(문해력)를 중심으로 인공지능 활용 언어
-    학습, 영어 매개 수업, 제2언어 읽기, 특수목적영어(군사영어)가 주요 연구 주제입니다.
+    박사학위(세부전공: 언어, 리터러시, 테크놀로지)를 받았고 옥스퍼드대학교 교육학과
+    객원교수를 지냈습니다. 영어교육(응용언어학)을 전공하였으며, 메타분석을 비롯한 양적
+    연구 방법으로 제2언어 학습의 기제를 연구해 왔습니다. 제2언어 읽기와 문해력, 인공지능
+    활용 영어교육, 영어 매개 수업, 학습자 개인차, 특수목적영어(군사영어)가 주요 연구
+    주제입니다.
     다양한 군 관련 주제의 연구과제에 참여하며 한영 및 영한 번역 사업도 수행하고 있습니다.
